@@ -322,7 +322,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -336,7 +336,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -360,7 +360,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -414,10 +414,10 @@ TextureImporter:
       name: Shinies_animation_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 177
-        width: 7
-        height: 7
+        x: 16
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Shinies_animation_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 14
-        width: 130
-        height: 168
+        x: 80
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Shinies_animation_2
       rect:
         serializedVersion: 2
-        x: 140
-        y: 166
-        width: 12
-        height: 15
+        x: 144
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Shinies_animation_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 165
-        width: 14
-        height: 18
+        x: 208
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Shinies_animation_4
       rect:
         serializedVersion: 2
-        x: 275
-        y: 179
-        width: 7
-        height: 7
+        x: 272
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Shinies_animation_5
       rect:
         serializedVersion: 2
-        x: 338
-        y: 178
-        width: 7
-        height: 7
+        x: 336
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Shinies_animation_6
       rect:
         serializedVersion: 2
-        x: 8
-        y: 158
-        width: 11
-        height: 15
+        x: 0
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: Shinies_animation_7
       rect:
         serializedVersion: 2
-        x: 266
-        y: 168
-        width: 7
-        height: 7
+        x: 16
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Shinies_animation_8
       rect:
         serializedVersion: 2
-        x: 272
-        y: 165
-        width: 7
-        height: 7
+        x: 32
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Shinies_animation_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 163
-        width: 7
-        height: 7
+        x: 64
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: Shinies_animation_10
       rect:
         serializedVersion: 2
-        x: 329
-        y: 156
-        width: 12
-        height: 18
+        x: 80
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: Shinies_animation_11
       rect:
         serializedVersion: 2
-        x: 351
-        y: 162
-        width: 7
-        height: 7
+        x: 96
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: Shinies_animation_12
       rect:
         serializedVersion: 2
-        x: 140
-        y: 157
-        width: 7
-        height: 7
+        x: 128
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: Shinies_animation_13
       rect:
         serializedVersion: 2
-        x: 153
-        y: 150
-        width: 12
-        height: 15
+        x: 144
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: Shinies_animation_14
       rect:
         serializedVersion: 2
-        x: 205
-        y: 156
-        width: 7
-        height: 7
+        x: 160
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,10 +744,10 @@ TextureImporter:
       name: Shinies_animation_15
       rect:
         serializedVersion: 2
-        x: 218
-        y: 149
-        width: 13
-        height: 18
+        x: 192
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,10 +766,10 @@ TextureImporter:
       name: Shinies_animation_16
       rect:
         serializedVersion: 2
-        x: 268
-        y: 156
-        width: 7
-        height: 7
+        x: 208
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,10 +788,10 @@ TextureImporter:
       name: Shinies_animation_17
       rect:
         serializedVersion: 2
-        x: 281
-        y: 149
-        width: 7
-        height: 7
+        x: 224
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,9 +810,9 @@ TextureImporter:
       name: Shinies_animation_18
       rect:
         serializedVersion: 2
-        x: 345
-        y: 138
-        width: 8
+        x: 256
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: Shinies_animation_19
       rect:
         serializedVersion: 2
-        x: 24
-        y: 137
-        width: 7
-        height: 7
+        x: 272
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,10 +854,10 @@ TextureImporter:
       name: Shinies_animation_20
       rect:
         serializedVersion: 2
-        x: 188
-        y: 125
-        width: 14
-        height: 18
+        x: 288
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: Shinies_animation_21
       rect:
         serializedVersion: 2
-        x: 268
-        y: 125
-        width: 15
-        height: 18
+        x: 320
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: Shinies_animation_22
       rect:
         serializedVersion: 2
-        x: 355
-        y: 134
-        width: 7
-        height: 7
+        x: 336
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +920,10 @@ TextureImporter:
       name: Shinies_animation_23
       rect:
         serializedVersion: 2
-        x: 425
-        y: 135
-        width: 15
-        height: 10
+        x: 352
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,10 +942,10 @@ TextureImporter:
       name: Shinies_animation_24
       rect:
         serializedVersion: 2
-        x: 27
-        y: 124
-        width: 7
-        height: 7
+        x: 0
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,10 +964,10 @@ TextureImporter:
       name: Shinies_animation_25
       rect:
         serializedVersion: 2
-        x: 206
-        y: 122
-        width: 7
-        height: 7
+        x: 16
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -986,9 +986,9 @@ TextureImporter:
       name: Shinies_animation_26
       rect:
         serializedVersion: 2
-        x: 287
-        y: 112
-        width: 15
+        x: 64
+        y: 144
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: Shinies_animation_27
       rect:
         serializedVersion: 2
-        x: 349
-        y: 125
-        width: 7
-        height: 7
+        x: 80
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: Shinies_animation_28
       rect:
         serializedVersion: 2
-        x: 366
-        y: 120
-        width: 7
-        height: 7
+        x: 128
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: Shinies_animation_29
       rect:
         serializedVersion: 2
-        x: 428
-        y: 125
-        width: 7
-        height: 7
+        x: 144
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: Shinies_animation_30
       rect:
         serializedVersion: 2
-        x: 442
-        y: 112
-        width: 19
-        height: 14
+        x: 192
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: Shinies_animation_31
       rect:
         serializedVersion: 2
-        x: 7
-        y: 99
-        width: 12
-        height: 23
+        x: 208
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,10 +1118,10 @@ TextureImporter:
       name: Shinies_animation_32
       rect:
         serializedVersion: 2
-        x: 26
-        y: 96
-        width: 7
-        height: 7
+        x: 256
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: Shinies_animation_33
       rect:
         serializedVersion: 2
-        x: 53
-        y: 111
-        width: 7
-        height: 7
+        x: 272
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1162,10 +1162,10 @@ TextureImporter:
       name: Shinies_animation_34
       rect:
         serializedVersion: 2
-        x: 170
-        y: 98
-        width: 7
-        height: 7
+        x: 320
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: Shinies_animation_35
       rect:
         serializedVersion: 2
-        x: 171
-        y: 109
-        width: 12
-        height: 10
+        x: 336
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: Shinies_animation_36
       rect:
         serializedVersion: 2
-        x: 190
-        y: 71
-        width: 14
-        height: 29
+        x: 16
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1228,10 +1228,10 @@ TextureImporter:
       name: Shinies_animation_37
       rect:
         serializedVersion: 2
-        x: 202
-        y: 112
-        width: 18
-        height: 9
+        x: 32
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,10 +1250,10 @@ TextureImporter:
       name: Shinies_animation_38
       rect:
         serializedVersion: 2
-        x: 251
-        y: 108
-        width: 13
-        height: 13
+        x: 96
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1272,10 +1272,10 @@ TextureImporter:
       name: Shinies_animation_39
       rect:
         serializedVersion: 2
-        x: 251
-        y: 97
-        width: 7
-        height: 7
+        x: 112
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: Shinies_animation_40
       rect:
         serializedVersion: 2
-        x: 270
-        y: 71
-        width: 15
-        height: 31
+        x: 176
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1316,10 +1316,10 @@ TextureImporter:
       name: Shinies_animation_41
       rect:
         serializedVersion: 2
-        x: 283
-        y: 113
-        width: 7
-        height: 7
+        x: 192
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,10 +1338,10 @@ TextureImporter:
       name: Shinies_animation_42
       rect:
         serializedVersion: 2
-        x: 329
-        y: 116
-        width: 7
-        height: 7
+        x: 256
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1360,10 +1360,10 @@ TextureImporter:
       name: Shinies_animation_43
       rect:
         serializedVersion: 2
-        x: 330
-        y: 96
-        width: 7
-        height: 7
+        x: 272
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1383,9 +1383,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 336
-        y: 107
-        width: 7
-        height: 7
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1404,10 +1404,10 @@ TextureImporter:
       name: Shinies_animation_45
       rect:
         serializedVersion: 2
-        x: 348
-        y: 97
-        width: 7
-        height: 7
+        x: 352
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,10 +1426,10 @@ TextureImporter:
       name: Shinies_animation_46
       rect:
         serializedVersion: 2
-        x: 362
-        y: 112
-        width: 7
-        height: 7
+        x: 416
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1448,10 +1448,10 @@ TextureImporter:
       name: Shinies_animation_47
       rect:
         serializedVersion: 2
-        x: 375
-        y: 112
-        width: 7
-        height: 7
+        x: 432
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: Shinies_animation_48
       rect:
         serializedVersion: 2
-        x: 408
-        y: 97
-        width: 13
-        height: 26
+        x: 0
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1492,9 +1492,9 @@ TextureImporter:
       name: Shinies_animation_49
       rect:
         serializedVersion: 2
-        x: 427
-        y: 88
-        width: 15
+        x: 16
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1514,10 +1514,10 @@ TextureImporter:
       name: Shinies_animation_50
       rect:
         serializedVersion: 2
-        x: 357
-        y: 87
-        width: 7
-        height: 7
+        x: 32
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1536,10 +1536,10 @@ TextureImporter:
       name: Shinies_animation_51
       rect:
         serializedVersion: 2
-        x: 34
-        y: 70
-        width: 7
-        height: 7
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1558,10 +1558,10 @@ TextureImporter:
       name: Shinies_animation_52
       rect:
         serializedVersion: 2
-        x: 356
-        y: 71
-        width: 7
-        height: 7
+        x: 80
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1580,10 +1580,10 @@ TextureImporter:
       name: Shinies_animation_53
       rect:
         serializedVersion: 2
-        x: 435
-        y: 71
-        width: 7
-        height: 7
+        x: 96
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1602,10 +1602,10 @@ TextureImporter:
       name: Shinies_animation_54
       rect:
         serializedVersion: 2
-        x: 65
-        y: 60
-        width: 7
-        height: 7
+        x: 112
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1624,10 +1624,10 @@ TextureImporter:
       name: Shinies_animation_55
       rect:
         serializedVersion: 2
-        x: 215
-        y: 57
-        width: 17
-        height: 7
+        x: 128
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1646,10 +1646,10 @@ TextureImporter:
       name: Shinies_animation_56
       rect:
         serializedVersion: 2
-        x: 296
-        y: 56
-        width: 18
-        height: 10
+        x: 160
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1668,10 +1668,10 @@ TextureImporter:
       name: Shinies_animation_57
       rect:
         serializedVersion: 2
-        x: 375
-        y: 55
-        width: 7
-        height: 7
+        x: 176
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1690,10 +1690,10 @@ TextureImporter:
       name: Shinies_animation_58
       rect:
         serializedVersion: 2
-        x: 387
-        y: 61
-        width: 7
-        height: 7
+        x: 192
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1712,10 +1712,10 @@ TextureImporter:
       name: Shinies_animation_59
       rect:
         serializedVersion: 2
-        x: 450
-        y: 39
-        width: 21
-        height: 22
+        x: 208
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1734,10 +1734,10 @@ TextureImporter:
       name: Shinies_animation_60
       rect:
         serializedVersion: 2
-        x: 466
-        y: 61
-        width: 7
-        height: 7
+        x: 240
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1756,10 +1756,10 @@ TextureImporter:
       name: Shinies_animation_61
       rect:
         serializedVersion: 2
-        x: 9
-        y: 36
-        width: 12
-        height: 22
+        x: 256
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1778,10 +1778,10 @@ TextureImporter:
       name: Shinies_animation_62
       rect:
         serializedVersion: 2
-        x: 44
-        y: 51
-        width: 7
-        height: 7
+        x: 272
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1800,10 +1800,10 @@ TextureImporter:
       name: Shinies_animation_63
       rect:
         serializedVersion: 2
-        x: 55
-        y: 49
-        width: 7
-        height: 7
+        x: 288
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1822,10 +1822,10 @@ TextureImporter:
       name: Shinies_animation_64
       rect:
         serializedVersion: 2
-        x: 169
-        y: 35
-        width: 12
-        height: 20
+        x: 320
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1844,10 +1844,10 @@ TextureImporter:
       name: Shinies_animation_65
       rect:
         serializedVersion: 2
-        x: 208
-        y: 47
-        width: 14
-        height: 8
+        x: 336
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1866,10 +1866,10 @@ TextureImporter:
       name: Shinies_animation_66
       rect:
         serializedVersion: 2
-        x: 250
-        y: 34
-        width: 13
-        height: 23
+        x: 352
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1888,10 +1888,10 @@ TextureImporter:
       name: Shinies_animation_67
       rect:
         serializedVersion: 2
-        x: 288
-        y: 46
+        x: 368
+        y: 112
         width: 16
-        height: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1910,10 +1910,10 @@ TextureImporter:
       name: Shinies_animation_68
       rect:
         serializedVersion: 2
-        x: 336
-        y: 52
-        width: 7
-        height: 7
+        x: 400
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: Shinies_animation_69
       rect:
         serializedVersion: 2
-        x: 366
-        y: 52
-        width: 7
-        height: 7
+        x: 416
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1954,10 +1954,10 @@ TextureImporter:
       name: Shinies_animation_70
       rect:
         serializedVersion: 2
-        x: 370
-        y: 45
-        width: 7
-        height: 7
+        x: 432
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1976,10 +1976,10 @@ TextureImporter:
       name: Shinies_animation_71
       rect:
         serializedVersion: 2
-        x: 377
-        y: 50
-        width: 7
-        height: 7
+        x: 448
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1998,10 +1998,10 @@ TextureImporter:
       name: Shinies_animation_72
       rect:
         serializedVersion: 2
-        x: 415
-        y: 52
-        width: 7
-        height: 7
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2020,10 +2020,10 @@ TextureImporter:
       name: Shinies_animation_73
       rect:
         serializedVersion: 2
-        x: 445
-        y: 52
-        width: 7
-        height: 7
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2042,10 +2042,10 @@ TextureImporter:
       name: Shinies_animation_74
       rect:
         serializedVersion: 2
-        x: 30
-        y: 37
-        width: 7
-        height: 7
+        x: 80
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2064,10 +2064,10 @@ TextureImporter:
       name: Shinies_animation_75
       rect:
         serializedVersion: 2
-        x: 194
-        y: 30
-        width: 13
-        height: 14
+        x: 96
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2086,10 +2086,10 @@ TextureImporter:
       name: Shinies_animation_76
       rect:
         serializedVersion: 2
-        x: 226
-        y: 40
-        width: 7
-        height: 7
+        x: 160
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2108,10 +2108,10 @@ TextureImporter:
       name: Shinies_animation_77
       rect:
         serializedVersion: 2
-        x: 274
-        y: 30
-        width: 15
-        height: 13
+        x: 176
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2130,10 +2130,10 @@ TextureImporter:
       name: Shinies_animation_78
       rect:
         serializedVersion: 2
-        x: 307
-        y: 39
-        width: 7
-        height: 7
+        x: 240
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2152,10 +2152,10 @@ TextureImporter:
       name: Shinies_animation_79
       rect:
         serializedVersion: 2
-        x: 329
-        y: 33
-        width: 7
-        height: 7
+        x: 256
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2174,10 +2174,10 @@ TextureImporter:
       name: Shinies_animation_80
       rect:
         serializedVersion: 2
-        x: 352
-        y: 38
-        width: 7
-        height: 7
+        x: 272
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2196,10 +2196,10 @@ TextureImporter:
       name: Shinies_animation_81
       rect:
         serializedVersion: 2
-        x: 359
-        y: 35
-        width: 7
-        height: 7
+        x: 320
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2218,10 +2218,10 @@ TextureImporter:
       name: Shinies_animation_82
       rect:
         serializedVersion: 2
-        x: 386
-        y: 38
-        width: 7
-        height: 7
+        x: 336
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2240,10 +2240,10 @@ TextureImporter:
       name: Shinies_animation_83
       rect:
         serializedVersion: 2
-        x: 431
-        y: 38
-        width: 7
-        height: 7
+        x: 352
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2262,10 +2262,10 @@ TextureImporter:
       name: Shinies_animation_84
       rect:
         serializedVersion: 2
-        x: 439
-        y: 12
-        width: 13
-        height: 29
+        x: 400
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2284,10 +2284,10 @@ TextureImporter:
       name: Shinies_animation_85
       rect:
         serializedVersion: 2
-        x: 40
-        y: 29
-        width: 7
-        height: 7
+        x: 416
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2306,10 +2306,10 @@ TextureImporter:
       name: Shinies_animation_86
       rect:
         serializedVersion: 2
-        x: 182
-        y: 18
-        width: 7
-        height: 18
+        x: 432
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2328,10 +2328,10 @@ TextureImporter:
       name: Shinies_animation_87
       rect:
         serializedVersion: 2
-        x: 263
-        y: 18
-        width: 7
-        height: 17
+        x: 32
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2350,10 +2350,10 @@ TextureImporter:
       name: Shinies_animation_88
       rect:
         serializedVersion: 2
-        x: 342
-        y: 27
-        width: 7
-        height: 7
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2372,10 +2372,10 @@ TextureImporter:
       name: Shinies_animation_89
       rect:
         serializedVersion: 2
-        x: 362
-        y: 30
-        width: 7
-        height: 7
+        x: 192
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2394,10 +2394,10 @@ TextureImporter:
       name: Shinies_animation_90
       rect:
         serializedVersion: 2
-        x: 409
-        y: 18
-        width: 19
-        height: 21
+        x: 272
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2416,10 +2416,10 @@ TextureImporter:
       name: Shinies_animation_91
       rect:
         serializedVersion: 2
-        x: 20
-        y: 17
-        width: 7
-        height: 7
+        x: 352
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2438,10 +2438,10 @@ TextureImporter:
       name: Shinies_animation_92
       rect:
         serializedVersion: 2
-        x: 207
-        y: 13
-        width: 7
-        height: 7
+        x: 432
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2460,10 +2460,10 @@ TextureImporter:
       name: Shinies_animation_93
       rect:
         serializedVersion: 2
-        x: 288
-        y: 12
-        width: 7
-        height: 7
+        x: 32
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2482,10 +2482,10 @@ TextureImporter:
       name: Shinies_animation_94
       rect:
         serializedVersion: 2
-        x: 342
-        y: 18
-        width: 7
-        height: 7
+        x: 64
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2504,10 +2504,10 @@ TextureImporter:
       name: Shinies_animation_95
       rect:
         serializedVersion: 2
-        x: 367
-        y: 11
-        width: 7
-        height: 7
+        x: 112
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2522,11 +2522,1727 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d944f86d14a43429bfe23521b96cf9
+      internalID: -438948679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5d875c3bce5848be200c9a663bdbb
+      internalID: 2130210214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_98
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ea86b197d3054bb48ea56dccd1946
+      internalID: 214126614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_99
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03517c24ec40bef49b81056ef56d6f8e
+      internalID: 2142882636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6978f838ee8e86d42b440a81e7b50a30
+      internalID: -1050288028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_101
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6761621ddd07a5a4ca8c8ddb9fcf0a4d
+      internalID: 1363098262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_102
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f854895a4f855429b7585239fdcf47
+      internalID: -937889447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec5758f8e728f54ebda6858b76662f8
+      internalID: -286934648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edae3644835f264684cd7cd56cee40b
+      internalID: -357609585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33937d887f3bed249a1d747dec0ac216
+      internalID: -336735621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_106
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adce7e5bd6c922848be44f8370127a53
+      internalID: 1273181512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8971baa16aa74f43baf46851936abc7
+      internalID: -380219595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63dfbfd22d536c4a9ce2416a6f8a02f
+      internalID: -1094089608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3172952a9c445294c84dc092b0f6f13c
+      internalID: -639541207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2826793beccada4ea9e73911bd08f28
+      internalID: -181818699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_111
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c064c3c89112d499eb3c1925034c09
+      internalID: -176807359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_112
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bcc1275eca6614d886fa485468893a
+      internalID: 661088789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_113
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec44637c4ecb770469b8ef8f56a9383f
+      internalID: 1839449769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba62edeea9ad544ac8e4f98b069dd1
+      internalID: -2104446712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0618eb75c70c2f5478c4c453d5a3fb17
+      internalID: 2023798194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373f0b5ac9b83114e9591e25211e87a0
+      internalID: 1441672079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_117
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd1e6f424f595645b45dc21c61a3947
+      internalID: -1632917609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_118
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea37b96551ae02f4e8e5711c57f7df35
+      internalID: 586556448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_119
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64301a852e51eef47a758477d88a6354
+      internalID: -1251793646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_120
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f795bdace2e0fe499342440773553a0
+      internalID: 1089353549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e4fcd814df8e04882a8e667b17c1b9
+      internalID: -2055174784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_122
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e42deb5d05f0154abe894c9edaa1ea9
+      internalID: -1005277661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_123
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80f00bbf9634ff4992d368d2692f3e8
+      internalID: -575803134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683579d5d3a8c5a4cb585c06748be986
+      internalID: 896547496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_125
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f56ea4559124947ad6e1d589494268
+      internalID: 1993524113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fd48e6e55498d45ba61f5bf068ab44
+      internalID: -1963798402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_127
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804b306c076c4e84e839ad8359da079e
+      internalID: 669788075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad27e70158b4ae42bab5f19cebe066f
+      internalID: 1980724150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654e55129fd7ded4b9ec20a2c216bfec
+      internalID: -2024477236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487a7fe85290334f9dfb5cf7e139da6
+      internalID: -926361765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7affbb54dedfe504298d12ec7bba4b68
+      internalID: 1622354091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_132
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5a021f5f1ddb543b8770de16c1de36
+      internalID: -1175126973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497919554e023c84087824ffb6619f45
+      internalID: 1727704459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e4b5b06052464dbb7a8e9c5171677
+      internalID: 1911987077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c692c0aa3ace64940855c1d5fce40024
+      internalID: 1360609912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88be708647e31445a70348528466fce
+      internalID: 161886230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca58174416d32d49bb2bccc24a122ed
+      internalID: 873824326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_138
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f71d09c44e56c74197bc79d66a1f0ab
+      internalID: 1764454466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4b988c754ac324abc422a9f40309f4
+      internalID: 1298038953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_140
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77713c3d661785743970196ceb9437e8
+      internalID: 1130473452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_141
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980b4f895a6f21b4783335e0275a2afb
+      internalID: 1958687705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_142
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948139964591ae49aadcb6664afecbb
+      internalID: 1269974925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be98370b6a845944b30192686451f9b
+      internalID: 1769725641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_144
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f57354c24bb4e47979a0a75aff118e
+      internalID: 412339461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_145
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0928c1606d85540a4081557c68d964
+      internalID: 1871592604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_146
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23fe24a326ab3a448d3a232c64fbe95
+      internalID: 1865949085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_147
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a766cd3980c69e245ac32195677336e7
+      internalID: 1245075869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_148
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6193d19e0e0f4197348e7c614b1d9
+      internalID: -1091946195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_149
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be76ea6f9df138b45ab07ef7bf1e7d7c
+      internalID: 905508004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a9d26a8f5fb045ada1728b0728d8e
+      internalID: -2003471081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_151
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17e6ea3227f85942989e2373a52f83f
+      internalID: -246761846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_152
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641426a1fe9e16b4087d373008705d59
+      internalID: -954455287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_153
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d180299373714e94ca1acbf076fd0
+      internalID: 753455061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426d04894975144fb473ce531fb6c4e
+      internalID: -1563692601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_155
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e57abc7f8c2884b9647542a161a125
+      internalID: -572027453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4441436a6f8dafe4095f233e94348168
+      internalID: 1587646923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_157
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334fbde0346ea0d4a8c376a187e188b2
+      internalID: 1141996558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_158
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa338b0ee7259b419cfb7c21036afb7
+      internalID: 1329226414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_159
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea070a8cd16c2ac4096da80842723a87
+      internalID: 509956471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e297476a22f34040b2a67c4db4be700
+      internalID: 1182851229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34144e7335a492c4fb5a323842db2de1
+      internalID: 1191728507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_162
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e917a389f39ce3f44851410823ba2d72
+      internalID: 2126077407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_163
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0e4a2aae452c46abc5cf063ab4f3b
+      internalID: -1104120450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_164
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f4cae4b13efd74194dc73e66faa548
+      internalID: -527220709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_165
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e39283bfd208841adc957d69d6a8ac
+      internalID: 1652432013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_166
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9805a06c499da459701fec3c393a36
+      internalID: 661554782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_167
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb8c47a52b73341bccf55b94aa6404
+      internalID: -1721844973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_168
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef1763d113a71c478648cc7919a2f78
+      internalID: -698106615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_169
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4dea3a0ec997b47a496452d914690c
+      internalID: 613371041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8d1440965acf4da1773c07b19a726
+      internalID: -1051033797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_171
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ca8c292609a18448c9204999501feb
+      internalID: 1360504736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_172
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c1d496b4f43946b9f26ed4422a223
+      internalID: 1137138978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shinies_animation_173
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9734aed27b1f84d9e24a37798db881
+      internalID: 1430930041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f882e7c7ef2948743beef673a9548e04
     internalID: 0
     vertices: []
     indices: 
@@ -2539,13 +4255,87 @@ TextureImporter:
       Shinies_animation_0: 959473240074557499
       Shinies_animation_1: 4930306925269719502
       Shinies_animation_10: 1843011547998144600
+      Shinies_animation_100: -1050288028
+      Shinies_animation_101: 1363098262
+      Shinies_animation_102: -937889447
+      Shinies_animation_103: -286934648
+      Shinies_animation_104: -357609585
+      Shinies_animation_105: -336735621
+      Shinies_animation_106: 1273181512
+      Shinies_animation_107: -380219595
+      Shinies_animation_108: -1094089608
+      Shinies_animation_109: -639541207
       Shinies_animation_11: -3000335433336652801
+      Shinies_animation_110: -181818699
+      Shinies_animation_111: -176807359
+      Shinies_animation_112: 661088789
+      Shinies_animation_113: 1839449769
+      Shinies_animation_114: -2104446712
+      Shinies_animation_115: 2023798194
+      Shinies_animation_116: 1441672079
+      Shinies_animation_117: -1632917609
+      Shinies_animation_118: 586556448
+      Shinies_animation_119: -1251793646
       Shinies_animation_12: -1593395104288576175
+      Shinies_animation_120: 1089353549
+      Shinies_animation_121: -2055174784
+      Shinies_animation_122: -1005277661
+      Shinies_animation_123: -575803134
+      Shinies_animation_124: 896547496
+      Shinies_animation_125: 1993524113
+      Shinies_animation_126: -1963798402
+      Shinies_animation_127: 669788075
+      Shinies_animation_128: 1980724150
+      Shinies_animation_129: -2024477236
       Shinies_animation_13: -6077464514344459311
+      Shinies_animation_130: -926361765
+      Shinies_animation_131: 1622354091
+      Shinies_animation_132: -1175126973
+      Shinies_animation_133: 1727704459
+      Shinies_animation_134: 1911987077
+      Shinies_animation_135: 1360609912
+      Shinies_animation_136: 161886230
+      Shinies_animation_137: 873824326
+      Shinies_animation_138: 1764454466
+      Shinies_animation_139: 1298038953
       Shinies_animation_14: 4248960894933844907
+      Shinies_animation_140: 1130473452
+      Shinies_animation_141: 1958687705
+      Shinies_animation_142: 1269974925
+      Shinies_animation_143: 1769725641
+      Shinies_animation_144: 412339461
+      Shinies_animation_145: 1871592604
+      Shinies_animation_146: 1865949085
+      Shinies_animation_147: 1245075869
+      Shinies_animation_148: -1091946195
+      Shinies_animation_149: 905508004
       Shinies_animation_15: 4312002095680929617
+      Shinies_animation_150: -2003471081
+      Shinies_animation_151: -246761846
+      Shinies_animation_152: -954455287
+      Shinies_animation_153: 753455061
+      Shinies_animation_154: -1563692601
+      Shinies_animation_155: -572027453
+      Shinies_animation_156: 1587646923
+      Shinies_animation_157: 1141996558
+      Shinies_animation_158: 1329226414
+      Shinies_animation_159: 509956471
       Shinies_animation_16: -5161425140488787329
+      Shinies_animation_160: 1182851229
+      Shinies_animation_161: 1191728507
+      Shinies_animation_162: 2126077407
+      Shinies_animation_163: -1104120450
+      Shinies_animation_164: -527220709
+      Shinies_animation_165: 1652432013
+      Shinies_animation_166: 661554782
+      Shinies_animation_167: -1721844973
+      Shinies_animation_168: -698106615
+      Shinies_animation_169: 613371041
       Shinies_animation_17: 8593363978208246837
+      Shinies_animation_170: -1051033797
+      Shinies_animation_171: 1360504736
+      Shinies_animation_172: 1137138978
+      Shinies_animation_173: 1430930041
       Shinies_animation_18: -7746373779609046687
       Shinies_animation_19: 3137805644383613551
       Shinies_animation_2: 2812503759586606402
@@ -2632,6 +4422,10 @@ TextureImporter:
       Shinies_animation_93: -7457011137921368350
       Shinies_animation_94: -2398727960463589425
       Shinies_animation_95: 7594764831128189395
+      Shinies_animation_96: -438948679
+      Shinies_animation_97: 2130210214
+      Shinies_animation_98: 214126614
+      Shinies_animation_99: 2142882636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
