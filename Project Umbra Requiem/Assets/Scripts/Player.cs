@@ -4,17 +4,21 @@ using UnityEngine.UIElements;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rig;
-    
 
     [Header("Speed Settings")]
     [SerializeField] private float speed;
-    [SerializeField] private float runSpeed;
     private float initialSpeed;
     private Vector2 _direction;
 
     void FixedUpdate()
     {
         OnMove();
+    }
+
+    void Start()
+    {
+        rig = GetComponent<Rigidbody2D>();
+        initialSpeed = speed;
     }
 
     #region Movement
