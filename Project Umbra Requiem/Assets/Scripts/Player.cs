@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     private float initialSpeed = 3;
     private Vector2 direction;
 
+    public Vector2 Direction { get => direction; set => direction = value; }
+
     void FixedUpdate()
     {
         OnMove();
@@ -26,12 +28,12 @@ public class Player : MonoBehaviour
 
     void OnInput()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        Direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     void OnMove()
     {
-        rig.MovePosition(rig.position + direction * speed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + Direction * speed * Time.fixedDeltaTime);
     }
     #endregion
 
