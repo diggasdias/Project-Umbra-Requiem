@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         OnMove();
+        OnInput();
     }
 
     void Start()
