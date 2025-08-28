@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 
     [Header("Speed Settings")]
     [SerializeField] private float speed;
-    private float initialSpeed;
+    private float initialSpeed = 3;
     private Vector2 _direction;
 
     void FixedUpdate()
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        initialSpeed = speed;
+        speed = initialSpeed;
     }
 
     #region Movement
