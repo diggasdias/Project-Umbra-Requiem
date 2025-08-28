@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [Header("Speed Settings")]
     [SerializeField] private float speed;
     private float initialSpeed = 3;
-    private Vector2 _direction;
+    private Vector2 direction;
 
     void FixedUpdate()
     {
@@ -18,19 +18,19 @@ public class Player : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        speed = initialSpeed;
+        speed = initialSpeed; 
     }
 
     #region Movement
 
     void OnInput()
     {
-        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     void OnMove()
     {
-        rig.MovePosition(rig.position + _direction * speed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + direction * speed * Time.fixedDeltaTime);
     }
     #endregion
 
