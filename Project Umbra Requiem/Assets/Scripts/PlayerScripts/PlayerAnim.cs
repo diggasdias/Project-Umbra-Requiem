@@ -41,7 +41,7 @@ public class PlayerAnim : MonoBehaviour
         }
         else
         {
-            transform.eulerAngles = new Vector2(0, 0);
+            transform.eulerAngles = new Vector2(0, 180);
         }
     }
     #endregion
