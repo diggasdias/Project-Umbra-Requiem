@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
 
     [Header("Speed Settings")]
-    [SerializeField] private float speed;
+    private float speed;
     private float initialSpeed = 3;
     private Vector2 direction;
 
