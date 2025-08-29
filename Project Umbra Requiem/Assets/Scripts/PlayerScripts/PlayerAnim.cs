@@ -5,7 +5,8 @@ public class PlayerAnim : MonoBehaviour
 {
     Player player;
     Animator anim;
-    
+    private float lastHorizontal = 0f; // Guarda a última direção horizontal
+
     void Start()
     {
         player = GetComponent<Player>();
@@ -22,29 +23,18 @@ public class PlayerAnim : MonoBehaviour
 
     void OnMove()
     {
-        if (player.Direction.sqrMagnitude > 0)
-        {
-            anim.SetInteger("transition", 1);
-        }
-        else
-        {
-            anim.SetInteger("transition", 0);
+        // Atualiza a última direção horizontal se houver movimento
+        if (player.Direction.x != 0)
+            lastHorizontal = player.Direction.x;
 
-        }
+        // Animação de transição
+        anim.SetInteger("transition", player.Direction.sqrMagnitude > 0 ? 1 : 0);
 
-        if (player.Direction.x > 0)
-        {
-            transform.eulerAngles = new Vector2(0, 180);
-        }
-        else if (player.Direction.x < 0)
-        {
-            transform.eulerAngles = new Vector2(0, 0);
-        }
-        else
-        {
-            transform.eulerAngles = new Vector2(0, 180);
-        }
-
+        // Mantém a orientação baseada na última direção horizontal
+        if (lastHorizontal > 0)
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        else if (lastHorizontal < 0)
+            transform.eulerAngles = new Vector3(0, 0, 0);
     }
     #endregion
 }
