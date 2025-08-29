@@ -14,8 +14,8 @@ public class EnemyControl : MonoBehaviour
 
     void Update()
     {
+        float posX = player.transform.position.x - player.transform.position.y;
         agent.SetDestination(player.transform.position);
-        float posX = player.transform.position.x - transform.position.y;
 
         if (posX > 0)
         {
