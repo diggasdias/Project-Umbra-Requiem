@@ -36,11 +36,4 @@ public class PlayerAnim : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
     }
     #endregion
-
-    #region Attack
-    public void OnAttack()
-    {
-        anim.SetTrigger("Attack");
-    }
-    #endregion
 }
