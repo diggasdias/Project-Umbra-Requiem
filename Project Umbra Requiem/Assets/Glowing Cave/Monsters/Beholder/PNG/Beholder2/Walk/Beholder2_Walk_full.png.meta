@@ -178,7 +178,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -192,7 +192,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -216,7 +216,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -270,12 +270,12 @@ TextureImporter:
       name: Beholder2_Walk_full_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 204
-        width: 40
-        height: 43
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Beholder2_Walk_full_1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 194
-        width: 42
-        height: 54
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: Beholder2_Walk_full_2
       rect:
         serializedVersion: 2
-        x: 139
-        y: 206
-        width: 40
-        height: 44
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: Beholder2_Walk_full_3
       rect:
         serializedVersion: 2
-        x: 203
-        y: 205
-        width: 42
-        height: 43
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: Beholder2_Walk_full_4
       rect:
         serializedVersion: 2
-        x: 266
-        y: 204
-        width: 42
-        height: 43
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: Beholder2_Walk_full_5
       rect:
         serializedVersion: 2
-        x: 330
-        y: 194
-        width: 44
-        height: 51
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: Beholder2_Walk_full_6
       rect:
         serializedVersion: 2
-        x: 395
-        y: 194
-        width: 43
-        height: 49
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Beholder2_Walk_full_7
       rect:
         serializedVersion: 2
-        x: 460
-        y: 194
-        width: 43
-        height: 51
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: Beholder2_Walk_full_8
       rect:
         serializedVersion: 2
-        x: 20
-        y: 194
-        width: 25
-        height: 11
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: Beholder2_Walk_full_9
       rect:
         serializedVersion: 2
-        x: 148
-        y: 194
-        width: 25
-        height: 11
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: Beholder2_Walk_full_10
       rect:
         serializedVersion: 2
-        x: 212
-        y: 194
-        width: 25
-        height: 11
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: Beholder2_Walk_full_11
       rect:
         serializedVersion: 2
-        x: 276
-        y: 194
-        width: 25
-        height: 11
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: Beholder2_Walk_full_12
       rect:
         serializedVersion: 2
-        x: 11
-        y: 139
-        width: 42
-        height: 45
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: Beholder2_Walk_full_13
       rect:
         serializedVersion: 2
-        x: 20
-        y: 130
-        width: 25
-        height: 11
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: Beholder2_Walk_full_14
       rect:
         serializedVersion: 2
-        x: 76
-        y: 130
-        width: 44
-        height: 56
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,12 +600,12 @@ TextureImporter:
       name: Beholder2_Walk_full_15
       rect:
         serializedVersion: 2
-        x: 140
-        y: 140
-        width: 43
-        height: 47
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -622,12 +622,12 @@ TextureImporter:
       name: Beholder2_Walk_full_16
       rect:
         serializedVersion: 2
-        x: 148
-        y: 130
-        width: 25
-        height: 11
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -644,12 +644,12 @@ TextureImporter:
       name: Beholder2_Walk_full_17
       rect:
         serializedVersion: 2
-        x: 204
-        y: 140
-        width: 43
-        height: 45
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: Beholder2_Walk_full_18
       rect:
         serializedVersion: 2
-        x: 212
-        y: 130
-        width: 25
-        height: 11
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -688,12 +688,12 @@ TextureImporter:
       name: Beholder2_Walk_full_19
       rect:
         serializedVersion: 2
-        x: 268
-        y: 139
-        width: 44
-        height: 45
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -710,12 +710,12 @@ TextureImporter:
       name: Beholder2_Walk_full_20
       rect:
         serializedVersion: 2
-        x: 276
-        y: 130
-        width: 25
-        height: 11
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -732,12 +732,12 @@ TextureImporter:
       name: Beholder2_Walk_full_21
       rect:
         serializedVersion: 2
-        x: 331
-        y: 130
-        width: 44
-        height: 51
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -754,12 +754,12 @@ TextureImporter:
       name: Beholder2_Walk_full_22
       rect:
         serializedVersion: 2
-        x: 395
-        y: 130
-        width: 43
-        height: 49
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -776,12 +776,12 @@ TextureImporter:
       name: Beholder2_Walk_full_23
       rect:
         serializedVersion: 2
-        x: 458
-        y: 130
-        width: 43
-        height: 51
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -798,12 +798,12 @@ TextureImporter:
       name: Beholder2_Walk_full_24
       rect:
         serializedVersion: 2
-        x: 19
-        y: 66
-        width: 30
-        height: 53
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -820,12 +820,12 @@ TextureImporter:
       name: Beholder2_Walk_full_25
       rect:
         serializedVersion: 2
-        x: 83
-        y: 76
-        width: 28
-        height: 43
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -842,12 +842,12 @@ TextureImporter:
       name: Beholder2_Walk_full_26
       rect:
         serializedVersion: 2
-        x: 147
-        y: 78
-        width: 27
-        height: 44
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -864,12 +864,12 @@ TextureImporter:
       name: Beholder2_Walk_full_27
       rect:
         serializedVersion: 2
-        x: 211
-        y: 79
-        width: 27
-        height: 40
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -886,12 +886,12 @@ TextureImporter:
       name: Beholder2_Walk_full_28
       rect:
         serializedVersion: 2
-        x: 275
-        y: 76
-        width: 28
-        height: 40
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -908,12 +908,12 @@ TextureImporter:
       name: Beholder2_Walk_full_29
       rect:
         serializedVersion: 2
-        x: 339
-        y: 66
-        width: 30
-        height: 48
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -930,12 +930,12 @@ TextureImporter:
       name: Beholder2_Walk_full_30
       rect:
         serializedVersion: 2
-        x: 403
-        y: 66
-        width: 32
-        height: 46
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -952,12 +952,12 @@ TextureImporter:
       name: Beholder2_Walk_full_31
       rect:
         serializedVersion: 2
-        x: 467
-        y: 66
-        width: 33
-        height: 50
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -970,363 +970,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_32
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 66
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0876930f9c900860800000000000000
-      internalID: 7494161986718431242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_33
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 66
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4d212635f834a170800000000000000
-      internalID: 8188732648292691277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_34
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 66
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d85ef0e6b29f71b30800000000000000
-      internalID: 4258145937627538829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_35
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 66
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84bca467017b36430800000000000000
-      internalID: 3775062193998580552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_36
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 2
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2548224c85dbf6d30800000000000000
-      internalID: 4426965147673855058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_37
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 12
-        width: 32
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31a09972df919fa90800000000000000
-      internalID: -7279758747585934829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_38
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 15
-        width: 27
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 734b7e30250de69c0800000000000000
-      internalID: -3931976373976452041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_39
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 14
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ab11debe277ca8a0800000000000000
-      internalID: -6292523536689849432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_40
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 12
-        width: 31
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771689aaaa302d030800000000000000
-      internalID: 3517878290471215479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_41
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 2
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30816ab1beeff7250800000000000000
-      internalID: 5944750318886983683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_42
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 2
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf0c1f6722109ca00800000000000000
-      internalID: 777153658234192124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_43
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 2
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efa097493adcb8c10800000000000000
-      internalID: 2056963757279087358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_44
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 2
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73f9283c5dcff3ff0800000000000000
-      internalID: -54046675466805449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_45
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 2
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6233d7138bcd7e20800000000000000
-      internalID: 3350057461734388331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_46
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 2
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2673c147b4cb3340800000000000000
-      internalID: 4844682115528488492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder2_Walk_full_47
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 2
-        width: 25
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46a6f67b438a77da0800000000000000
-      internalID: -5947099838550152604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c56d31dcfaa0eb140aada4378c6e69cb
     internalID: 0
     vertices: []
     indices: 
@@ -1334,7 +982,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Beholder2_Walk_full_0: 3326706764601479131
       Beholder2_Walk_full_1: 7017205713305951354
@@ -1362,23 +1012,7 @@ TextureImporter:
       Beholder2_Walk_full_3: 6183794716278007144
       Beholder2_Walk_full_30: 2175445980323549777
       Beholder2_Walk_full_31: -1930132986394307051
-      Beholder2_Walk_full_32: 7494161986718431242
-      Beholder2_Walk_full_33: 8188732648292691277
-      Beholder2_Walk_full_34: 4258145937627538829
-      Beholder2_Walk_full_35: 3775062193998580552
-      Beholder2_Walk_full_36: 4426965147673855058
-      Beholder2_Walk_full_37: -7279758747585934829
-      Beholder2_Walk_full_38: -3931976373976452041
-      Beholder2_Walk_full_39: -6292523536689849432
       Beholder2_Walk_full_4: -7173351730105625552
-      Beholder2_Walk_full_40: 3517878290471215479
-      Beholder2_Walk_full_41: 5944750318886983683
-      Beholder2_Walk_full_42: 777153658234192124
-      Beholder2_Walk_full_43: 2056963757279087358
-      Beholder2_Walk_full_44: -54046675466805449
-      Beholder2_Walk_full_45: 3350057461734388331
-      Beholder2_Walk_full_46: 4844682115528488492
-      Beholder2_Walk_full_47: -5947099838550152604
       Beholder2_Walk_full_5: -5712540608417665237
       Beholder2_Walk_full_6: -8178184688565641078
       Beholder2_Walk_full_7: 5283590680377209622
