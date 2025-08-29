@@ -102376,7 +102376,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 9.59375
+  orthographic size: 11.0625
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -102954,6 +102954,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8cda3ec8739429449f385bacfe4b6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  scytheAttackPrefab: {fileID: 753312073546646430, guid: 2fa8a15280e0c8841bf036ab5646bc8a, type: 3}
+  attackCooldown: 1
+  attackDistance: 1
 --- !u!1 &2098076647
 GameObject:
   m_ObjectHideFlags: 0
