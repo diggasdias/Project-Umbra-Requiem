@@ -3,14 +3,13 @@ using UnityEngine;
 public class ScytheAttack : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
+    [SerializeField] private int damage = 1; // Valor do dano
     private Vector2 direction;
 
     public void SetDirection(Vector2 dir)
     {
-        // Mantém apenas o componente horizontal
         direction = new Vector2(Mathf.Sign(dir.x), 0);
 
-        // Ajusta a rotação: 0° para direita, 180° para esquerda
         if (direction.x > 0)
             transform.rotation = Quaternion.Euler(0, 0, 0);
         else if (direction.x < 0)
@@ -26,5 +25,17 @@ public class ScytheAttack : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, 0.5f); // Destroi após 0.5 segundos
+    }
+
+    // Detecta colisão com inimigos
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verifica se o objeto tem um script de inimigo
+        var enemy = other.GetComponent<EnemyGeneral>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+            Destroy(gameObject); // Destroi o ataque após acertar
+        }
     }
 }
