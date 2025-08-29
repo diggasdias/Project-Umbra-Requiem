@@ -13,7 +13,6 @@ public class PlayerAnim : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    
     void Update()
     {
         OnMove();
@@ -35,6 +34,13 @@ public class PlayerAnim : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         else if (lastHorizontal < 0)
             transform.eulerAngles = new Vector3(0, 0, 0);
+    }
+    #endregion
+
+    #region Attack
+    public void OnAttack()
+    {
+        anim.SetTrigger("Attack");
     }
     #endregion
 }
