@@ -29,6 +29,7 @@ public class PlayerAnim : MonoBehaviour
         else
         {
             anim.SetInteger("transition", 0);
+
         }
 
         if (player.Direction.x > 0)
@@ -43,6 +44,7 @@ public class PlayerAnim : MonoBehaviour
         {
             transform.eulerAngles = new Vector2(0, 180);
         }
+
     }
     #endregion
 }
