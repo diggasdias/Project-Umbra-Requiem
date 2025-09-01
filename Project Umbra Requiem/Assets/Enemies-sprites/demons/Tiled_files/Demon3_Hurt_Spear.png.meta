@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 1b5414dbb5520b042a7dce3ff8e80683
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4396869050143888486
+    second: Demon3_Hurt_Spear_0
+  - first:
+      213: -2119260952839149645
+    second: Demon3_Hurt_Spear_1
+  - first:
+      213: 2777672647341903504
+    second: Demon3_Hurt_Spear_2
+  - first:
+      213: -8455375788779672651
+    second: Demon3_Hurt_Spear_3
+  - first:
+      213: 616749616985874526
+    second: Demon3_Hurt_Spear_4
+  - first:
+      213: -1671463657295907656
+    second: Demon3_Hurt_Spear_5
+  - first:
+      213: -6625763624730808164
+    second: Demon3_Hurt_Spear_6
+  - first:
+      213: -8633871547281547804
+    second: Demon3_Hurt_Spear_7
+  - first:
+      213: 6848636854501748423
+    second: Demon3_Hurt_Spear_8
+  - first:
+      213: -3500787847927297034
+    second: Demon3_Hurt_Spear_9
+  - first:
+      213: -7342589020599907923
+    second: Demon3_Hurt_Spear_10
+  - first:
+      213: 5050783051174716709
+    second: Demon3_Hurt_Spear_11
+  - first:
+      213: -8879875397353742151
+    second: Demon3_Hurt_Spear_12
+  - first:
+      213: -1651855266078700615
+    second: Demon3_Hurt_Spear_13
+  - first:
+      213: -4710432413967050414
+    second: Demon3_Hurt_Spear_14
+  - first:
+      213: 645972366881794043
+    second: Demon3_Hurt_Spear_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 417
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6645cb10b11d40d30800000000000000
+      internalID: 4396869050143888486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 417
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7aaa7446fd692e0800000000000000
+      internalID: -2119260952839149645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 416
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e02275e864c8620800000000000000
+      internalID: 2777672647341903504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 417
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb6953c48878aa80800000000000000
+      internalID: -8455375788779672651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 306
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e502dcb42822f8800800000000000000
+      internalID: 616749616985874526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 306
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4f6e3d8a4cdc8e0800000000000000
+      internalID: -1671463657295907656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 305
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90373e861f8c04a0800000000000000
+      internalID: -6625763624730808164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 306
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5eeb62935e2880800000000000000
+      internalID: -8633871547281547804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 179
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cea93cfeee3b0f50800000000000000
+      internalID: 6848636854501748423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 179
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb0a421004ba6fc0800000000000000
+      internalID: -3500787847927297034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 179
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9857f3032e91a90800000000000000
+      internalID: -7342589020599907923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 179
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52525d2cc6cf71640800000000000000
+      internalID: 5050783051174716709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0effaaf5854c480800000000000000
+      internalID: -8879875397353742151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 51
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb450d236e6319e0800000000000000
+      internalID: -1651855266078700615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 51
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259120b2dae21aeb0800000000000000
+      internalID: -4710432413967050414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Hurt_Spear_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 51
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf725b6f174f6f800800000000000000
+      internalID: 645972366881794043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon3_Hurt_Spear_0: 4396869050143888486
+      Demon3_Hurt_Spear_1: -2119260952839149645
+      Demon3_Hurt_Spear_10: -7342589020599907923
+      Demon3_Hurt_Spear_11: 5050783051174716709
+      Demon3_Hurt_Spear_12: -8879875397353742151
+      Demon3_Hurt_Spear_13: -1651855266078700615
+      Demon3_Hurt_Spear_14: -4710432413967050414
+      Demon3_Hurt_Spear_15: 645972366881794043
+      Demon3_Hurt_Spear_2: 2777672647341903504
+      Demon3_Hurt_Spear_3: -8455375788779672651
+      Demon3_Hurt_Spear_4: 616749616985874526
+      Demon3_Hurt_Spear_5: -1671463657295907656
+      Demon3_Hurt_Spear_6: -6625763624730808164
+      Demon3_Hurt_Spear_7: -8633871547281547804
+      Demon3_Hurt_Spear_8: 6848636854501748423
+      Demon3_Hurt_Spear_9: -3500787847927297034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

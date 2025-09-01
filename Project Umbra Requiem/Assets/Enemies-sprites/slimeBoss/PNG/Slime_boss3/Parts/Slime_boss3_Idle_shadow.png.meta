@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: cd66d1495a9775a4a915e78addf3e6dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3884510636068744848
+    second: Slime_boss3_Idle_shadow_0
+  - first:
+      213: -7059609934072879968
+    second: Slime_boss3_Idle_shadow_1
+  - first:
+      213: 3104958886675129656
+    second: Slime_boss3_Idle_shadow_2
+  - first:
+      213: -7234539344302574148
+    second: Slime_boss3_Idle_shadow_3
+  - first:
+      213: 7738092374621079564
+    second: Slime_boss3_Idle_shadow_4
+  - first:
+      213: 4369696734143503635
+    second: Slime_boss3_Idle_shadow_5
+  - first:
+      213: 1642596136483137540
+    second: Slime_boss3_Idle_shadow_6
+  - first:
+      213: -8682825804786596113
+    second: Slime_boss3_Idle_shadow_7
+  - first:
+      213: 3184635960228323964
+    second: Slime_boss3_Idle_shadow_8
+  - first:
+      213: -4809944373956945633
+    second: Slime_boss3_Idle_shadow_9
+  - first:
+      213: 3034582929634340510
+    second: Slime_boss3_Idle_shadow_10
+  - first:
+      213: -3935856962310337779
+    second: Slime_boss3_Idle_shadow_11
+  - first:
+      213: -5833078761198274315
+    second: Slime_boss3_Idle_shadow_12
+  - first:
+      213: -7471909476489760149
+    second: Slime_boss3_Idle_shadow_13
+  - first:
+      213: 4286190230101341205
+    second: Slime_boss3_Idle_shadow_14
+  - first:
+      213: -2005762348968299724
+    second: Slime_boss3_Idle_shadow_15
+  - first:
+      213: -6822594410677949020
+    second: Slime_boss3_Idle_shadow_16
+  - first:
+      213: -3081099066244354672
+    second: Slime_boss3_Idle_shadow_17
+  - first:
+      213: 8604333018877229321
+    second: Slime_boss3_Idle_shadow_18
+  - first:
+      213: -7321632898164085732
+    second: Slime_boss3_Idle_shadow_19
+  - first:
+      213: 5388098773985240683
+    second: Slime_boss3_Idle_shadow_20
+  - first:
+      213: 8468399942961577672
+    second: Slime_boss3_Idle_shadow_21
+  - first:
+      213: 3946985493596612577
+    second: Slime_boss3_Idle_shadow_22
+  - first:
+      213: -3024746918423780298
+    second: Slime_boss3_Idle_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eaa1da7dd88e530800000000000000
+      internalID: 3884510636068744848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a464ca1b2a370e90800000000000000
+      internalID: -7059609934072879968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835a67a18a7071b20800000000000000
+      internalID: 3104958886675129656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5f14debc0c99b90800000000000000
+      internalID: -7234539344302574148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08c27c340a336b60800000000000000
+      internalID: 7738092374621079564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ddece270844ac30800000000000000
+      internalID: 4369696734143503635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408a188bb7cabc610800000000000000
+      internalID: 1642596136483137540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe689132fe7608780800000000000000
+      internalID: -8682825804786596113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72285c6889123c20800000000000000
+      internalID: 3184635960228323964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1958e87315af3db0800000000000000
+      internalID: -4809944373956945633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ea15ab8110d1a20800000000000000
+      internalID: 3034582929634340510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b8eb222f60169c0800000000000000
+      internalID: -3935856962310337779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8b6eb85cdbc0fa0800000000000000
+      internalID: -5833078761198274315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62f3f34be17e4890800000000000000
+      internalID: -7471909476489760149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514b0f81e4b9b7b30800000000000000
+      internalID: 4286190230101341205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43334e545c91a24e0800000000000000
+      internalID: -2005762348968299724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ada9f8f7864151a0800000000000000
+      internalID: -6822594410677949020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09da7be39bcbd35d0800000000000000
+      internalID: -3081099066244354672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909775ffa4bb86770800000000000000
+      internalID: 8604333018877229321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cad19bba5546a90800000000000000
+      internalID: -7321632898164085732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66ab1e994f56ca40800000000000000
+      internalID: 5388098773985240683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb92071ecc58570800000000000000
+      internalID: 8468399942961577672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e72277f46286c630800000000000000
+      internalID: 3946985493596612577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Idle_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634a4e714b0f506d0800000000000000
+      internalID: -3024746918423780298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_boss3_Idle_shadow_0: 3884510636068744848
+      Slime_boss3_Idle_shadow_1: -7059609934072879968
+      Slime_boss3_Idle_shadow_10: 3034582929634340510
+      Slime_boss3_Idle_shadow_11: -3935856962310337779
+      Slime_boss3_Idle_shadow_12: -5833078761198274315
+      Slime_boss3_Idle_shadow_13: -7471909476489760149
+      Slime_boss3_Idle_shadow_14: 4286190230101341205
+      Slime_boss3_Idle_shadow_15: -2005762348968299724
+      Slime_boss3_Idle_shadow_16: -6822594410677949020
+      Slime_boss3_Idle_shadow_17: -3081099066244354672
+      Slime_boss3_Idle_shadow_18: 8604333018877229321
+      Slime_boss3_Idle_shadow_19: -7321632898164085732
+      Slime_boss3_Idle_shadow_2: 3104958886675129656
+      Slime_boss3_Idle_shadow_20: 5388098773985240683
+      Slime_boss3_Idle_shadow_21: 8468399942961577672
+      Slime_boss3_Idle_shadow_22: 3946985493596612577
+      Slime_boss3_Idle_shadow_23: -3024746918423780298
+      Slime_boss3_Idle_shadow_3: -7234539344302574148
+      Slime_boss3_Idle_shadow_4: 7738092374621079564
+      Slime_boss3_Idle_shadow_5: 4369696734143503635
+      Slime_boss3_Idle_shadow_6: 1642596136483137540
+      Slime_boss3_Idle_shadow_7: -8682825804786596113
+      Slime_boss3_Idle_shadow_8: 3184635960228323964
+      Slime_boss3_Idle_shadow_9: -4809944373956945633
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

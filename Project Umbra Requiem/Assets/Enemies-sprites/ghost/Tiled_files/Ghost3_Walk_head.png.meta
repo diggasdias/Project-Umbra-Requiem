@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: bca78c3d2f036e642a3d9232f5c03245
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5114432691835075696
+    second: Ghost3_Walk_head_0
+  - first:
+      213: -4952282592692832090
+    second: Ghost3_Walk_head_1
+  - first:
+      213: 7319690306046059917
+    second: Ghost3_Walk_head_2
+  - first:
+      213: 8718980934693756949
+    second: Ghost3_Walk_head_3
+  - first:
+      213: -5595424655742496546
+    second: Ghost3_Walk_head_4
+  - first:
+      213: -6069714547074153609
+    second: Ghost3_Walk_head_5
+  - first:
+      213: 7573358424422900773
+    second: Ghost3_Walk_head_6
+  - first:
+      213: 5855069513211266055
+    second: Ghost3_Walk_head_7
+  - first:
+      213: 2292186489848686164
+    second: Ghost3_Walk_head_8
+  - first:
+      213: -1222476348803298865
+    second: Ghost3_Walk_head_9
+  - first:
+      213: -2182368752254641271
+    second: Ghost3_Walk_head_10
+  - first:
+      213: -8558296873893202512
+    second: Ghost3_Walk_head_11
+  - first:
+      213: -428887436572659351
+    second: Ghost3_Walk_head_12
+  - first:
+      213: 5502475898238638773
+    second: Ghost3_Walk_head_13
+  - first:
+      213: 7167182957533466103
+    second: Ghost3_Walk_head_14
+  - first:
+      213: -8107951036689778571
+    second: Ghost3_Walk_head_15
+  - first:
+      213: 1354569669582925384
+    second: Ghost3_Walk_head_16
+  - first:
+      213: -98865615839446668
+    second: Ghost3_Walk_head_17
+  - first:
+      213: -3157347395294497969
+    second: Ghost3_Walk_head_18
+  - first:
+      213: 4095697599891911854
+    second: Ghost3_Walk_head_19
+  - first:
+      213: 9088417057539115071
+    second: Ghost3_Walk_head_20
+  - first:
+      213: 5921464626499420043
+    second: Ghost3_Walk_head_21
+  - first:
+      213: 5793269346773751375
+    second: Ghost3_Walk_head_22
+  - first:
+      213: -3142358138704783403
+    second: Ghost3_Walk_head_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 228
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093868f6092e509b0800000000000000
+      internalID: -5114432691835075696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 230
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a871336835f54bb0800000000000000
+      internalID: -4952282592692832090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 231
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85eebd4d83c49560800000000000000
+      internalID: 7319690306046059917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 230
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51023d707fa000970800000000000000
+      internalID: 8718980934693756949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 228
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed09103ebee0952b0800000000000000
+      internalID: -5595424655742496546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 227
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773cf9537ca04cba0800000000000000
+      internalID: -6069714547074153609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 164
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52460749c59f91960800000000000000
+      internalID: 7573358424422900773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 166
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044d2663b2614150800000000000000
+      internalID: 5855069513211266055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 167
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456616ec77b7fcf10800000000000000
+      internalID: 2292186489848686164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 166
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9434bdc34e80fe0800000000000000
+      internalID: -1222476348803298865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 164
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b13f8be2ba6b1e0800000000000000
+      internalID: -2182368752254641271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 163
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b572454652da3980800000000000000
+      internalID: -8558296873893202512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 100
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961757616294c0af0800000000000000
+      internalID: -428887436572659351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 102
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba99a31da8bc5c40800000000000000
+      internalID: 5502475898238638773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 103
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd04003de2f67360800000000000000
+      internalID: 7167182957533466103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 102
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57878d96d75ca7f80800000000000000
+      internalID: -8107951036689778571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 100
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e220b00f56cc210800000000000000
+      internalID: 1354569669582925384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 99
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479b3670f32c0aef0800000000000000
+      internalID: -98865615839446668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4377f6b549de24d0800000000000000
+      internalID: -3157347395294497969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 38
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea43af46447d6d830800000000000000
+      internalID: 4095697599891911854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 39
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38483d492b802e70800000000000000
+      internalID: 9088417057539115071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 38
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ff98c54b44d2250800000000000000
+      internalID: 5921464626499420043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_22
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 36
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46db9ed6c3d56050800000000000000
+      internalID: 5793269346773751375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Walk_head_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 35
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d79179fbe91464d0800000000000000
+      internalID: -3142358138704783403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost3_Walk_head_0: -5114432691835075696
+      Ghost3_Walk_head_1: -4952282592692832090
+      Ghost3_Walk_head_10: -2182368752254641271
+      Ghost3_Walk_head_11: -8558296873893202512
+      Ghost3_Walk_head_12: -428887436572659351
+      Ghost3_Walk_head_13: 5502475898238638773
+      Ghost3_Walk_head_14: 7167182957533466103
+      Ghost3_Walk_head_15: -8107951036689778571
+      Ghost3_Walk_head_16: 1354569669582925384
+      Ghost3_Walk_head_17: -98865615839446668
+      Ghost3_Walk_head_18: -3157347395294497969
+      Ghost3_Walk_head_19: 4095697599891911854
+      Ghost3_Walk_head_2: 7319690306046059917
+      Ghost3_Walk_head_20: 9088417057539115071
+      Ghost3_Walk_head_21: 5921464626499420043
+      Ghost3_Walk_head_22: 5793269346773751375
+      Ghost3_Walk_head_23: -3142358138704783403
+      Ghost3_Walk_head_3: 8718980934693756949
+      Ghost3_Walk_head_4: -5595424655742496546
+      Ghost3_Walk_head_5: -6069714547074153609
+      Ghost3_Walk_head_6: 7573358424422900773
+      Ghost3_Walk_head_7: 5855069513211266055
+      Ghost3_Walk_head_8: 2292186489848686164
+      Ghost3_Walk_head_9: -1222476348803298865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

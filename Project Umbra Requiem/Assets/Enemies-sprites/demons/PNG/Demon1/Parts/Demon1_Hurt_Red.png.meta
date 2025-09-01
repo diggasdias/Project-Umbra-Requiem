@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: d447f87a75a7f1b438cd87477d474bd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7588291793265785451
+    second: Demon1_Hurt_Red_0
+  - first:
+      213: 8510059884740550684
+    second: Demon1_Hurt_Red_1
+  - first:
+      213: -8195572760656713877
+    second: Demon1_Hurt_Red_2
+  - first:
+      213: -3433207873042101204
+    second: Demon1_Hurt_Red_3
+  - first:
+      213: -245685799525133203
+    second: Demon1_Hurt_Red_4
+  - first:
+      213: -4976654319965371064
+    second: Demon1_Hurt_Red_5
+  - first:
+      213: 983742624278885697
+    second: Demon1_Hurt_Red_6
+  - first:
+      213: 1159589357777841582
+    second: Demon1_Hurt_Red_7
+  - first:
+      213: 6111644672444783360
+    second: Demon1_Hurt_Red_8
+  - first:
+      213: 9132760690226186196
+    second: Demon1_Hurt_Red_9
+  - first:
+      213: 4721723568899229918
+    second: Demon1_Hurt_Red_10
+  - first:
+      213: -6516672391592226443
+    second: Demon1_Hurt_Red_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 417
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a7e957e270f4960800000000000000
+      internalID: 7588291793265785451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 416
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10234f706ec91670800000000000000
+      internalID: 8510059884740550684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 417
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6760360ff9734e80800000000000000
+      internalID: -8195572760656713877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 306
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c404f11abca50d0800000000000000
+      internalID: -3433207873042101204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 305
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6452f82116279cf0800000000000000
+      internalID: -245685799525133203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 306
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8450d80734f5feab0800000000000000
+      internalID: -4976654319965371064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 178
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145bd8664b4f6ad00800000000000000
+      internalID: 983742624278885697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 178
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadebab8060b71010800000000000000
+      internalID: 1159589357777841582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 178
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bda7ed27ce0d450800000000000000
+      internalID: 6111644672444783360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d74597d5751ebe70800000000000000
+      internalID: 9132760690226186196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 50
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed804d3b19ee68140800000000000000
+      internalID: 4721723568899229918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Red_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 50
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571dc859cf02095a0800000000000000
+      internalID: -6516672391592226443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon1_Hurt_Red_0: 7588291793265785451
+      Demon1_Hurt_Red_1: 8510059884740550684
+      Demon1_Hurt_Red_10: 4721723568899229918
+      Demon1_Hurt_Red_11: -6516672391592226443
+      Demon1_Hurt_Red_2: -8195572760656713877
+      Demon1_Hurt_Red_3: -3433207873042101204
+      Demon1_Hurt_Red_4: -245685799525133203
+      Demon1_Hurt_Red_5: -4976654319965371064
+      Demon1_Hurt_Red_6: 983742624278885697
+      Demon1_Hurt_Red_7: 1159589357777841582
+      Demon1_Hurt_Red_8: 6111644672444783360
+      Demon1_Hurt_Red_9: 9132760690226186196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

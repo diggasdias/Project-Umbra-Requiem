@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: fe4923765131b2d4faca4ca88953a767
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6415092178489322370
+    second: g3Idle_without_shadow_without_shadow_0
+  - first:
+      213: -4837587215618304117
+    second: g3Idle_without_shadow_without_shadow_1
+  - first:
+      213: -4359301536958317581
+    second: g3Idle_without_shadow_without_shadow_2
+  - first:
+      213: 775687243561360188
+    second: g3Idle_without_shadow_without_shadow_3
+  - first:
+      213: -9166979092418795340
+    second: g3Idle_without_shadow_without_shadow_4
+  - first:
+      213: 384552290474865856
+    second: g3Idle_without_shadow_without_shadow_5
+  - first:
+      213: 2099590935690802346
+    second: g3Idle_without_shadow_without_shadow_6
+  - first:
+      213: 5356319066985259375
+    second: g3Idle_without_shadow_without_shadow_7
+  - first:
+      213: -7514688707757146550
+    second: g3Idle_without_shadow_without_shadow_8
+  - first:
+      213: 6982975738672611197
+    second: g3Idle_without_shadow_without_shadow_9
+  - first:
+      213: -5752176291216964822
+    second: g3Idle_without_shadow_without_shadow_10
+  - first:
+      213: -5180711223183635682
+    second: g3Idle_without_shadow_without_shadow_11
+  - first:
+      213: -6659062687392462695
+    second: g3Idle_without_shadow_without_shadow_12
+  - first:
+      213: 6722186940538492106
+    second: g3Idle_without_shadow_without_shadow_13
+  - first:
+      213: 2364678793516762336
+    second: g3Idle_without_shadow_without_shadow_14
+  - first:
+      213: -7337898347704402801
+    second: g3Idle_without_shadow_without_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 208
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b2e34095cf60950800000000000000
+      internalID: 6415092178489322370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 209
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87991bde007ddcb0800000000000000
+      internalID: -4837587215618304117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 210
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbf8c44956a083c0800000000000000
+      internalID: -4359301536958317581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 209
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bd641307bc3ca00800000000000000
+      internalID: 775687243561360188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 150
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e1fc851958c080800000000000000
+      internalID: -9166979092418795340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 151
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4315f4544365500800000000000000
+      internalID: 384552290474865856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 151
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4fa77f4de332d10800000000000000
+      internalID: 2099590935690802346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 151
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ee4bffc7755a40800000000000000
+      internalID: 5356319066985259375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4efe705f6676b790800000000000000
+      internalID: -7514688707757146550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 87
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f70cadf6388e060800000000000000
+      internalID: 6982975738672611197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 87
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23c694b32a2c20b0800000000000000
+      internalID: -5752176291216964822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 87
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b8242579a6a18b0800000000000000
+      internalID: -5180711223183635682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 23
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9980aec54c14693a0800000000000000
+      internalID: -6659062687392462695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 23
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4119028610a4d50800000000000000
+      internalID: 6722186940538492106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 23
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4477785d601d020800000000000000
+      internalID: 2364678793516762336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3Idle_without_shadow_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 23
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c3723a45c8a2a90800000000000000
+      internalID: -7337898347704402801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      g3Idle_without_shadow_without_shadow_0: 6415092178489322370
+      g3Idle_without_shadow_without_shadow_1: -4837587215618304117
+      g3Idle_without_shadow_without_shadow_10: -5752176291216964822
+      g3Idle_without_shadow_without_shadow_11: -5180711223183635682
+      g3Idle_without_shadow_without_shadow_12: -6659062687392462695
+      g3Idle_without_shadow_without_shadow_13: 6722186940538492106
+      g3Idle_without_shadow_without_shadow_14: 2364678793516762336
+      g3Idle_without_shadow_without_shadow_15: -7337898347704402801
+      g3Idle_without_shadow_without_shadow_2: -4359301536958317581
+      g3Idle_without_shadow_without_shadow_3: 775687243561360188
+      g3Idle_without_shadow_without_shadow_4: -9166979092418795340
+      g3Idle_without_shadow_without_shadow_5: 384552290474865856
+      g3Idle_without_shadow_without_shadow_6: 2099590935690802346
+      g3Idle_without_shadow_without_shadow_7: 5356319066985259375
+      g3Idle_without_shadow_without_shadow_8: -7514688707757146550
+      g3Idle_without_shadow_without_shadow_9: 6982975738672611197
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

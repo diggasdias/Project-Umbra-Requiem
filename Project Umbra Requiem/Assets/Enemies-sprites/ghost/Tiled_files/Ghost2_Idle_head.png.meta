@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: c57bf83f247e98348a796e28874ce442
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4328824888332088342
+    second: Ghost2_Idle_head_0
+  - first:
+      213: 888046443588990528
+    second: Ghost2_Idle_head_1
+  - first:
+      213: 1483701510984510438
+    second: Ghost2_Idle_head_2
+  - first:
+      213: 417675324307264304
+    second: Ghost2_Idle_head_3
+  - first:
+      213: -3608684651992617295
+    second: Ghost2_Idle_head_4
+  - first:
+      213: -7194628496975913788
+    second: Ghost2_Idle_head_5
+  - first:
+      213: -364710461494424077
+    second: Ghost2_Idle_head_6
+  - first:
+      213: -8994257176616569960
+    second: Ghost2_Idle_head_7
+  - first:
+      213: -3465979334495040184
+    second: Ghost2_Idle_head_8
+  - first:
+      213: 8562291104246521556
+    second: Ghost2_Idle_head_9
+  - first:
+      213: -6869050533175672421
+    second: Ghost2_Idle_head_10
+  - first:
+      213: -7312819757513052773
+    second: Ghost2_Idle_head_11
+  - first:
+      213: 4706852635240894967
+    second: Ghost2_Idle_head_12
+  - first:
+      213: 6736541091414645185
+    second: Ghost2_Idle_head_13
+  - first:
+      213: -6142686941540632673
+    second: Ghost2_Idle_head_14
+  - first:
+      213: -8269195376495427041
+    second: Ghost2_Idle_head_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 228
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61477e30d43131c30800000000000000
+      internalID: 4328824888332088342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 229
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046bb2e0989f25c00800000000000000
+      internalID: 888046443588990528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 230
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb21fac9aa279410800000000000000
+      internalID: 1483701510984510438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 229
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033d7c89e71ebc500800000000000000
+      internalID: 417675324307264304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 164
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be639bbd606bedc0800000000000000
+      internalID: -3608684651992617295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 165
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc19d2308b872c90800000000000000
+      internalID: -7194628496975913788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 166
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd81c084c940faf0800000000000000
+      internalID: -364710461494424077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 165
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f24160cafd2380800000000000000
+      internalID: -8994257176616569960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 100
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d0498a82e56efc0800000000000000
+      internalID: -3465979334495040184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 101
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ded914f46e53d670800000000000000
+      internalID: 8562291104246521556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b914bd11fea3ca0a0800000000000000
+      internalID: -6869050533175672421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 101
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de9feec25a38a90800000000000000
+      internalID: -7312819757513052773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f115a5a889125140800000000000000
+      internalID: 4706852635240894967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 37
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c997905e600d7d50800000000000000
+      internalID: 6736541091414645185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 38
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f973a03a5cac0caa0800000000000000
+      internalID: -6142686941540632673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Idle_head_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 37
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1200bdfd9aed3d80800000000000000
+      internalID: -8269195376495427041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost2_Idle_head_0: 4328824888332088342
+      Ghost2_Idle_head_1: 888046443588990528
+      Ghost2_Idle_head_10: -6869050533175672421
+      Ghost2_Idle_head_11: -7312819757513052773
+      Ghost2_Idle_head_12: 4706852635240894967
+      Ghost2_Idle_head_13: 6736541091414645185
+      Ghost2_Idle_head_14: -6142686941540632673
+      Ghost2_Idle_head_15: -8269195376495427041
+      Ghost2_Idle_head_2: 1483701510984510438
+      Ghost2_Idle_head_3: 417675324307264304
+      Ghost2_Idle_head_4: -3608684651992617295
+      Ghost2_Idle_head_5: -7194628496975913788
+      Ghost2_Idle_head_6: -364710461494424077
+      Ghost2_Idle_head_7: -8994257176616569960
+      Ghost2_Idle_head_8: -3465979334495040184
+      Ghost2_Idle_head_9: 8562291104246521556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

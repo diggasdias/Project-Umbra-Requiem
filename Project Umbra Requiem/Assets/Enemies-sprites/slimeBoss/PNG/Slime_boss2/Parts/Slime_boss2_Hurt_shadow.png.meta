@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: a59b63ba99cc8c64d860d0f822e947f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8408881895453345938
+    second: Slime_boss2_Hurt_shadow_0
+  - first:
+      213: 7565191851899022564
+    second: Slime_boss2_Hurt_shadow_1
+  - first:
+      213: 152249364554169744
+    second: Slime_boss2_Hurt_shadow_2
+  - first:
+      213: 72900047092055004
+    second: Slime_boss2_Hurt_shadow_3
+  - first:
+      213: -1509705176472938370
+    second: Slime_boss2_Hurt_shadow_4
+  - first:
+      213: 5848816110958482994
+    second: Slime_boss2_Hurt_shadow_5
+  - first:
+      213: 7402010623135984622
+    second: Slime_boss2_Hurt_shadow_6
+  - first:
+      213: 1408818200827421832
+    second: Slime_boss2_Hurt_shadow_7
+  - first:
+      213: -7020901190748838992
+    second: Slime_boss2_Hurt_shadow_8
+  - first:
+      213: 7575209839832052180
+    second: Slime_boss2_Hurt_shadow_9
+  - first:
+      213: -1274974823667507039
+    second: Slime_boss2_Hurt_shadow_10
+  - first:
+      213: 5445689748528431394
+    second: Slime_boss2_Hurt_shadow_11
+  - first:
+      213: -3576939054558221605
+    second: Slime_boss2_Hurt_shadow_12
+  - first:
+      213: 1439087058957683020
+    second: Slime_boss2_Hurt_shadow_13
+  - first:
+      213: -6638202949129361225
+    second: Slime_boss2_Hurt_shadow_14
+  - first:
+      213: 1204310953240896004
+    second: Slime_boss2_Hurt_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298c5b0288952b470800000000000000
+      internalID: 8408881895453345938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 432
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecee1e38e5fcf860800000000000000
+      internalID: 7565191851899022564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 432
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09db78b8df5ec1200800000000000000
+      internalID: 152249364554169744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 432
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbf703e43ef20100800000000000000
+      internalID: 72900047092055004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7813c804237c0be0800000000000000
+      internalID: -1509705176472938370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 304
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236134ab34b2b2150800000000000000
+      internalID: 5848816110958482994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 304
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb20b7b17939b660800000000000000
+      internalID: 7402010623135984622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 304
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8846c6d70b02d8310800000000000000
+      internalID: 1408818200827421832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b36c4ab09fb09e90800000000000000
+      internalID: -7020901190748838992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1bb32d63d802960800000000000000
+      internalID: 7575209839832052180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 176
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a06bb927216e4ee0800000000000000
+      internalID: -1274974823667507039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221060a49f9f29b40800000000000000
+      internalID: 5445689748528431394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdae5dd91e82c5ec0800000000000000
+      internalID: -3576939054558221605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49c8063e0aa8f310800000000000000
+      internalID: 1439087058957683020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 48
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8a136a69d50e3a0800000000000000
+      internalID: -6638202949129361225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss2_Hurt_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40229076e6296b010800000000000000
+      internalID: 1204310953240896004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_boss2_Hurt_shadow_0: 8408881895453345938
+      Slime_boss2_Hurt_shadow_1: 7565191851899022564
+      Slime_boss2_Hurt_shadow_10: -1274974823667507039
+      Slime_boss2_Hurt_shadow_11: 5445689748528431394
+      Slime_boss2_Hurt_shadow_12: -3576939054558221605
+      Slime_boss2_Hurt_shadow_13: 1439087058957683020
+      Slime_boss2_Hurt_shadow_14: -6638202949129361225
+      Slime_boss2_Hurt_shadow_15: 1204310953240896004
+      Slime_boss2_Hurt_shadow_2: 152249364554169744
+      Slime_boss2_Hurt_shadow_3: 72900047092055004
+      Slime_boss2_Hurt_shadow_4: -1509705176472938370
+      Slime_boss2_Hurt_shadow_5: 5848816110958482994
+      Slime_boss2_Hurt_shadow_6: 7402010623135984622
+      Slime_boss2_Hurt_shadow_7: 1408818200827421832
+      Slime_boss2_Hurt_shadow_8: -7020901190748838992
+      Slime_boss2_Hurt_shadow_9: 7575209839832052180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

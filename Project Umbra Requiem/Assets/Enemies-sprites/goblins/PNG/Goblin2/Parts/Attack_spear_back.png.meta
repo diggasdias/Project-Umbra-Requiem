@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: b287ec6a13fe5ee42870301113c30268
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8660913015109417998
+    second: Attack_spear_back_0
+  - first:
+      213: 4443051508702294212
+    second: Attack_spear_back_1
+  - first:
+      213: -8604525147227715457
+    second: Attack_spear_back_2
+  - first:
+      213: -3677637958043169891
+    second: Attack_spear_back_3
+  - first:
+      213: 1902968493073153822
+    second: Attack_spear_back_4
+  - first:
+      213: 6967823506210209495
+    second: Attack_spear_back_5
+  - first:
+      213: -2886012459949449405
+    second: Attack_spear_back_6
+  - first:
+      213: -3363165959941011049
+    second: Attack_spear_back_7
+  - first:
+      213: 4296945427004122184
+    second: Attack_spear_back_8
+  - first:
+      213: 1525660366138494667
+    second: Attack_spear_back_9
+  - first:
+      213: -189203642289091377
+    second: Attack_spear_back_10
+  - first:
+      213: -3051584715930191270
+    second: Attack_spear_back_11
+  - first:
+      213: -7563345607352868218
+    second: Attack_spear_back_12
+  - first:
+      213: -7903672766342579704
+    second: Attack_spear_back_13
+  - first:
+      213: -2172554802757988984
+    second: Attack_spear_back_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack_spear_back_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f388df00814ec780800000000000000
+      internalID: -8660913015109417998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 217
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0b6fe8ec3e8ad30800000000000000
+      internalID: 4443051508702294212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 201
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f788392a7f5969880800000000000000
+      internalID: -8604525147227715457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 203
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b085a13c766fcc0800000000000000
+      internalID: -3677637958043169891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 204
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb26813c3b86a10800000000000000
+      internalID: 1902968493073153822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 151
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb641df8ea2b060800000000000000
+      internalID: 6967823506210209495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 148
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f9c5b55f2d2f7d0800000000000000
+      internalID: -2886012459949449405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 161
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799c705d062a351d0800000000000000
+      internalID: -3363165959941011049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 159
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844e1d38911d1ab30800000000000000
+      internalID: 4296945427004122184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 158
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec39b050c3c2510800000000000000
+      internalID: 1525660366138494667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 88
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc062f2a40df5df0800000000000000
+      internalID: -189203642289091377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 88
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a38fc6ed796a5d0800000000000000
+      internalID: -3051584715930191270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 88
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a8301e39990790800000000000000
+      internalID: -7563345607352868218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 88
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab8359e73805290800000000000000
+      internalID: -7903672766342579704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_spear_back_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 88
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d8a86eae889d1e0800000000000000
+      internalID: -2172554802757988984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Attack_spear_back_0: -8660913015109417998
+      Attack_spear_back_1: 4443051508702294212
+      Attack_spear_back_10: -189203642289091377
+      Attack_spear_back_11: -3051584715930191270
+      Attack_spear_back_12: -7563345607352868218
+      Attack_spear_back_13: -7903672766342579704
+      Attack_spear_back_14: -2172554802757988984
+      Attack_spear_back_2: -8604525147227715457
+      Attack_spear_back_3: -3677637958043169891
+      Attack_spear_back_4: 1902968493073153822
+      Attack_spear_back_5: 6967823506210209495
+      Attack_spear_back_6: -2886012459949449405
+      Attack_spear_back_7: -3363165959941011049
+      Attack_spear_back_8: 4296945427004122184
+      Attack_spear_back_9: 1525660366138494667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

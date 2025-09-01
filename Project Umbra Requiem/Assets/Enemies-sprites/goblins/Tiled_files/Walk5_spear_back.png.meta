@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 6ea6621bdeb3c6344967ca1041a3c728
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8674542742716647595
+    second: Walk5_spear_back_0
+  - first:
+      213: -3827538214531594429
+    second: Walk5_spear_back_1
+  - first:
+      213: 7623408640922263243
+    second: Walk5_spear_back_2
+  - first:
+      213: 7494632004790350567
+    second: Walk5_spear_back_3
+  - first:
+      213: -6216063507406301965
+    second: Walk5_spear_back_4
+  - first:
+      213: -7479636503436057652
+    second: Walk5_spear_back_5
+  - first:
+      213: -3422372593096842687
+    second: Walk5_spear_back_6
+  - first:
+      213: 4965470534170272887
+    second: Walk5_spear_back_7
+  - first:
+      213: -1548940632501200918
+    second: Walk5_spear_back_8
+  - first:
+      213: -4787227479862056005
+    second: Walk5_spear_back_9
+  - first:
+      213: -221085364951152117
+    second: Walk5_spear_back_10
+  - first:
+      213: 4052127266397981056
+    second: Walk5_spear_back_11
+  - first:
+      213: 4165806877166855228
+    second: Walk5_spear_back_12
+  - first:
+      213: 2468415292209140927
+    second: Walk5_spear_back_13
+  - first:
+      213: -4469361186835808804
+    second: Walk5_spear_back_14
+  - first:
+      213: 8999784721455903722
+    second: Walk5_spear_back_15
+  - first:
+      213: 7083409158818142218
+    second: Walk5_spear_back_16
+  - first:
+      213: 6534867717079822915
+    second: Walk5_spear_back_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk5_spear_back_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 208
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5577e6fc555dd9780800000000000000
+      internalID: -8674542742716647595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 210
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3478c96e54ad1eac0800000000000000
+      internalID: -3827538214531594429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 209
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce90d3b4c9cbc960800000000000000
+      internalID: 7623408640922263243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 208
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e27dcf9918420860800000000000000
+      internalID: 7494632004790350567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 210
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f457c39c2b1cb9a0800000000000000
+      internalID: -6216063507406301965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 209
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc326ab9a3ef23890800000000000000
+      internalID: -7479636503436057652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 150
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1422e63524a4180d0800000000000000
+      internalID: -3422372593096842687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 153
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77463e38425e8e440800000000000000
+      internalID: 4965470534170272887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 152
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7d89d83be018ae0800000000000000
+      internalID: -1548940632501200918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 150
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb65db88f9509db0800000000000000
+      internalID: -4787227479862056005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 153
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8c0d280c8eecf0800000000000000
+      internalID: -221085364951152117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 152
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089835a974c0c3830800000000000000
+      internalID: 4052127266397981056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 89
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34e86c884befc930800000000000000
+      internalID: 4165806877166855228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 91
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4944a41a2914220800000000000000
+      internalID: 2468415292209140927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 90
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddbbb52ea3a9f1c0800000000000000
+      internalID: -4469361186835808804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 89
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3fd517588a5ec70800000000000000
+      internalID: 8999784721455903722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a089a16b9135d4260800000000000000
+      internalID: 7083409158818142218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5_spear_back_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 91
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342f5b2c09380ba50800000000000000
+      internalID: 6534867717079822915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walk5_spear_back_0: -8674542742716647595
+      Walk5_spear_back_1: -3827538214531594429
+      Walk5_spear_back_10: -221085364951152117
+      Walk5_spear_back_11: 4052127266397981056
+      Walk5_spear_back_12: 4165806877166855228
+      Walk5_spear_back_13: 2468415292209140927
+      Walk5_spear_back_14: -4469361186835808804
+      Walk5_spear_back_15: 8999784721455903722
+      Walk5_spear_back_16: 7083409158818142218
+      Walk5_spear_back_17: 6534867717079822915
+      Walk5_spear_back_2: 7623408640922263243
+      Walk5_spear_back_3: 7494632004790350567
+      Walk5_spear_back_4: -6216063507406301965
+      Walk5_spear_back_5: -7479636503436057652
+      Walk5_spear_back_6: -3422372593096842687
+      Walk5_spear_back_7: 4965470534170272887
+      Walk5_spear_back_8: -1548940632501200918
+      Walk5_spear_back_9: -4787227479862056005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

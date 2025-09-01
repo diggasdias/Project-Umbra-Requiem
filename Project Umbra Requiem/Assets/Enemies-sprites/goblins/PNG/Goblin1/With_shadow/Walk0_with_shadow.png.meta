@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: dffba6e3c36fa854d9fdcd3cc468bd15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2241112662757863802
+    second: Walk0_with_shadow_0
+  - first:
+      213: 3686798332602914515
+    second: Walk0_with_shadow_1
+  - first:
+      213: -5707043191262272345
+    second: Walk0_with_shadow_2
+  - first:
+      213: 4217694497071128027
+    second: Walk0_with_shadow_3
+  - first:
+      213: -4688965853429799782
+    second: Walk0_with_shadow_4
+  - first:
+      213: 8563708564261914859
+    second: Walk0_with_shadow_5
+  - first:
+      213: -3324446733527382056
+    second: Walk0_with_shadow_6
+  - first:
+      213: -5068207743052756577
+    second: Walk0_with_shadow_7
+  - first:
+      213: -8494465480060303176
+    second: Walk0_with_shadow_8
+  - first:
+      213: 6963627308454323120
+    second: Walk0_with_shadow_9
+  - first:
+      213: 315576802536356330
+    second: Walk0_with_shadow_10
+  - first:
+      213: 5835355180831662741
+    second: Walk0_with_shadow_11
+  - first:
+      213: 6148612850269158964
+    second: Walk0_with_shadow_12
+  - first:
+      213: 6732338386919744666
+    second: Walk0_with_shadow_13
+  - first:
+      213: 3535150107886355998
+    second: Walk0_with_shadow_14
+  - first:
+      213: -8538900881364890572
+    second: Walk0_with_shadow_15
+  - first:
+      213: -5667076445895991330
+    second: Walk0_with_shadow_16
+  - first:
+      213: 7018004215536675027
+    second: Walk0_with_shadow_17
+  - first:
+      213: -418346027654175667
+    second: Walk0_with_shadow_18
+  - first:
+      213: 2075173756494720607
+    second: Walk0_with_shadow_19
+  - first:
+      213: 2566173186891706656
+    second: Walk0_with_shadow_20
+  - first:
+      213: -5630559235229314800
+    second: Walk0_with_shadow_21
+  - first:
+      213: 6428294106413025584
+    second: Walk0_with_shadow_22
+  - first:
+      213: -74863535757490480
+    second: Walk0_with_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk0_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71ff45c7180a1f10800000000000000
+      internalID: 2241112662757863802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 210
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d69c4dcc832a2330800000000000000
+      internalID: 3686798332602914515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 209
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4200b64728cc0b0800000000000000
+      internalID: -5707043191262272345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 208
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd5b0d7cc2488a30800000000000000
+      internalID: 4217694497071128027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 210
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94616646627deeb0800000000000000
+      internalID: -4688965853429799782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 209
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be84dc4119768d670800000000000000
+      internalID: 8563708564261914859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7846d3f413dd1d0800000000000000
+      internalID: -3324446733527382056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 148
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99c47309eb1aa9b0800000000000000
+      internalID: -5068207743052756577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 148
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b80038c6a89d1a80800000000000000
+      internalID: -8494465480060303176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 148
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b321a46426c3a060800000000000000
+      internalID: 6963627308454323120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 148
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9788e0e67216400800000000000000
+      internalID: 315576802536356330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 148
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592e4b3be985bf050800000000000000
+      internalID: 5835355180831662741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ef1b18fc2445550800000000000000
+      internalID: 6148612850269158964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e31ce7121e6d50800000000000000
+      internalID: 6732338386919744666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 84
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1600480b406f0130800000000000000
+      internalID: 3535150107886355998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 84
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cc9f1b3eabf7980800000000000000
+      internalID: -8538900881364890572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 84
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfd2677fff7a51b0800000000000000
+      internalID: -5667076445895991330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 84
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8e14ba6a5f46160800000000000000
+      internalID: 7018004215536675027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 20
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d442a7c118cb13af0800000000000000
+      internalID: -418346027654175667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 20
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ea41b698f7ccc10800000000000000
+      internalID: 2075173756494720607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 20
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021ffc4dae0ec9320800000000000000
+      internalID: 2566173186891706656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 20
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0119c51253c3cd1b0800000000000000
+      internalID: -5630559235229314800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 20
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0394c746e63e53950800000000000000
+      internalID: 6428294106413025584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk0_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 20
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68b88c20806fef0800000000000000
+      internalID: -74863535757490480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walk0_with_shadow_0: 2241112662757863802
+      Walk0_with_shadow_1: 3686798332602914515
+      Walk0_with_shadow_10: 315576802536356330
+      Walk0_with_shadow_11: 5835355180831662741
+      Walk0_with_shadow_12: 6148612850269158964
+      Walk0_with_shadow_13: 6732338386919744666
+      Walk0_with_shadow_14: 3535150107886355998
+      Walk0_with_shadow_15: -8538900881364890572
+      Walk0_with_shadow_16: -5667076445895991330
+      Walk0_with_shadow_17: 7018004215536675027
+      Walk0_with_shadow_18: -418346027654175667
+      Walk0_with_shadow_19: 2075173756494720607
+      Walk0_with_shadow_2: -5707043191262272345
+      Walk0_with_shadow_20: 2566173186891706656
+      Walk0_with_shadow_21: -5630559235229314800
+      Walk0_with_shadow_22: 6428294106413025584
+      Walk0_with_shadow_23: -74863535757490480
+      Walk0_with_shadow_3: 4217694497071128027
+      Walk0_with_shadow_4: -4688965853429799782
+      Walk0_with_shadow_5: 8563708564261914859
+      Walk0_with_shadow_6: -3324446733527382056
+      Walk0_with_shadow_7: -5068207743052756577
+      Walk0_with_shadow_8: -8494465480060303176
+      Walk0_with_shadow_9: 6963627308454323120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

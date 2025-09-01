@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 997b0a29c2223ba4997047133b6e20aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4403508332464888616
+    second: Demon1_Hurt_Body_0
+  - first:
+      213: 2821629151273866775
+    second: Demon1_Hurt_Body_1
+  - first:
+      213: 7790978119579145500
+    second: Demon1_Hurt_Body_2
+  - first:
+      213: -5588543934299787724
+    second: Demon1_Hurt_Body_3
+  - first:
+      213: -3722083271522121611
+    second: Demon1_Hurt_Body_4
+  - first:
+      213: 7055093735517430
+    second: Demon1_Hurt_Body_5
+  - first:
+      213: 3694280462582888404
+    second: Demon1_Hurt_Body_6
+  - first:
+      213: -1846888893890755947
+    second: Demon1_Hurt_Body_7
+  - first:
+      213: -2530533917608643361
+    second: Demon1_Hurt_Body_8
+  - first:
+      213: -3681102611674371019
+    second: Demon1_Hurt_Body_9
+  - first:
+      213: -6654643185283904073
+    second: Demon1_Hurt_Body_10
+  - first:
+      213: -5286518534413786365
+    second: Demon1_Hurt_Body_11
+  - first:
+      213: -3903216181630697632
+    second: Demon1_Hurt_Body_12
+  - first:
+      213: -1367118373337293958
+    second: Demon1_Hurt_Body_13
+  - first:
+      213: -902168259318089531
+    second: Demon1_Hurt_Body_14
+  - first:
+      213: -8472203120335261934
+    second: Demon1_Hurt_Body_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 434
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d425fd908893e2c0800000000000000
+      internalID: -4403508332464888616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 434
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716d09173c0782720800000000000000
+      internalID: 2821629151273866775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 434
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c151b56425d1f1c60800000000000000
+      internalID: 7790978119579145500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 434
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ea560b6e08172b0800000000000000
+      internalID: -5588543934299787724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 306
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57800882cf0885cc0800000000000000
+      internalID: -3722083271522121611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 306
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc66f30290191000800000000000000
+      internalID: 7055093735517430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 306
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d73be0f188b44330800000000000000
+      internalID: 3694280462582888404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 306
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592070416588e56e0800000000000000
+      internalID: -1846888893890755947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 178
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4fbdc2fccb1ecd0800000000000000
+      internalID: -2530533917608643361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 178
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ce2619da81aecc0800000000000000
+      internalID: -3681102611674371019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 178
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdcd22e745f5a3a0800000000000000
+      internalID: -6654643185283904073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 178
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3036fb1f66382a6b0800000000000000
+      internalID: -5286518534413786365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f785c109df4d9c0800000000000000
+      internalID: -3903216181630697632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b125f2515070de0800000000000000
+      internalID: -1367118373337293958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 50
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c876bf7fbada73f0800000000000000
+      internalID: -902168259318089531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon1_Hurt_Body_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 50
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fe5735620bc6a80800000000000000
+      internalID: -8472203120335261934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon1_Hurt_Body_0: -4403508332464888616
+      Demon1_Hurt_Body_1: 2821629151273866775
+      Demon1_Hurt_Body_10: -6654643185283904073
+      Demon1_Hurt_Body_11: -5286518534413786365
+      Demon1_Hurt_Body_12: -3903216181630697632
+      Demon1_Hurt_Body_13: -1367118373337293958
+      Demon1_Hurt_Body_14: -902168259318089531
+      Demon1_Hurt_Body_15: -8472203120335261934
+      Demon1_Hurt_Body_2: 7790978119579145500
+      Demon1_Hurt_Body_3: -5588543934299787724
+      Demon1_Hurt_Body_4: -3722083271522121611
+      Demon1_Hurt_Body_5: 7055093735517430
+      Demon1_Hurt_Body_6: 3694280462582888404
+      Demon1_Hurt_Body_7: -1846888893890755947
+      Demon1_Hurt_Body_8: -2530533917608643361
+      Demon1_Hurt_Body_9: -3681102611674371019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

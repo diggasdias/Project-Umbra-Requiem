@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 0533cc5c77e1e2f43b762b82543d0e49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7654375833509885311
+    second: Shadow_Death_boss2_0
+  - first:
+      213: 2046076844460906832
+    second: Shadow_Death_boss2_1
+  - first:
+      213: 530279891887854848
+    second: Shadow_Death_boss2_2
+  - first:
+      213: -7815409988970916670
+    second: Shadow_Death_boss2_3
+  - first:
+      213: -4834860610881864695
+    second: Shadow_Death_boss2_4
+  - first:
+      213: -3894698837486759213
+    second: Shadow_Death_boss2_5
+  - first:
+      213: 574606100907839299
+    second: Shadow_Death_boss2_6
+  - first:
+      213: -8926150881754563253
+    second: Shadow_Death_boss2_7
+  - first:
+      213: 3798439967594984423
+    second: Shadow_Death_boss2_8
+  - first:
+      213: 7940225065433397088
+    second: Shadow_Death_boss2_9
+  - first:
+      213: -3525412332245995125
+    second: Shadow_Death_boss2_10
+  - first:
+      213: -7886477816850085178
+    second: Shadow_Death_boss2_11
+  - first:
+      213: 8610751339144308841
+    second: Shadow_Death_boss2_12
+  - first:
+      213: -7899411428596857441
+    second: Shadow_Death_boss2_13
+  - first:
+      213: 4655945070053293299
+    second: Shadow_Death_boss2_14
+  - first:
+      213: -7846006646342206423
+    second: Shadow_Death_boss2_15
+  - first:
+      213: -7587590981852615087
+    second: Shadow_Death_boss2_16
+  - first:
+      213: 6942544442420558272
+    second: Shadow_Death_boss2_17
+  - first:
+      213: -3193849463924827478
+    second: Shadow_Death_boss2_18
+  - first:
+      213: -8571399792431686343
+    second: Shadow_Death_boss2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75f0b5144ec93a60800000000000000
+      internalID: 7654375833509885311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 128
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0599e39ac00256c10800000000000000
+      internalID: 2046076844460906832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 128
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005128b80ceeb5700800000000000000
+      internalID: 530279891887854848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 126
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c45959d5061a8390800000000000000
+      internalID: -7815409988970916670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 126
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cbbddf3ef17ecb0800000000000000
+      internalID: -4834860610881864695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d29974da0043f9c0800000000000000
+      internalID: -3894698837486759213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f4262543969f700800000000000000
+      internalID: 574606100907839299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 80
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dba79d011ff1480800000000000000
+      internalID: -8926150881754563253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 78
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e335298605c6b430800000000000000
+      internalID: 3798439967594984423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 78
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0677fcdb0a8513e60800000000000000
+      internalID: 7940225065433397088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8132b98928331fc0800000000000000
+      internalID: -3525412332245995125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca07adb53a9d8290800000000000000
+      internalID: -7886477816850085178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 32
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9686ae2a8b88f7770800000000000000
+      internalID: 8610751339144308841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 32
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95c2d79827af5290800000000000000
+      internalID: -7899411428596857441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 32
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcf14a7f5d3d9040800000000000000
+      internalID: 4655945070053293299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c3b6b66826d1390800000000000000
+      internalID: -7846006646342206423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ea7b9e33673b690800000000000000
+      internalID: -7587590981852615087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9f6df136fd85060800000000000000
+      internalID: 6942544442420558272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa50b495da2da3d0800000000000000
+      internalID: -3193849463924827478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Death_boss2_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d90405d454c0980800000000000000
+      internalID: -8571399792431686343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shadow_Death_boss2_0: 7654375833509885311
+      Shadow_Death_boss2_1: 2046076844460906832
+      Shadow_Death_boss2_10: -3525412332245995125
+      Shadow_Death_boss2_11: -7886477816850085178
+      Shadow_Death_boss2_12: 8610751339144308841
+      Shadow_Death_boss2_13: -7899411428596857441
+      Shadow_Death_boss2_14: 4655945070053293299
+      Shadow_Death_boss2_15: -7846006646342206423
+      Shadow_Death_boss2_16: -7587590981852615087
+      Shadow_Death_boss2_17: 6942544442420558272
+      Shadow_Death_boss2_18: -3193849463924827478
+      Shadow_Death_boss2_19: -8571399792431686343
+      Shadow_Death_boss2_2: 530279891887854848
+      Shadow_Death_boss2_3: -7815409988970916670
+      Shadow_Death_boss2_4: -4834860610881864695
+      Shadow_Death_boss2_5: -3894698837486759213
+      Shadow_Death_boss2_6: 574606100907839299
+      Shadow_Death_boss2_7: -8926150881754563253
+      Shadow_Death_boss2_8: 3798439967594984423
+      Shadow_Death_boss2_9: 7940225065433397088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
