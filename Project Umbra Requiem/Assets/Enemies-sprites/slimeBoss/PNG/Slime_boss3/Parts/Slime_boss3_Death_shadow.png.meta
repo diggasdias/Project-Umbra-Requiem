@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: bc0fa3ad5c5b8d44ca2c1e51a6287556
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2135772332445589680
+    second: Slime_boss3_Death_shadow_0
+  - first:
+      213: -3460873039520552910
+    second: Slime_boss3_Death_shadow_1
+  - first:
+      213: -2750244228836536587
+    second: Slime_boss3_Death_shadow_2
+  - first:
+      213: 7469679860059593555
+    second: Slime_boss3_Death_shadow_3
+  - first:
+      213: -2227643490153765620
+    second: Slime_boss3_Death_shadow_4
+  - first:
+      213: 3619105726328508746
+    second: Slime_boss3_Death_shadow_5
+  - first:
+      213: -3377195994417161167
+    second: Slime_boss3_Death_shadow_6
+  - first:
+      213: 6819619973820057284
+    second: Slime_boss3_Death_shadow_7
+  - first:
+      213: 6763755928875469436
+    second: Slime_boss3_Death_shadow_8
+  - first:
+      213: -2378066347601554055
+    second: Slime_boss3_Death_shadow_9
+  - first:
+      213: -6446034656160704808
+    second: Slime_boss3_Death_shadow_10
+  - first:
+      213: -5240691915833958795
+    second: Slime_boss3_Death_shadow_11
+  - first:
+      213: -2038508256516225821
+    second: Slime_boss3_Death_shadow_12
+  - first:
+      213: 6765759881830791681
+    second: Slime_boss3_Death_shadow_13
+  - first:
+      213: 5277686847324129585
+    second: Slime_boss3_Death_shadow_14
+  - first:
+      213: -5664242360068328189
+    second: Slime_boss3_Death_shadow_15
+  - first:
+      213: -4115831828648133859
+    second: Slime_boss3_Death_shadow_16
+  - first:
+      213: 6571262323073689560
+    second: Slime_boss3_Death_shadow_17
+  - first:
+      213: -2161506893214052378
+    second: Slime_boss3_Death_shadow_18
+  - first:
+      213: 4178263747432456802
+    second: Slime_boss3_Death_shadow_19
+  - first:
+      213: 5475118100706032810
+    second: Slime_boss3_Death_shadow_20
+  - first:
+      213: -3812110754059137985
+    second: Slime_boss3_Death_shadow_21
+  - first:
+      213: -4148183217545928040
+    second: Slime_boss3_Death_shadow_22
+  - first:
+      213: -4070176902268097266
+    second: Slime_boss3_Death_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 432
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0e68cde99c3ad10800000000000000
+      internalID: 2135772332445589680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 432
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238a6aa9e4288ffc0800000000000000
+      internalID: -3460873039520552910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 432
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe41aef17b25d9d0800000000000000
+      internalID: -2750244228836536587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 430
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bddb4b142a9a760800000000000000
+      internalID: 7469679860059593555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 430
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c056c2b5c02d511e0800000000000000
+      internalID: -2227643490153765620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 430
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a419466bb75a93230800000000000000
+      internalID: 3619105726328508746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c94efd22ac121d0800000000000000
+      internalID: -3377195994417161167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 304
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c604bafb3824ae50800000000000000
+      internalID: 6819619973820057284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 304
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a80107e20bddd50800000000000000
+      internalID: 6763755928875469436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 302
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97516e2a1496ffed0800000000000000
+      internalID: -2378066347601554055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 302
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d61fadf1a51b86a0800000000000000
+      internalID: -6446034656160704808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 302
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e947b08725547b0800000000000000
+      internalID: -5240691915833958795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 176
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e446aa8a83c5b3e0800000000000000
+      internalID: -2038508256516225821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10afc1814cec4ed50800000000000000
+      internalID: 6765759881830791681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 176
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139818aa93c1e3940800000000000000
+      internalID: 5277686847324129585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 176
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305386e75919461b0800000000000000
+      internalID: -5664242360068328189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 176
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b7e2a22c0a1e6c0800000000000000
+      internalID: -4115831828648133859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 176
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d727bc4440d13b50800000000000000
+      internalID: 6571262323073689560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef0b6acee8c002e0800000000000000
+      internalID: -2161506893214052378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262aa9badbc2cf930800000000000000
+      internalID: 4178263747432456802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 48
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacf4e777e68bfb40800000000000000
+      internalID: 5475118100706032810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 48
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ccbd37779a81bc0800000000000000
+      internalID: -3812110754059137985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 48
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89220f67751be66c0800000000000000
+      internalID: -4148183217545928040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_boss3_Death_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 48
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d6f4f0ca3d387c0800000000000000
+      internalID: -4070176902268097266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_boss3_Death_shadow_0: 2135772332445589680
+      Slime_boss3_Death_shadow_1: -3460873039520552910
+      Slime_boss3_Death_shadow_10: -6446034656160704808
+      Slime_boss3_Death_shadow_11: -5240691915833958795
+      Slime_boss3_Death_shadow_12: -2038508256516225821
+      Slime_boss3_Death_shadow_13: 6765759881830791681
+      Slime_boss3_Death_shadow_14: 5277686847324129585
+      Slime_boss3_Death_shadow_15: -5664242360068328189
+      Slime_boss3_Death_shadow_16: -4115831828648133859
+      Slime_boss3_Death_shadow_17: 6571262323073689560
+      Slime_boss3_Death_shadow_18: -2161506893214052378
+      Slime_boss3_Death_shadow_19: 4178263747432456802
+      Slime_boss3_Death_shadow_2: -2750244228836536587
+      Slime_boss3_Death_shadow_20: 5475118100706032810
+      Slime_boss3_Death_shadow_21: -3812110754059137985
+      Slime_boss3_Death_shadow_22: -4148183217545928040
+      Slime_boss3_Death_shadow_23: -4070176902268097266
+      Slime_boss3_Death_shadow_3: 7469679860059593555
+      Slime_boss3_Death_shadow_4: -2227643490153765620
+      Slime_boss3_Death_shadow_5: 3619105726328508746
+      Slime_boss3_Death_shadow_6: -3377195994417161167
+      Slime_boss3_Death_shadow_7: 6819619973820057284
+      Slime_boss3_Death_shadow_8: 6763755928875469436
+      Slime_boss3_Death_shadow_9: -2378066347601554055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

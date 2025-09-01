@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: f67bd4b1ff37c3a4abf7c15deafd657d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2593414511536952900
+    second: Demon2_Idle_Spear_0
+  - first:
+      213: -6769311256958809155
+    second: Demon2_Idle_Spear_1
+  - first:
+      213: 1557348059807697032
+    second: Demon2_Idle_Spear_2
+  - first:
+      213: 948417571146265340
+    second: Demon2_Idle_Spear_3
+  - first:
+      213: 1131046529834776949
+    second: Demon2_Idle_Spear_4
+  - first:
+      213: 7391577847616228209
+    second: Demon2_Idle_Spear_5
+  - first:
+      213: -3074562799039082742
+    second: Demon2_Idle_Spear_6
+  - first:
+      213: 968736584136254526
+    second: Demon2_Idle_Spear_7
+  - first:
+      213: -6380444710657032408
+    second: Demon2_Idle_Spear_8
+  - first:
+      213: 3685787133591202918
+    second: Demon2_Idle_Spear_9
+  - first:
+      213: -2797324712040124782
+    second: Demon2_Idle_Spear_10
+  - first:
+      213: 7067672438942861255
+    second: Demon2_Idle_Spear_11
+  - first:
+      213: 6519266178868227219
+    second: Demon2_Idle_Spear_12
+  - first:
+      213: 6071096979645108413
+    second: Demon2_Idle_Spear_13
+  - first:
+      213: 687430501876216395
+    second: Demon2_Idle_Spear_14
+  - first:
+      213: -7866199757887490412
+    second: Demon2_Idle_Spear_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 417
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb92f740e37520cd0800000000000000
+      internalID: -2593414511536952900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 419
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbcae2f6439e02a0800000000000000
+      internalID: -6769311256958809155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 417
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8884b782fcfcc9510800000000000000
+      internalID: 1557348059807697032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 416
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf279ea81c4792d00800000000000000
+      internalID: 948417571146265340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 306
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5797d3b83d842bf00800000000000000
+      internalID: 1131046529834776949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 307
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bcfc0e3e8249660800000000000000
+      internalID: 7391577847616228209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 306
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f05ab8c65f455d0800000000000000
+      internalID: -3074562799039082742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 305
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34ed5a6ac4a17d00800000000000000
+      internalID: 968736584136254526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 180
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f7448375b1477a0800000000000000
+      internalID: -6380444710657032408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 181
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ca86faedb862330800000000000000
+      internalID: 3685787133591202918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 180
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e2d69cef7ed29d0800000000000000
+      internalID: -2797324712040124782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 179
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7020813aa651260800000000000000
+      internalID: 7067672438942861255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ca8a39c06197a50800000000000000
+      internalID: 6519266178868227219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 53
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db091b4798ed04450800000000000000
+      internalID: 6071096979645108413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 52
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42b918366e3a8900800000000000000
+      internalID: 687430501876216395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Idle_Spear_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 51
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4963ad24ff4a5d290800000000000000
+      internalID: -7866199757887490412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon2_Idle_Spear_0: -2593414511536952900
+      Demon2_Idle_Spear_1: -6769311256958809155
+      Demon2_Idle_Spear_10: -2797324712040124782
+      Demon2_Idle_Spear_11: 7067672438942861255
+      Demon2_Idle_Spear_12: 6519266178868227219
+      Demon2_Idle_Spear_13: 6071096979645108413
+      Demon2_Idle_Spear_14: 687430501876216395
+      Demon2_Idle_Spear_15: -7866199757887490412
+      Demon2_Idle_Spear_2: 1557348059807697032
+      Demon2_Idle_Spear_3: 948417571146265340
+      Demon2_Idle_Spear_4: 1131046529834776949
+      Demon2_Idle_Spear_5: 7391577847616228209
+      Demon2_Idle_Spear_6: -3074562799039082742
+      Demon2_Idle_Spear_7: 968736584136254526
+      Demon2_Idle_Spear_8: -6380444710657032408
+      Demon2_Idle_Spear_9: 3685787133591202918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

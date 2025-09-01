@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 18998445da1fcbd478bfe586760420e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9019091169027873519
+    second: Walk_attack_with_shadow_0
+  - first:
+      213: 1604724823937923118
+    second: Walk_attack_with_shadow_1
+  - first:
+      213: -319519093282940330
+    second: Walk_attack_with_shadow_2
+  - first:
+      213: -1773820949378210892
+    second: Walk_attack_with_shadow_3
+  - first:
+      213: -5642238540994582604
+    second: Walk_attack_with_shadow_4
+  - first:
+      213: -8807504849715591029
+    second: Walk_attack_with_shadow_5
+  - first:
+      213: -2992729137800791856
+    second: Walk_attack_with_shadow_6
+  - first:
+      213: -6436055683411192470
+    second: Walk_attack_with_shadow_7
+  - first:
+      213: -2833282032764563055
+    second: Walk_attack_with_shadow_8
+  - first:
+      213: 5897295423002727368
+    second: Walk_attack_with_shadow_9
+  - first:
+      213: 6094034970705056407
+    second: Walk_attack_with_shadow_10
+  - first:
+      213: 7505188112626244840
+    second: Walk_attack_with_shadow_11
+  - first:
+      213: 4394254283297935236
+    second: Walk_attack_with_shadow_12
+  - first:
+      213: -9009479495927865866
+    second: Walk_attack_with_shadow_13
+  - first:
+      213: 7628466769252370010
+    second: Walk_attack_with_shadow_14
+  - first:
+      213: 4232029470536013739
+    second: Walk_attack_with_shadow_15
+  - first:
+      213: -6823319960252444340
+    second: Walk_attack_with_shadow_16
+  - first:
+      213: -3057965143397427403
+    second: Walk_attack_with_shadow_17
+  - first:
+      213: 8807560303083698811
+    second: Walk_attack_with_shadow_18
+  - first:
+      213: -764502698781625677
+    second: Walk_attack_with_shadow_19
+  - first:
+      213: -7472323863793304583
+    second: Walk_attack_with_shadow_20
+  - first:
+      213: -3663321055524205787
+    second: Walk_attack_with_shadow_21
+  - first:
+      213: -7542739119014553701
+    second: Walk_attack_with_shadow_22
+  - first:
+      213: -6099572523584746548
+    second: Walk_attack_with_shadow_23
+  - first:
+      213: -6679119960969429747
+    second: Walk_attack_with_shadow_24
+  - first:
+      213: -4872148739608745864
+    second: Walk_attack_with_shadow_25
+  - first:
+      213: 3312558745924676212
+    second: Walk_attack_with_shadow_26
+  - first:
+      213: 3502757830993302693
+    second: Walk_attack_with_shadow_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1152b31fd50c5d280800000000000000
+      internalID: -9019091169027873519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 209
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e283215a9b0254610800000000000000
+      internalID: 1604724823937923118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 212
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a5ae9d317d09bf0800000000000000
+      internalID: -319519093282940330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 199
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b36a21ae3f1267e0800000000000000
+      internalID: -1773820949378210892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 196
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7eff9d0fdb2b1b0800000000000000
+      internalID: -5642238540994582604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 202
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b880c2bd00575c580800000000000000
+      internalID: -8807504849715591029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 195
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d83c6094b0b776d0800000000000000
+      internalID: -2992729137800791856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 148
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6554a3a4798ea6a0800000000000000
+      internalID: -6436055683411192470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 148
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1915298a0092ea8d0800000000000000
+      internalID: -2833282032764563055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 148
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c35d9721f667d150800000000000000
+      internalID: 5897295423002727368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 182
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792deada48c529450800000000000000
+      internalID: 6094034970705056407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec529103d8c72860800000000000000
+      internalID: 7505188112626244840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 148
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f46b82df68bfc30800000000000000
+      internalID: 4394254283297935236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 147
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fddd0af126e7f280800000000000000
+      internalID: -9009479495927865866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56c82afb12cdd960800000000000000
+      internalID: 7628466769252370010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 84
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7984691603bba30800000000000000
+      internalID: 4232029470536013739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 84
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41125cc5a2be41a0800000000000000
+      internalID: -6823319960252444340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 84
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537154467ecef85d0800000000000000
+      internalID: -3057965143397427403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 84
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ab2236e6dba3a70800000000000000
+      internalID: 8807560303083698811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 87
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23b4198d0f365f0800000000000000
+      internalID: -764502698781625677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 84
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbfce33909fc4890800000000000000
+      internalID: -7472323863793304583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b454bb8e4492dc0800000000000000
+      internalID: -3663321055524205787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 20
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97d1b10cbec25790800000000000000
+      internalID: -7542739119014553701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 20
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb8ff15b17f95ba0800000000000000
+      internalID: -6099572523584746548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 20
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d323278cffe43a0800000000000000
+      internalID: -6679119960969429747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 20
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e0caf886a26cb0800000000000000
+      internalID: -4872148739608745864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 20
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a2474f0a298fd20800000000000000
+      internalID: 3312558745924676212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 23
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4d29a50bb4c9030800000000000000
+      internalID: 3502757830993302693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walk_attack_with_shadow_0: -9019091169027873519
+      Walk_attack_with_shadow_1: 1604724823937923118
+      Walk_attack_with_shadow_10: 6094034970705056407
+      Walk_attack_with_shadow_11: 7505188112626244840
+      Walk_attack_with_shadow_12: 4394254283297935236
+      Walk_attack_with_shadow_13: -9009479495927865866
+      Walk_attack_with_shadow_14: 7628466769252370010
+      Walk_attack_with_shadow_15: 4232029470536013739
+      Walk_attack_with_shadow_16: -6823319960252444340
+      Walk_attack_with_shadow_17: -3057965143397427403
+      Walk_attack_with_shadow_18: 8807560303083698811
+      Walk_attack_with_shadow_19: -764502698781625677
+      Walk_attack_with_shadow_2: -319519093282940330
+      Walk_attack_with_shadow_20: -7472323863793304583
+      Walk_attack_with_shadow_21: -3663321055524205787
+      Walk_attack_with_shadow_22: -7542739119014553701
+      Walk_attack_with_shadow_23: -6099572523584746548
+      Walk_attack_with_shadow_24: -6679119960969429747
+      Walk_attack_with_shadow_25: -4872148739608745864
+      Walk_attack_with_shadow_26: 3312558745924676212
+      Walk_attack_with_shadow_27: 3502757830993302693
+      Walk_attack_with_shadow_3: -1773820949378210892
+      Walk_attack_with_shadow_4: -5642238540994582604
+      Walk_attack_with_shadow_5: -8807504849715591029
+      Walk_attack_with_shadow_6: -2992729137800791856
+      Walk_attack_with_shadow_7: -6436055683411192470
+      Walk_attack_with_shadow_8: -2833282032764563055
+      Walk_attack_with_shadow_9: 5897295423002727368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

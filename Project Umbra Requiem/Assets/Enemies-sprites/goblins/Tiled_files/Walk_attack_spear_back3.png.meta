@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 5e600491f418fad44b9a028f9dcdddb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 457304287097534021
+    second: Walk_attack_spear_back3_0
+  - first:
+      213: -2306000113737706318
+    second: Walk_attack_spear_back3_1
+  - first:
+      213: -8062372621851495178
+    second: Walk_attack_spear_back3_2
+  - first:
+      213: -4850153037046860543
+    second: Walk_attack_spear_back3_3
+  - first:
+      213: -7101781396517748301
+    second: Walk_attack_spear_back3_4
+  - first:
+      213: -807220101164058814
+    second: Walk_attack_spear_back3_5
+  - first:
+      213: 5506748153333618450
+    second: Walk_attack_spear_back3_6
+  - first:
+      213: -1779731343813755617
+    second: Walk_attack_spear_back3_7
+  - first:
+      213: 2122669255001629096
+    second: Walk_attack_spear_back3_8
+  - first:
+      213: 1278307583156420488
+    second: Walk_attack_spear_back3_9
+  - first:
+      213: 2808192104644414825
+    second: Walk_attack_spear_back3_10
+  - first:
+      213: -580563328281303082
+    second: Walk_attack_spear_back3_11
+  - first:
+      213: 6155127932831643781
+    second: Walk_attack_spear_back3_12
+  - first:
+      213: 1791497116355398017
+    second: Walk_attack_spear_back3_13
+  - first:
+      213: -3090686231681660455
+    second: Walk_attack_spear_back3_14
+  - first:
+      213: 2437100715027062071
+    second: Walk_attack_spear_back3_15
+  - first:
+      213: -499789808306702615
+    second: Walk_attack_spear_back3_16
+  - first:
+      213: -4809338315270745143
+    second: Walk_attack_spear_back3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54636b283dba85600800000000000000
+      internalID: 457304287097534021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 209
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b457a04d117fffd0800000000000000
+      internalID: -2306000113737706318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4f4b311d2bc1090800000000000000
+      internalID: -8062372621851495178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 201
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1053a80928bc0bcb0800000000000000
+      internalID: -4850153037046860543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 203
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1051c5277617d90800000000000000
+      internalID: -7101781396517748301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 204
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247bf86489d2cc4f0800000000000000
+      internalID: -807220101164058814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 150
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2171dfaf446eb6c40800000000000000
+      internalID: 5506748153333618450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 149
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d3a50b5cf1d47e0800000000000000
+      internalID: -1779731343813755617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 147
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1e308e07c357d10800000000000000
+      internalID: 2122669255001629096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 162
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ff9bf59f57db110800000000000000
+      internalID: 1278307583156420488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 159
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d036a37d3b8f620800000000000000
+      internalID: 2808192104644414825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 158
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7ac289abc61f7f0800000000000000
+      internalID: -580563328281303082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 88
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588b38f5e386b6550800000000000000
+      internalID: 6155127932831643781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 91
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1890084b22dacd810800000000000000
+      internalID: 1791497116355398017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 89
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d98c685f3dab15d0800000000000000
+      internalID: -3090686231681660455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 87
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dd901203252d120800000000000000
+      internalID: 2437100715027062071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 87
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6b48d31d36019f0800000000000000
+      internalID: -499789808306702615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_attack_spear_back3_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 87
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c39c91884cc14db0800000000000000
+      internalID: -4809338315270745143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walk_attack_spear_back3_0: 457304287097534021
+      Walk_attack_spear_back3_1: -2306000113737706318
+      Walk_attack_spear_back3_10: 2808192104644414825
+      Walk_attack_spear_back3_11: -580563328281303082
+      Walk_attack_spear_back3_12: 6155127932831643781
+      Walk_attack_spear_back3_13: 1791497116355398017
+      Walk_attack_spear_back3_14: -3090686231681660455
+      Walk_attack_spear_back3_15: 2437100715027062071
+      Walk_attack_spear_back3_16: -499789808306702615
+      Walk_attack_spear_back3_17: -4809338315270745143
+      Walk_attack_spear_back3_2: -8062372621851495178
+      Walk_attack_spear_back3_3: -4850153037046860543
+      Walk_attack_spear_back3_4: -7101781396517748301
+      Walk_attack_spear_back3_5: -807220101164058814
+      Walk_attack_spear_back3_6: 5506748153333618450
+      Walk_attack_spear_back3_7: -1779731343813755617
+      Walk_attack_spear_back3_8: 2122669255001629096
+      Walk_attack_spear_back3_9: 1278307583156420488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

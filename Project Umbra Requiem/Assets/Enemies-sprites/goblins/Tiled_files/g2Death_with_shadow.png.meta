@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 94ec97e3df9a4bb439fdf9371e152206
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1605057781458540588
+    second: g2Death_with_shadow_0
+  - first:
+      213: -7650117863931192090
+    second: g2Death_with_shadow_1
+  - first:
+      213: -8331190991022856557
+    second: g2Death_with_shadow_2
+  - first:
+      213: 7733151035847330688
+    second: g2Death_with_shadow_3
+  - first:
+      213: 9079187249311257126
+    second: g2Death_with_shadow_4
+  - first:
+      213: 3205607277195418184
+    second: g2Death_with_shadow_5
+  - first:
+      213: 6421629751796563886
+    second: g2Death_with_shadow_6
+  - first:
+      213: 6054280438852667705
+    second: g2Death_with_shadow_7
+  - first:
+      213: -140428970238051693
+    second: g2Death_with_shadow_8
+  - first:
+      213: 500161298030982775
+    second: g2Death_with_shadow_9
+  - first:
+      213: -3755743701878873412
+    second: g2Death_with_shadow_10
+  - first:
+      213: 1126158521310320687
+    second: g2Death_with_shadow_11
+  - first:
+      213: -7768362507862521596
+    second: g2Death_with_shadow_12
+  - first:
+      213: -2000889387093910979
+    second: g2Death_with_shadow_13
+  - first:
+      213: 6050681402997547703
+    second: g2Death_with_shadow_14
+  - first:
+      213: 8557868509999057948
+    second: g2Death_with_shadow_15
+  - first:
+      213: -1049991492371504560
+    second: g2Death_with_shadow_16
+  - first:
+      213: 5225969261425900014
+    second: g2Death_with_shadow_17
+  - first:
+      213: -7441529891661789458
+    second: g2Death_with_shadow_18
+  - first:
+      213: 5080694059388928944
+    second: g2Death_with_shadow_19
+  - first:
+      213: -6590211678777074895
+    second: g2Death_with_shadow_20
+  - first:
+      213: 8759671788102788358
+    second: g2Death_with_shadow_21
+  - first:
+      213: 1712932765885631526
+    second: g2Death_with_shadow_22
+  - first:
+      213: 2208140230639283433
+    second: g2Death_with_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g2Death_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7ef24a370b9b9e0800000000000000
+      internalID: -1605057781458540588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 208
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecd286b55255d590800000000000000
+      internalID: -7650117863931192090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 207
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396e5282fe9a16c80800000000000000
+      internalID: -8331190991022856557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 207
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bcf1625eba15b60800000000000000
+      internalID: 7733151035847330688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 207
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622147c13b0cffd70800000000000000
+      internalID: 9079187249311257126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 207
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ad3a6a5da9c7c20800000000000000
+      internalID: 3205607277195418184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 148
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaff9ea6c363e1950800000000000000
+      internalID: 6421629751796563886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 148
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939c8607bff150450800000000000000
+      internalID: 6054280438852667705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 148
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a79c878981d0ef0800000000000000
+      internalID: -140428970238051693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 148
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776f883fc0ee0f600800000000000000
+      internalID: 500161298030982775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 148
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2691e700be0ebc0800000000000000
+      internalID: -3755743701878873412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 148
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281b7f553be0af00800000000000000
+      internalID: 1126158521310320687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4094468257b313490800000000000000
+      internalID: -7768362507862521596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a1b6f14b96b34e0800000000000000
+      internalID: -2000889387093910979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 84
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b22bba9da658f350800000000000000
+      internalID: 6050681402997547703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 84
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ccefc7118a3c670800000000000000
+      internalID: 8557868509999057948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 84
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052a3000d4ead61f0800000000000000
+      internalID: -1049991492371504560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 84
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9b66ada5f568840800000000000000
+      internalID: 5225969261425900014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 20
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee64c0e8dff5ab890800000000000000
+      internalID: -7441529891661789458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 20
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3805e0450428640800000000000000
+      internalID: 5080694059388928944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 20
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b9cd3056dda84a0800000000000000
+      internalID: -6590211678777074895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605a0ee941b909970800000000000000
+      internalID: 8759671788102788358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 20
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c8dba664f85c710800000000000000
+      internalID: 1712932765885631526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Death_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 20
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ece08d27d3e4ae10800000000000000
+      internalID: 2208140230639283433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      g2Death_with_shadow_0: -1605057781458540588
+      g2Death_with_shadow_1: -7650117863931192090
+      g2Death_with_shadow_10: -3755743701878873412
+      g2Death_with_shadow_11: 1126158521310320687
+      g2Death_with_shadow_12: -7768362507862521596
+      g2Death_with_shadow_13: -2000889387093910979
+      g2Death_with_shadow_14: 6050681402997547703
+      g2Death_with_shadow_15: 8557868509999057948
+      g2Death_with_shadow_16: -1049991492371504560
+      g2Death_with_shadow_17: 5225969261425900014
+      g2Death_with_shadow_18: -7441529891661789458
+      g2Death_with_shadow_19: 5080694059388928944
+      g2Death_with_shadow_2: -8331190991022856557
+      g2Death_with_shadow_20: -6590211678777074895
+      g2Death_with_shadow_21: 8759671788102788358
+      g2Death_with_shadow_22: 1712932765885631526
+      g2Death_with_shadow_23: 2208140230639283433
+      g2Death_with_shadow_3: 7733151035847330688
+      g2Death_with_shadow_4: 9079187249311257126
+      g2Death_with_shadow_5: 3205607277195418184
+      g2Death_with_shadow_6: 6421629751796563886
+      g2Death_with_shadow_7: 6054280438852667705
+      g2Death_with_shadow_8: -140428970238051693
+      g2Death_with_shadow_9: 500161298030982775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

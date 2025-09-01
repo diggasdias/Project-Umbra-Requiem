@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 57a871d4a9a5fd240bde210f9e063b09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4669102122748006572
+    second: Demon3_Idle_without_shadow_0
+  - first:
+      213: -3502482370833667475
+    second: Demon3_Idle_without_shadow_1
+  - first:
+      213: 3059645194388499908
+    second: Demon3_Idle_without_shadow_2
+  - first:
+      213: -1971679113086838733
+    second: Demon3_Idle_without_shadow_3
+  - first:
+      213: 1445308969354334941
+    second: Demon3_Idle_without_shadow_4
+  - first:
+      213: -890843928166362397
+    second: Demon3_Idle_without_shadow_5
+  - first:
+      213: 5471380897734256122
+    second: Demon3_Idle_without_shadow_6
+  - first:
+      213: 4420182207693817409
+    second: Demon3_Idle_without_shadow_7
+  - first:
+      213: -5672201798899823473
+    second: Demon3_Idle_without_shadow_8
+  - first:
+      213: 1017689260584721307
+    second: Demon3_Idle_without_shadow_9
+  - first:
+      213: -6438615411624039202
+    second: Demon3_Idle_without_shadow_10
+  - first:
+      213: -6081011137869174004
+    second: Demon3_Idle_without_shadow_11
+  - first:
+      213: 1358180820914873289
+    second: Demon3_Idle_without_shadow_12
+  - first:
+      213: -7203210767047996631
+    second: Demon3_Idle_without_shadow_13
+  - first:
+      213: -8393462906311886563
+    second: Demon3_Idle_without_shadow_14
+  - first:
+      213: -7549303439697644594
+    second: Demon3_Idle_without_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 417
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f25997b54043fb0800000000000000
+      internalID: -4669102122748006572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 419
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a246637dea46fc0800000000000000
+      internalID: -3502482370833667475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 417
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cde146f71b067a20800000000000000
+      internalID: 3059645194388499908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 416
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338d6650b4033a4e0800000000000000
+      internalID: -1971679113086838733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 306
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd21d0d99d4ce0410800000000000000
+      internalID: 1445308969354334941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 306
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2945fca2613a3f0800000000000000
+      internalID: -890843928166362397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 306
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5ee4810ff3eeb40800000000000000
+      internalID: 5471380897734256122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 305
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146871c7c44a75d30800000000000000
+      internalID: 4420182207693817409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 178
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c8e3a348a4841b0800000000000000
+      internalID: -5672201798899823473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 178
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bd1e49dfe8f1e00800000000000000
+      internalID: 1017689260584721307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 178
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc2bc8756175a6a0800000000000000
+      internalID: -6438615411624039202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 178
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b2d14b698eb9ba0800000000000000
+      internalID: -6081011137869174004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3216bb24a39d210800000000000000
+      internalID: 1358180820914873289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 50
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bc5dbb8fd090c90800000000000000
+      internalID: -7203210767047996631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 50
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19bcd905fd648b80800000000000000
+      internalID: -8393462906311886563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Idle_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 50
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3ff2ff48c7b3790800000000000000
+      internalID: -7549303439697644594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon3_Idle_without_shadow_0: -4669102122748006572
+      Demon3_Idle_without_shadow_1: -3502482370833667475
+      Demon3_Idle_without_shadow_10: -6438615411624039202
+      Demon3_Idle_without_shadow_11: -6081011137869174004
+      Demon3_Idle_without_shadow_12: 1358180820914873289
+      Demon3_Idle_without_shadow_13: -7203210767047996631
+      Demon3_Idle_without_shadow_14: -8393462906311886563
+      Demon3_Idle_without_shadow_15: -7549303439697644594
+      Demon3_Idle_without_shadow_2: 3059645194388499908
+      Demon3_Idle_without_shadow_3: -1971679113086838733
+      Demon3_Idle_without_shadow_4: 1445308969354334941
+      Demon3_Idle_without_shadow_5: -890843928166362397
+      Demon3_Idle_without_shadow_6: 5471380897734256122
+      Demon3_Idle_without_shadow_7: 4420182207693817409
+      Demon3_Idle_without_shadow_8: -5672201798899823473
+      Demon3_Idle_without_shadow_9: 1017689260584721307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

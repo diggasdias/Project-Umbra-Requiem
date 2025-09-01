@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 3eb96da007705bf4db71d5393e844a68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4150097034381264640
+    second: g1Hurt0_with_shadow_0
+  - first:
+      213: 9094481475468172246
+    second: g1Hurt0_with_shadow_1
+  - first:
+      213: -8679774867034570981
+    second: g1Hurt0_with_shadow_2
+  - first:
+      213: -5967416057312281447
+    second: g1Hurt0_with_shadow_3
+  - first:
+      213: -4367232498395677525
+    second: g1Hurt0_with_shadow_4
+  - first:
+      213: -6566299559629761181
+    second: g1Hurt0_with_shadow_5
+  - first:
+      213: 139431827396586238
+    second: g1Hurt0_with_shadow_6
+  - first:
+      213: -4205532189436352669
+    second: g1Hurt0_with_shadow_7
+  - first:
+      213: 918260630949787383
+    second: g1Hurt0_with_shadow_8
+  - first:
+      213: 4949991965024653029
+    second: g1Hurt0_with_shadow_9
+  - first:
+      213: -2982148146988079125
+    second: g1Hurt0_with_shadow_10
+  - first:
+      213: -928718245396959465
+    second: g1Hurt0_with_shadow_11
+  - first:
+      213: -4365753127332449707
+    second: g1Hurt0_with_shadow_12
+  - first:
+      213: -9135194435326675682
+    second: g1Hurt0_with_shadow_13
+  - first:
+      213: 5224267810079829168
+    second: g1Hurt0_with_shadow_14
+  - first:
+      213: 5627880669565427152
+    second: g1Hurt0_with_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 208
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00782bdb34b189930800000000000000
+      internalID: 4150097034381264640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 208
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db96a1a7b6163e70800000000000000
+      internalID: 9094481475468172246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 209
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f7a00febe3b8780800000000000000
+      internalID: -8679774867034570981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 208
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c70fc66ba7f2da0800000000000000
+      internalID: -5967416057312281447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac75996e297463c0800000000000000
+      internalID: -4367232498395677525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 148
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365d67b1751dfd4a0800000000000000
+      internalID: -6566299559629761181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 148
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa6b5e128c5fe100800000000000000
+      internalID: 139431827396586238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 148
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367ec2d61c2f2a5c0800000000000000
+      internalID: -4205532189436352669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6fcfebd215ebc00800000000000000
+      internalID: 918260630949787383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 84
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee055c4777e1b440800000000000000
+      internalID: 4949991965024653029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 84
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7af277f084d96d0800000000000000
+      internalID: -2982148146988079125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 84
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa0b62da78c13f0800000000000000
+      internalID: -928718245396959465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 20
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5527c4459aab963c0800000000000000
+      internalID: -4365753127332449707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 20
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e157a38bf05493180800000000000000
+      internalID: -9135194435326675682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 20
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bce057d4e3508840800000000000000
+      internalID: 5224267810079829168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g1Hurt0_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 20
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd1cb3b6af3a1e40800000000000000
+      internalID: 5627880669565427152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      g1Hurt0_with_shadow_0: 4150097034381264640
+      g1Hurt0_with_shadow_1: 9094481475468172246
+      g1Hurt0_with_shadow_10: -2982148146988079125
+      g1Hurt0_with_shadow_11: -928718245396959465
+      g1Hurt0_with_shadow_12: -4365753127332449707
+      g1Hurt0_with_shadow_13: -9135194435326675682
+      g1Hurt0_with_shadow_14: 5224267810079829168
+      g1Hurt0_with_shadow_15: 5627880669565427152
+      g1Hurt0_with_shadow_2: -8679774867034570981
+      g1Hurt0_with_shadow_3: -5967416057312281447
+      g1Hurt0_with_shadow_4: -4367232498395677525
+      g1Hurt0_with_shadow_5: -6566299559629761181
+      g1Hurt0_with_shadow_6: 139431827396586238
+      g1Hurt0_with_shadow_7: -4205532189436352669
+      g1Hurt0_with_shadow_8: 918260630949787383
+      g1Hurt0_with_shadow_9: 4949991965024653029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

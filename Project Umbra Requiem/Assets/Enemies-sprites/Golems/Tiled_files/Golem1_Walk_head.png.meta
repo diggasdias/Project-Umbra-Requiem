@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 265f84f22ef9d084ea5081939e32d50f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6267467943091718130
+    second: Golem1_Walk_head_0
+  - first:
+      213: -2278702705192270787
+    second: Golem1_Walk_head_1
+  - first:
+      213: -4222297173144255602
+    second: Golem1_Walk_head_2
+  - first:
+      213: -5715465826773755499
+    second: Golem1_Walk_head_3
+  - first:
+      213: 1787347059554753347
+    second: Golem1_Walk_head_4
+  - first:
+      213: -729444182657909527
+    second: Golem1_Walk_head_5
+  - first:
+      213: -6716971008035860142
+    second: Golem1_Walk_head_6
+  - first:
+      213: -637133619823552211
+    second: Golem1_Walk_head_7
+  - first:
+      213: 5605545056871099816
+    second: Golem1_Walk_head_8
+  - first:
+      213: 443435951971714634
+    second: Golem1_Walk_head_9
+  - first:
+      213: 6450724165803972915
+    second: Golem1_Walk_head_10
+  - first:
+      213: -5725632394350968049
+    second: Golem1_Walk_head_11
+  - first:
+      213: -1548813690310619417
+    second: Golem1_Walk_head_12
+  - first:
+      213: 1334394940902051882
+    second: Golem1_Walk_head_13
+  - first:
+      213: 7813984886205779112
+    second: Golem1_Walk_head_14
+  - first:
+      213: 5674820507392463840
+    second: Golem1_Walk_head_15
+  - first:
+      213: -78222932039168962
+    second: Golem1_Walk_head_16
+  - first:
+      213: -6297839222993514425
+    second: Golem1_Walk_head_17
+  - first:
+      213: 7365182161921557423
+    second: Golem1_Walk_head_18
+  - first:
+      213: 6748162291377548744
+    second: Golem1_Walk_head_19
+  - first:
+      213: -6960673404930193717
+    second: Golem1_Walk_head_20
+  - first:
+      213: -3197544290352727133
+    second: Golem1_Walk_head_21
+  - first:
+      213: -4169165756095848619
+    second: Golem1_Walk_head_22
+  - first:
+      213: 6584392441132575463
+    second: Golem1_Walk_head_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Golem1_Walk_head_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7412543e48af650800000000000000
+      internalID: 6267467943091718130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 451
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d340b4476fb6060e0800000000000000
+      internalID: -2278702705192270787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83c99a77136765c0800000000000000
+      internalID: -4222297173144255602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 456
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5991445cc169ea0b0800000000000000
+      internalID: -5715465826773755499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b991f4eaeedc810800000000000000
+      internalID: 1787347059554753347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 451
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec3331716e70e5f0800000000000000
+      internalID: -729444182657909527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251dc6bc47688c2a0800000000000000
+      internalID: -6716971008035860142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 456
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2955f339527827f0800000000000000
+      internalID: -637133619823552211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adaf3f9785eacd40800000000000000
+      internalID: 5605545056871099816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 195
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4649ed16a6672600800000000000000
+      internalID: 443435951971714634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33916ce8373958950800000000000000
+      internalID: 6450724165803972915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 200
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03cd3c4ca77a80b0800000000000000
+      internalID: -5725632394350968049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_12
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee06c59722818ae0800000000000000
+      internalID: -1548813690310619417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 195
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a209b8af029b48210800000000000000
+      internalID: 1334394940902051882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_14
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac019e8ad9d07c60800000000000000
+      internalID: 7813984886205779112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_15
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 200
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3da3b5f2301ce40800000000000000
+      internalID: 5674820507392463840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c048268a81aeef0800000000000000
+      internalID: -78222932039168962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 67
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74013f418949998a0800000000000000
+      internalID: -6297839222993514425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c0636722663660800000000000000
+      internalID: 7365182161921557423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 72
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdae38c9d946ad50800000000000000
+      internalID: 6748162291377548744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_20
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc680adda68b66f90800000000000000
+      internalID: -6960673404930193717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_21
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 67
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab72f3c86a00a3d0800000000000000
+      internalID: -3197544290352727133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_22
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f1f2285d52426c0800000000000000
+      internalID: -4169165756095848619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem1_Walk_head_23
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 72
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea69732a06706b50800000000000000
+      internalID: 6584392441132575463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Golem1_Walk_head_0: 6267467943091718130
+      Golem1_Walk_head_1: -2278702705192270787
+      Golem1_Walk_head_10: 6450724165803972915
+      Golem1_Walk_head_11: -5725632394350968049
+      Golem1_Walk_head_12: -1548813690310619417
+      Golem1_Walk_head_13: 1334394940902051882
+      Golem1_Walk_head_14: 7813984886205779112
+      Golem1_Walk_head_15: 5674820507392463840
+      Golem1_Walk_head_16: -78222932039168962
+      Golem1_Walk_head_17: -6297839222993514425
+      Golem1_Walk_head_18: 7365182161921557423
+      Golem1_Walk_head_19: 6748162291377548744
+      Golem1_Walk_head_2: -4222297173144255602
+      Golem1_Walk_head_20: -6960673404930193717
+      Golem1_Walk_head_21: -3197544290352727133
+      Golem1_Walk_head_22: -4169165756095848619
+      Golem1_Walk_head_23: 6584392441132575463
+      Golem1_Walk_head_3: -5715465826773755499
+      Golem1_Walk_head_4: 1787347059554753347
+      Golem1_Walk_head_5: -729444182657909527
+      Golem1_Walk_head_6: -6716971008035860142
+      Golem1_Walk_head_7: -637133619823552211
+      Golem1_Walk_head_8: 5605545056871099816
+      Golem1_Walk_head_9: 443435951971714634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

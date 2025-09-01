@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 023e3028dc193514b84f7f51a6341167
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3333865553173934267
+    second: Ghost3_Hurt_body_0
+  - first:
+      213: -7705245255658690969
+    second: Ghost3_Hurt_body_1
+  - first:
+      213: -4261266929726077321
+    second: Ghost3_Hurt_body_2
+  - first:
+      213: -5445580582228263206
+    second: Ghost3_Hurt_body_3
+  - first:
+      213: 8332167598377718806
+    second: Ghost3_Hurt_body_4
+  - first:
+      213: -8235367594823771767
+    second: Ghost3_Hurt_body_5
+  - first:
+      213: -7131338375949857322
+    second: Ghost3_Hurt_body_6
+  - first:
+      213: 1076231575502413148
+    second: Ghost3_Hurt_body_7
+  - first:
+      213: 2413975711745184062
+    second: Ghost3_Hurt_body_8
+  - first:
+      213: -4380128975373798597
+    second: Ghost3_Hurt_body_9
+  - first:
+      213: -7727954293704264279
+    second: Ghost3_Hurt_body_10
+  - first:
+      213: 1229527065891087808
+    second: Ghost3_Hurt_body_11
+  - first:
+      213: 4288711037440270806
+    second: Ghost3_Hurt_body_12
+  - first:
+      213: 4578084471752719277
+    second: Ghost3_Hurt_body_13
+  - first:
+      213: -6301962117279444413
+    second: Ghost3_Hurt_body_14
+  - first:
+      213: -1947668210002633091
+    second: Ghost3_Hurt_body_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 213
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0f7d99e05444e20800000000000000
+      internalID: 3333865553173934267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 214
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766233d9348711590800000000000000
+      internalID: -7705245255658690969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 217
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ce88fd40fcd4c0800000000000000
+      internalID: -4261266929726077321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 214
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adef488ff496d64b0800000000000000
+      internalID: -5445580582228263206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 149
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614d256f84ec1a370800000000000000
+      internalID: 8332167598377718806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 150
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98914cb2ec816bd80800000000000000
+      internalID: -8235367594823771767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 153
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddc560d785680d90800000000000000
+      internalID: -7131338375949857322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 150
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d51e17aea8fee00800000000000000
+      internalID: 1076231575502413148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 85
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311efabe1a208120800000000000000
+      internalID: 2413975711745184062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 85
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33f27067e7a633c0800000000000000
+      internalID: -4380128975373798597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 85
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a57d4ba38ac0c490800000000000000
+      internalID: -7727954293704264279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 85
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5aa242a58201110800000000000000
+      internalID: 1229527065891087808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 21
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1acea47ff848b30800000000000000
+      internalID: 4288711037440270806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 21
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab7d82429f988f30800000000000000
+      internalID: 4578084471752719277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 21
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3421793f7deea88a0800000000000000
+      internalID: -6301962117279444413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost3_Hurt_body_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 21
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ed87a051e78f4e0800000000000000
+      internalID: -1947668210002633091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost3_Hurt_body_0: 3333865553173934267
+      Ghost3_Hurt_body_1: -7705245255658690969
+      Ghost3_Hurt_body_10: -7727954293704264279
+      Ghost3_Hurt_body_11: 1229527065891087808
+      Ghost3_Hurt_body_12: 4288711037440270806
+      Ghost3_Hurt_body_13: 4578084471752719277
+      Ghost3_Hurt_body_14: -6301962117279444413
+      Ghost3_Hurt_body_15: -1947668210002633091
+      Ghost3_Hurt_body_2: -4261266929726077321
+      Ghost3_Hurt_body_3: -5445580582228263206
+      Ghost3_Hurt_body_4: 8332167598377718806
+      Ghost3_Hurt_body_5: -8235367594823771767
+      Ghost3_Hurt_body_6: -7131338375949857322
+      Ghost3_Hurt_body_7: 1076231575502413148
+      Ghost3_Hurt_body_8: 2413975711745184062
+      Ghost3_Hurt_body_9: -4380128975373798597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

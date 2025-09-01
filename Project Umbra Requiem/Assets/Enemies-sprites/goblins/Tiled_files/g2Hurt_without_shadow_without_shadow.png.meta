@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: ef1fa8cd67c89eb49bd31e5ff5cf316e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8482615648124952765
+    second: g2Hurt_without_shadow_without_shadow_0
+  - first:
+      213: -8918170566589067308
+    second: g2Hurt_without_shadow_without_shadow_1
+  - first:
+      213: 7879953329166080910
+    second: g2Hurt_without_shadow_without_shadow_2
+  - first:
+      213: 3320179899002149784
+    second: g2Hurt_without_shadow_without_shadow_3
+  - first:
+      213: 3090481614592957945
+    second: g2Hurt_without_shadow_without_shadow_4
+  - first:
+      213: 2335036917812785511
+    second: g2Hurt_without_shadow_without_shadow_5
+  - first:
+      213: -3413362682579828689
+    second: g2Hurt_without_shadow_without_shadow_6
+  - first:
+      213: -8008701490641328529
+    second: g2Hurt_without_shadow_without_shadow_7
+  - first:
+      213: 3846941856831579094
+    second: g2Hurt_without_shadow_without_shadow_8
+  - first:
+      213: 7643980804804377443
+    second: g2Hurt_without_shadow_without_shadow_9
+  - first:
+      213: -4078923972884061967
+    second: g2Hurt_without_shadow_without_shadow_10
+  - first:
+      213: 6824327766039860698
+    second: g2Hurt_without_shadow_without_shadow_11
+  - first:
+      213: 8794011861733110454
+    second: g2Hurt_without_shadow_without_shadow_12
+  - first:
+      213: -4380509901764151978
+    second: g2Hurt_without_shadow_without_shadow_13
+  - first:
+      213: 2710198412966793188
+    second: g2Hurt_without_shadow_without_shadow_14
+  - first:
+      213: -3216389287796860727
+    second: g2Hurt_without_shadow_without_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db068a83dfd48b570800000000000000
+      internalID: 8482615648124952765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 208
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df4d14ce1b4c3480800000000000000
+      internalID: -8918170566589067308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 209
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bd9979dc73b5d60800000000000000
+      internalID: 7879953329166080910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 208
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b5a6ee606a31e20800000000000000
+      internalID: 3320179899002149784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 150
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd50b687a893ea20800000000000000
+      internalID: 3090481614592957945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 150
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76177a784b7b76020800000000000000
+      internalID: 2335036917812785511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 151
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20414799bc41a0d0800000000000000
+      internalID: -3413362682579828689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 150
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66ae2a1d606bd090800000000000000
+      internalID: -8008701490641328529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32700ac35136530800000000000000
+      internalID: 3846941856831579094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 87
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bf44cda00e41a60800000000000000
+      internalID: 7643980804804377443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 87
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0ab6af140c467c0800000000000000
+      internalID: -4078923972884061967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 87
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad514a542f1e4be50800000000000000
+      internalID: 6824327766039860698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b27c21123b9a0a70800000000000000
+      internalID: 8794011861733110454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 23
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655344a047d4533c0800000000000000
+      internalID: -4380509901764151978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 23
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef86bbe81f8c9520800000000000000
+      internalID: 2710198412966793188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g2Hurt_without_shadow_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 23
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c81f71ebf61d53d0800000000000000
+      internalID: -3216389287796860727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      g2Hurt_without_shadow_without_shadow_0: 8482615648124952765
+      g2Hurt_without_shadow_without_shadow_1: -8918170566589067308
+      g2Hurt_without_shadow_without_shadow_10: -4078923972884061967
+      g2Hurt_without_shadow_without_shadow_11: 6824327766039860698
+      g2Hurt_without_shadow_without_shadow_12: 8794011861733110454
+      g2Hurt_without_shadow_without_shadow_13: -4380509901764151978
+      g2Hurt_without_shadow_without_shadow_14: 2710198412966793188
+      g2Hurt_without_shadow_without_shadow_15: -3216389287796860727
+      g2Hurt_without_shadow_without_shadow_2: 7879953329166080910
+      g2Hurt_without_shadow_without_shadow_3: 3320179899002149784
+      g2Hurt_without_shadow_without_shadow_4: 3090481614592957945
+      g2Hurt_without_shadow_without_shadow_5: 2335036917812785511
+      g2Hurt_without_shadow_without_shadow_6: -3413362682579828689
+      g2Hurt_without_shadow_without_shadow_7: -8008701490641328529
+      g2Hurt_without_shadow_without_shadow_8: 3846941856831579094
+      g2Hurt_without_shadow_without_shadow_9: 7643980804804377443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

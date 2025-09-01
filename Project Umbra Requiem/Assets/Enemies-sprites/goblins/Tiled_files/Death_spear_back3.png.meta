@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: fe74a30f1d3026c4987b0d3389b368bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4284032246307391967
+    second: Death_spear_back3_0
+  - first:
+      213: -6596751413293390771
+    second: Death_spear_back3_1
+  - first:
+      213: -419684599434650872
+    second: Death_spear_back3_2
+  - first:
+      213: 2906670576245224122
+    second: Death_spear_back3_3
+  - first:
+      213: -3946064310372749695
+    second: Death_spear_back3_4
+  - first:
+      213: -2641071603826636905
+    second: Death_spear_back3_5
+  - first:
+      213: -9146745224541974603
+    second: Death_spear_back3_6
+  - first:
+      213: -5452432223468626916
+    second: Death_spear_back3_7
+  - first:
+      213: -8502673750359972838
+    second: Death_spear_back3_8
+  - first:
+      213: 3278236397432271883
+    second: Death_spear_back3_9
+  - first:
+      213: -3263662564466875029
+    second: Death_spear_back3_10
+  - first:
+      213: 3032413731969104646
+    second: Death_spear_back3_11
+  - first:
+      213: -6172554496811430414
+    second: Death_spear_back3_12
+  - first:
+      213: 7376341259107013939
+    second: Death_spear_back3_13
+  - first:
+      213: -4438004574501932120
+    second: Death_spear_back3_14
+  - first:
+      213: -3665695289147180259
+    second: Death_spear_back3_15
+  - first:
+      213: 8256365817569239215
+    second: Death_spear_back3_16
+  - first:
+      213: -186300656652305754
+    second: Death_spear_back3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death_spear_back3_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 208
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9887751a0f37b30800000000000000
+      internalID: 4284032246307391967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 208
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44671b6a81a374a0800000000000000
+      internalID: -6596751413293390771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 207
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bdef4941bfc2af0800000000000000
+      internalID: -419684599434650872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 207
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab23d282d71965820800000000000000
+      internalID: 2906670576245224122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 207
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ea267ba63cc39c0800000000000000
+      internalID: -3946064310372749695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 207
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797ca8b8e57095bd0800000000000000
+      internalID: -2641071603826636905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 150
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfcc280eab301180800000000000000
+      internalID: -9146745224541974603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 150
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c524ee7c11554b0800000000000000
+      internalID: -5452432223468626916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 148
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1461cce54f600a80800000000000000
+      internalID: -8502673750359972838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 148
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04f4b672a2ae7d20800000000000000
+      internalID: 3278236397432271883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 148
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b652632703425b2d0800000000000000
+      internalID: -3263662564466875029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 148
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bf80a093c451a20800000000000000
+      internalID: 3032413731969104646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd80d4836ea65aa0800000000000000
+      internalID: -6172554496811430414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 86
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335912b2b470e5660800000000000000
+      internalID: 7376341259107013939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 85
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3f0416a5a0962c0800000000000000
+      internalID: -4438004574501932120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 85
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b3f836e85d02dc0800000000000000
+      internalID: -3665695289147180259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 85
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa064eb87f0849270800000000000000
+      internalID: 8256365817569239215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_spear_back3_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 85
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa31d23a802a6df0800000000000000
+      internalID: -186300656652305754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Death_spear_back3_0: 4284032246307391967
+      Death_spear_back3_1: -6596751413293390771
+      Death_spear_back3_10: -3263662564466875029
+      Death_spear_back3_11: 3032413731969104646
+      Death_spear_back3_12: -6172554496811430414
+      Death_spear_back3_13: 7376341259107013939
+      Death_spear_back3_14: -4438004574501932120
+      Death_spear_back3_15: -3665695289147180259
+      Death_spear_back3_16: 8256365817569239215
+      Death_spear_back3_17: -186300656652305754
+      Death_spear_back3_2: -419684599434650872
+      Death_spear_back3_3: 2906670576245224122
+      Death_spear_back3_4: -3946064310372749695
+      Death_spear_back3_5: -2641071603826636905
+      Death_spear_back3_6: -9146745224541974603
+      Death_spear_back3_7: -5452432223468626916
+      Death_spear_back3_8: -8502673750359972838
+      Death_spear_back3_9: 3278236397432271883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

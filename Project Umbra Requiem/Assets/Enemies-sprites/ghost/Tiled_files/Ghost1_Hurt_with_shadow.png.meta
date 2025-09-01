@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 2ece2d06b6a58a04d9b232db86ed1ed5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6794459463712653947
+    second: Ghost1_Hurt_with_shadow_0
+  - first:
+      213: -5514465686960013082
+    second: Ghost1_Hurt_with_shadow_1
+  - first:
+      213: 7492386228785505154
+    second: Ghost1_Hurt_with_shadow_2
+  - first:
+      213: 3322203432388094992
+    second: Ghost1_Hurt_with_shadow_3
+  - first:
+      213: 1457920397678404216
+    second: Ghost1_Hurt_with_shadow_4
+  - first:
+      213: -5716282060364448794
+    second: Ghost1_Hurt_with_shadow_5
+  - first:
+      213: -1377492803879255697
+    second: Ghost1_Hurt_with_shadow_6
+  - first:
+      213: -7103479767893473477
+    second: Ghost1_Hurt_with_shadow_7
+  - first:
+      213: -5658055823720191926
+    second: Ghost1_Hurt_with_shadow_8
+  - first:
+      213: 8185229503236782323
+    second: Ghost1_Hurt_with_shadow_9
+  - first:
+      213: -3606764461517292991
+    second: Ghost1_Hurt_with_shadow_10
+  - first:
+      213: -1308019562684815811
+    second: Ghost1_Hurt_with_shadow_11
+  - first:
+      213: -1612868394104643994
+    second: Ghost1_Hurt_with_shadow_12
+  - first:
+      213: -4157499461934282628
+    second: Ghost1_Hurt_with_shadow_13
+  - first:
+      213: 5740007222464867104
+    second: Ghost1_Hurt_with_shadow_14
+  - first:
+      213: -6431850796646852399
+    second: Ghost1_Hurt_with_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 209
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72426732e4ca4e50800000000000000
+      internalID: 6794459463712653947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 209
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e00ba2bcaea873b0800000000000000
+      internalID: -5514465686960013082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 209
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283e9c6249d4af760800000000000000
+      internalID: 7492386228785505154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 209
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c63138b66da1e20800000000000000
+      internalID: 3322203432388094992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 145
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872ea6690e29b3410800000000000000
+      internalID: 1457920397678404216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 145
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf90490cfaba0b0800000000000000
+      internalID: -5716282060364448794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 145
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ce18d79922ece0800000000000000
+      internalID: -1377492803879255697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 145
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37098579ce5b6d90800000000000000
+      internalID: -7103479767893473477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 81
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48e3dbb43c8a71b0800000000000000
+      internalID: -5658055823720191926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 81
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8b971bdd6c79170800000000000000
+      internalID: 8185229503236782323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 81
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a32cae4d232fdc0800000000000000
+      internalID: -3606764461517292991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 81
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36e8ee432bf8dde0800000000000000
+      internalID: -1308019562684815811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e10fbadb0fd99e0800000000000000
+      internalID: -1612868394104643994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 17
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78878944489d46c0800000000000000
+      internalID: -4157499461934282628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 17
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02be13f282a98af40800000000000000
+      internalID: 5740007222464867104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost1_Hurt_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 17
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81d8127c97db6a0800000000000000
+      internalID: -6431850796646852399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost1_Hurt_with_shadow_0: 6794459463712653947
+      Ghost1_Hurt_with_shadow_1: -5514465686960013082
+      Ghost1_Hurt_with_shadow_10: -3606764461517292991
+      Ghost1_Hurt_with_shadow_11: -1308019562684815811
+      Ghost1_Hurt_with_shadow_12: -1612868394104643994
+      Ghost1_Hurt_with_shadow_13: -4157499461934282628
+      Ghost1_Hurt_with_shadow_14: 5740007222464867104
+      Ghost1_Hurt_with_shadow_15: -6431850796646852399
+      Ghost1_Hurt_with_shadow_2: 7492386228785505154
+      Ghost1_Hurt_with_shadow_3: 3322203432388094992
+      Ghost1_Hurt_with_shadow_4: 1457920397678404216
+      Ghost1_Hurt_with_shadow_5: -5716282060364448794
+      Ghost1_Hurt_with_shadow_6: -1377492803879255697
+      Ghost1_Hurt_with_shadow_7: -7103479767893473477
+      Ghost1_Hurt_with_shadow_8: -5658055823720191926
+      Ghost1_Hurt_with_shadow_9: 8185229503236782323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
