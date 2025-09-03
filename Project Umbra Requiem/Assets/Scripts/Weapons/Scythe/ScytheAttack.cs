@@ -30,12 +30,11 @@ public class ScytheAttack : MonoBehaviour
     // Detecta colisão com inimigos
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verifica se o objeto tem um script de inimigo
-        var enemy = other.GetComponent<EnemyGeneral>();
-        if (enemy != null)
+        var damageable = other.GetComponent<IDamageable>();
+        if (damageable != null)
         {
-            enemy.TakeDamage(damage);
-            Destroy(gameObject); // Destroi o ataque após acertar
+            damageable.TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
 }
