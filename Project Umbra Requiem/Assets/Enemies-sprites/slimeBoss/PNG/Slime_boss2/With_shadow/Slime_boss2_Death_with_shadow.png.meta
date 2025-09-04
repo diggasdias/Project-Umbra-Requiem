@@ -262,7 +262,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -276,7 +276,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -300,7 +300,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -341,12 +341,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 432
-        width: 43
-        height: 37
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 462
-        width: 9
-        height: 9
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 464
-        width: 8
-        height: 8
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_3
       rect:
         serializedVersion: 2
-        x: 330
-        y: 467
-        width: 6
-        height: 6
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_4
       rect:
         serializedVersion: 2
-        x: 426
-        y: 430
-        width: 44
-        height: 44
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_5
       rect:
         serializedVersion: 2
-        x: 551
-        y: 452
-        width: 21
-        height: 20
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_6
       rect:
         serializedVersion: 2
-        x: 569
-        y: 449
-        width: 17
-        height: 25
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_7
       rect:
         serializedVersion: 2
-        x: 586
-        y: 464
-        width: 6
-        height: 6
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_8
       rect:
         serializedVersion: 2
-        x: 680
-        y: 429
-        width: 48
-        height: 41
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_9
       rect:
         serializedVersion: 2
-        x: 691
-        y: 468
-        width: 7
-        height: 8
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_10
       rect:
         serializedVersion: 2
-        x: 804
-        y: 427
-        width: 56
-        height: 51
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_11
       rect:
         serializedVersion: 2
-        x: 174
-        y: 432
-        width: 37
-        height: 34
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_12
       rect:
         serializedVersion: 2
-        x: 207
-        y: 459
-        width: 6
-        height: 6
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_13
       rect:
         serializedVersion: 2
-        x: 303
-        y: 432
-        width: 38
-        height: 34
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_14
       rect:
         serializedVersion: 2
-        x: 581
-        y: 450
-        width: 18
-        height: 15
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_15
       rect:
         serializedVersion: 2
-        x: 714
-        y: 447
-        width: 16
-        height: 14
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_16
       rect:
         serializedVersion: 2
-        x: 552
-        y: 430
-        width: 48
-        height: 25
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_17
       rect:
         serializedVersion: 2
-        x: 677
-        y: 449
-        width: 7
-        height: 7
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_18
       rect:
         serializedVersion: 2
-        x: 932
-        y: 430
-        width: 54
-        height: 21
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_19
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 430
-        width: 56
-        height: 25
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_20
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 430
-        width: 56
-        height: 21
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_21
       rect:
         serializedVersion: 2
-        x: 42
-        y: 304
-        width: 43
-        height: 37
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_22
       rect:
         serializedVersion: 2
-        x: 49
-        y: 334
-        width: 9
-        height: 9
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_23
       rect:
         serializedVersion: 2
-        x: 177
-        y: 337
-        width: 8
-        height: 8
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_24
       rect:
         serializedVersion: 2
-        x: 304
-        y: 339
-        width: 6
-        height: 6
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_25
       rect:
         serializedVersion: 2
-        x: 426
-        y: 302
-        width: 44
-        height: 44
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_26
       rect:
         serializedVersion: 2
-        x: 560
-        y: 336
-        width: 6
-        height: 6
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,12 +935,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_27
       rect:
         serializedVersion: 2
-        x: 566
-        y: 321
-        width: 17
-        height: 25
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,12 +957,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_28
       rect:
         serializedVersion: 2
-        x: 580
-        y: 324
-        width: 21
-        height: 20
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,12 +979,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_29
       rect:
         serializedVersion: 2
-        x: 680
-        y: 301
-        width: 48
-        height: 41
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,12 +1001,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_30
       rect:
         serializedVersion: 2
-        x: 710
-        y: 340
-        width: 7
-        height: 8
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_31
       rect:
         serializedVersion: 2
-        x: 804
-        y: 299
-        width: 56
-        height: 51
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_32
       rect:
         serializedVersion: 2
-        x: 172
-        y: 332
-        width: 6
-        height: 6
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,12 +1067,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_33
       rect:
         serializedVersion: 2
-        x: 174
-        y: 305
-        width: 37
-        height: 34
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,12 +1089,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_34
       rect:
         serializedVersion: 2
-        x: 299
-        y: 304
-        width: 38
-        height: 34
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_35
       rect:
         serializedVersion: 2
-        x: 553
-        y: 322
-        width: 18
-        height: 15
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,12 +1133,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_36
       rect:
         serializedVersion: 2
-        x: 678
-        y: 319
-        width: 16
-        height: 14
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_37
       rect:
         serializedVersion: 2
-        x: 552
-        y: 302
-        width: 48
-        height: 25
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_38
       rect:
         serializedVersion: 2
-        x: 724
-        y: 321
-        width: 7
-        height: 7
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: Slime_boss2_Death_with_shadow_39
       rect:
         serializedVersion: 2
-        x: 934
-        y: 302
-        width: 54
-        height: 21
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1217,803 +1217,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_40
-      rect:
-        serializedVersion: 2
-        x: 1061
-        y: 303
-        width: 56
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 526b4bb0ac98ff830800000000000000
-      internalID: 4107152886057973285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_41
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 302
-        width: 56
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9587f077b628747a0800000000000000
-      internalID: -6392997747958515623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_42
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 176
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08dc3ba268caad460800000000000000
-      internalID: 7267310640957738368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_43
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 206
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14a62cf7f14e6f800800000000000000
-      internalID: 645954420512811585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_44
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 201
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 475be4b78b1159210800000000000000
-      internalID: 1338995948253001076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_45
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 208
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07c4fb0fac7f58a90800000000000000
-      internalID: -7312165968971608976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_46
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 203
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbe37244156fab3d0800000000000000
-      internalID: -3189966557142368580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_47
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 205
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b967756400d1d8040800000000000000
-      internalID: 4651405877160933019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_48
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 176
-        width: 37
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86f153322a4a56d10800000000000000
-      internalID: 2118280216030027624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_49
-      rect:
-        serializedVersion: 2
-        x: 553
-        y: 197
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be8707abb5175d460800000000000000
-      internalID: 7265838212616059115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_50
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 208
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a96e1a67199fd9f10800000000000000
-      internalID: 2278251389675234970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_51
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 193
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 846a2adb6b77ab9b0800000000000000
-      internalID: -5063603204275395000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_52
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 173
-        width: 48
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e833c17961c194840800000000000000
-      internalID: 5208725327380755342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_53
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 176
-        width: 48
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b086353c73de9410800000000000000
-      internalID: 1485857457501012147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_54
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 176
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8f49d4a767555e70800000000000000
-      internalID: 9103278324458278795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_55
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 176
-        width: 25
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5a5741f261690580800000000000000
-      internalID: -8860443714292065700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_56
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 176
-        width: 48
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a966004df13789620800000000000000
-      internalID: 2781099350439257754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_57
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 194
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b2a77e7d22803d50800000000000000
-      internalID: 6715010176316318385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_58
-      rect:
-        serializedVersion: 2
-        x: 934
-        y: 174
-        width: 54
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb8e1dfa066399250800000000000000
-      internalID: 5951848171441350844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_59
-      rect:
-        serializedVersion: 2
-        x: 1061
-        y: 174
-        width: 56
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22a28338d052b2e30800000000000000
-      internalID: 4479714994316388898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_60
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 174
-        width: 56
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c614bfa8de980df10800000000000000
-      internalID: 2292483863663559020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_61
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 48
-        width: 34
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 754d6400f05982260800000000000000
-      internalID: 7073067106447053911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_62
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 78
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12f70ed5536728b70800000000000000
-      internalID: 8899805785217859361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_63
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 75
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cc64ba44633ee430800000000000000
-      internalID: 3814042440272473281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_64
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6fe3b305928aa110800000000000000
-      internalID: 1272973421209448300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_65
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 48
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bde20117b8bcb2390800000000000000
-      internalID: -7841950526377808165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_66
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 77
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 429fcdeea1e3d2c70800000000000000
-      internalID: 8947876320052574500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_67
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 48
-        width: 25
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 743b6e17646361e00800000000000000
-      internalID: 1015058442205180743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_68
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 48
-        width: 37
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 177edd4036f28c820800000000000000
-      internalID: 2938650859189167985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_69
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 48
-        width: 48
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 076db91cde2db2f50800000000000000
-      internalID: 6857806776199009904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_70
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 65
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e059d197abb3fe790800000000000000
-      internalID: -7498709182466648818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_71
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 45
-        width: 48
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bf9e48293b21da00800000000000000
-      internalID: 779451735001178035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_72
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 43
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c41e057b7811b1040800000000000000
-      internalID: 4619305117392363852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_73
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 46
-        width: 54
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f03832078a563b4c0800000000000000
-      internalID: -4272959847334182129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_74
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 46
-        width: 56
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d70f1aededec65770800000000000000
-      internalID: 8599287995123757181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_boss2_Death_with_shadow_75
-      rect:
-        serializedVersion: 2
-        x: 1187
-        y: 46
-        width: 56
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bcca4bf1e5fbb430800000000000000
-      internalID: 3799901061549575347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15500ae091527f64abe9f8d7a33c9c99
     internalID: 0
     vertices: []
     indices: 
@@ -2021,7 +1229,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slime_boss2_Death_with_shadow_0: -6474714750221658420
       Slime_boss2_Death_with_shadow_1: -1663026814509826167
@@ -2058,45 +1268,9 @@ TextureImporter:
       Slime_boss2_Death_with_shadow_38: 7514127743807489402
       Slime_boss2_Death_with_shadow_39: 1964585883247894743
       Slime_boss2_Death_with_shadow_4: -3670684227144248155
-      Slime_boss2_Death_with_shadow_40: 4107152886057973285
-      Slime_boss2_Death_with_shadow_41: -6392997747958515623
-      Slime_boss2_Death_with_shadow_42: 7267310640957738368
-      Slime_boss2_Death_with_shadow_43: 645954420512811585
-      Slime_boss2_Death_with_shadow_44: 1338995948253001076
-      Slime_boss2_Death_with_shadow_45: -7312165968971608976
-      Slime_boss2_Death_with_shadow_46: -3189966557142368580
-      Slime_boss2_Death_with_shadow_47: 4651405877160933019
-      Slime_boss2_Death_with_shadow_48: 2118280216030027624
-      Slime_boss2_Death_with_shadow_49: 7265838212616059115
       Slime_boss2_Death_with_shadow_5: -8935820113194146661
-      Slime_boss2_Death_with_shadow_50: 2278251389675234970
-      Slime_boss2_Death_with_shadow_51: -5063603204275395000
-      Slime_boss2_Death_with_shadow_52: 5208725327380755342
-      Slime_boss2_Death_with_shadow_53: 1485857457501012147
-      Slime_boss2_Death_with_shadow_54: 9103278324458278795
-      Slime_boss2_Death_with_shadow_55: -8860443714292065700
-      Slime_boss2_Death_with_shadow_56: 2781099350439257754
-      Slime_boss2_Death_with_shadow_57: 6715010176316318385
-      Slime_boss2_Death_with_shadow_58: 5951848171441350844
-      Slime_boss2_Death_with_shadow_59: 4479714994316388898
       Slime_boss2_Death_with_shadow_6: 8559707723170182657
-      Slime_boss2_Death_with_shadow_60: 2292483863663559020
-      Slime_boss2_Death_with_shadow_61: 7073067106447053911
-      Slime_boss2_Death_with_shadow_62: 8899805785217859361
-      Slime_boss2_Death_with_shadow_63: 3814042440272473281
-      Slime_boss2_Death_with_shadow_64: 1272973421209448300
-      Slime_boss2_Death_with_shadow_65: -7841950526377808165
-      Slime_boss2_Death_with_shadow_66: 8947876320052574500
-      Slime_boss2_Death_with_shadow_67: 1015058442205180743
-      Slime_boss2_Death_with_shadow_68: 2938650859189167985
-      Slime_boss2_Death_with_shadow_69: 6857806776199009904
       Slime_boss2_Death_with_shadow_7: -3632275406807246461
-      Slime_boss2_Death_with_shadow_70: -7498709182466648818
-      Slime_boss2_Death_with_shadow_71: 779451735001178035
-      Slime_boss2_Death_with_shadow_72: 4619305117392363852
-      Slime_boss2_Death_with_shadow_73: -4272959847334182129
-      Slime_boss2_Death_with_shadow_74: 8599287995123757181
-      Slime_boss2_Death_with_shadow_75: 3799901061549575347
       Slime_boss2_Death_with_shadow_8: -8645220873764983100
       Slime_boss2_Death_with_shadow_9: -690488322837993404
   mipmapLimitGroupName: 
