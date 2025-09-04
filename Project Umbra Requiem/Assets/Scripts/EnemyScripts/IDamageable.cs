@@ -1,4 +1,9 @@
-public interface IDamageable
+using UnityEngine;
+
+public class EnemyGeneral : MonoBehaviour
 {
-    void TakeDamage(int damage);
+    public void TakeDamage(int damage)
+    {
+        // Lógica de dano
+    }
 }
