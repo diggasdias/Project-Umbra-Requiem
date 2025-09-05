@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 8500529710622831994}
   - component: {fileID: 6548305579320475261}
   - component: {fileID: 3076709440418312934}
-  - component: {fileID: 74310951697313312}
   m_Layer: 0
   m_Name: BeholderV1
   m_TagString: Untagged
@@ -184,19 +183,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &74310951697313312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2765804895966829695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c3dae4e9b203946b77ac7d992fb89e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyGeneral
-  health: 3
 --- !u!1 &6933964212974750420
 GameObject:
   m_ObjectHideFlags: 0
