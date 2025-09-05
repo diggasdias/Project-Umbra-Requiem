@@ -3,7 +3,6 @@ using UnityEngine;
 public class ScytheAttack : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
-    [SerializeField] private int damage = 1; // Valor do dano
     private Vector2 direction;
 
     public void SetDirection(Vector2 dir)
@@ -25,16 +24,5 @@ public class ScytheAttack : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, 0.5f); // Destroi após 0.5 segundos
-    }
-
-    // Detecta colisão com inimigos
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        var damageable = other.GetComponent<IDamageable>();
-        if (damageable != null)
-        {
-            damageable.TakeDamage(damage);
-            Destroy(gameObject);
-        }
     }
 }
