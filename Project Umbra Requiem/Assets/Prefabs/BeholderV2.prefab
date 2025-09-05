@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6540901275013801530}
   - component: {fileID: 3921435086054824530}
   - component: {fileID: 6279663322794806637}
-  - component: {fileID: 817559195687438706}
   m_Layer: 0
   m_Name: BeholderV2
   m_TagString: Untagged
@@ -71,19 +70,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyControl
   agent: {fileID: 3921435086054824530}
---- !u!114 &817559195687438706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2629056717189010098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c3dae4e9b203946b77ac7d992fb89e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyGeneral
-  health: 3
 --- !u!1 &4059362011777803004
 GameObject:
   m_ObjectHideFlags: 0
