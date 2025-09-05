@@ -247,7 +247,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -261,7 +261,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -285,7 +285,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -326,12 +326,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 209
-        width: 22
-        height: 38
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -348,12 +348,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 209
-        width: 24
-        height: 37
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 209
-        width: 26
-        height: 36
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 221
-        width: 23
-        height: 26
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_4
       rect:
         serializedVersion: 2
-        x: 275
-        y: 224
-        width: 22
-        height: 28
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_5
       rect:
         serializedVersion: 2
-        x: 335
-        y: 226
-        width: 29
-        height: 28
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +458,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_6
       rect:
         serializedVersion: 2
-        x: 397
-        y: 231
-        width: 25
-        height: 25
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +480,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_7
       rect:
         serializedVersion: 2
-        x: 415
-        y: 236
-        width: 14
-        height: 12
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_8
       rect:
         serializedVersion: 2
-        x: 459
-        y: 239
-        width: 10
-        height: 13
+        x: 512
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_9
       rect:
         serializedVersion: 2
-        x: 470
-        y: 247
-        width: 9
-        height: 9
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_10
       rect:
         serializedVersion: 2
-        x: 479
-        y: 242
-        width: 8
-        height: 7
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_11
       rect:
         serializedVersion: 2
-        x: 522
-        y: 245
-        width: 7
-        height: 8
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +590,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_12
       rect:
         serializedVersion: 2
-        x: 533
-        y: 245
-        width: 15
-        height: 11
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_13
       rect:
         serializedVersion: 2
-        x: 293
-        y: 224
-        width: 6
-        height: 7
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_14
       rect:
         serializedVersion: 2
-        x: 215
-        y: 209
-        width: 18
-        height: 12
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_15
       rect:
         serializedVersion: 2
-        x: 279
-        y: 209
-        width: 18
-        height: 12
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +678,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_16
       rect:
         serializedVersion: 2
-        x: 343
-        y: 209
-        width: 18
-        height: 12
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +700,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_17
       rect:
         serializedVersion: 2
-        x: 407
-        y: 209
-        width: 18
-        height: 12
+        x: 512
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_18
       rect:
         serializedVersion: 2
-        x: 21
-        y: 145
-        width: 22
-        height: 38
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +744,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_19
       rect:
         serializedVersion: 2
-        x: 84
-        y: 145
-        width: 24
-        height: 37
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_20
       rect:
         serializedVersion: 2
-        x: 147
-        y: 145
-        width: 26
-        height: 36
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +788,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_21
       rect:
         serializedVersion: 2
-        x: 213
-        y: 157
-        width: 23
-        height: 27
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +810,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_22
       rect:
         serializedVersion: 2
-        x: 279
-        y: 160
-        width: 23
-        height: 28
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +832,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_23
       rect:
         serializedVersion: 2
-        x: 340
-        y: 163
-        width: 29
-        height: 27
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +854,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_24
       rect:
         serializedVersion: 2
-        x: 406
-        y: 171
-        width: 11
-        height: 13
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_25
       rect:
         serializedVersion: 2
-        x: 412
-        y: 167
-        width: 24
-        height: 25
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_26
       rect:
         serializedVersion: 2
-        x: 473
-        y: 174
-        width: 8
-        height: 11
+        x: 512
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +920,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_27
       rect:
         serializedVersion: 2
-        x: 481
-        y: 183
-        width: 13
-        height: 10
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +942,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_28
       rect:
         serializedVersion: 2
-        x: 491
-        y: 169
-        width: 10
-        height: 19
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_29
       rect:
         serializedVersion: 2
-        x: 540
-        y: 181
-        width: 15
-        height: 11
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +986,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_30
       rect:
         serializedVersion: 2
-        x: 559
-        y: 181
-        width: 7
-        height: 8
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_31
       rect:
         serializedVersion: 2
-        x: 215
-        y: 145
-        width: 18
-        height: 12
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1030,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_32
       rect:
         serializedVersion: 2
-        x: 279
-        y: 145
-        width: 18
-        height: 12
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1052,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_33
       rect:
         serializedVersion: 2
-        x: 343
-        y: 145
-        width: 18
-        height: 12
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1074,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_34
       rect:
         serializedVersion: 2
-        x: 407
-        y: 145
-        width: 18
-        height: 12
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1096,12 @@ TextureImporter:
       name: Ghost2_Death_with_shadow_35
       rect:
         serializedVersion: 2
-        x: 22
-        y: 81
-        width: 22
-        height: 38
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1114,781 +1114,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_36
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 81
-        width: 22
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f5ec6be5365fcb80800000000000000
-      internalID: -8372378392675424777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_37
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 81
-        width: 21
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d678766ddb5b58ef0800000000000000
-      internalID: -106479189222783123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_38
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 94
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 721c7666fb643d2c0800000000000000
-      internalID: -4408101822394810073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_39
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 96
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0edf59c3f003402d0800000000000000
-      internalID: -3313470583838736928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_40
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 99
-        width: 31
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 456c58da6cadd6710800000000000000
-      internalID: 1688245982183409236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_41
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 103
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8df1cb0cff4af860800000000000000
-      internalID: 7564446468069784974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_42
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 108
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fb1ba2b8ae6d17f0800000000000000
-      internalID: -640233901185623053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_43
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 111
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f9ee4a646f789d40800000000000000
-      internalID: 5591359006637484530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_44
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 119
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ee8b4b2f340ab1e0800000000000000
-      internalID: -2181426400151761179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_45
-      rect:
-        serializedVersion: 2
-        x: 479
-        y: 114
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8bdc867510948900800000000000000
-      internalID: 685831465124813710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_46
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 117
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2cf176d1248b1660800000000000000
-      internalID: 7357619697106418731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_47
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 117
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6434df2f5cdd4ecc0800000000000000
-      internalID: -3682574753027243194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_48
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 100
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3b552af2fafff5b0800000000000000
-      internalID: -5332267512297596102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_49
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 81
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cd9c312d57c9a2f0800000000000000
-      internalID: -961017842663383615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_50
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 81
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cb663b5f37eddde0800000000000000
-      internalID: -1306634057568326712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_51
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 81
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d80a79be5285171a0800000000000000
-      internalID: -6813567841345232755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_52
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 81
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99e4f22ba97560e90800000000000000
-      internalID: -7059859043930648935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_53
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 17
-        width: 22
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81697ca98c32b76f0800000000000000
-      internalID: -685915173746665960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_54
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 17
-        width: 22
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3898663e69b2a9480800000000000000
-      internalID: -8891746587229386365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_55
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 17
-        width: 21
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f0d1cfc054b03cd0800000000000000
-      internalID: -2580364327307325194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_56
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 30
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91f172997fba5a8a0800000000000000
-      internalID: -6294435824265650407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_57
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 32
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7548a67c8efac8eb0800000000000000
-      internalID: -4716201295450831785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_58
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 35
-        width: 31
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c168b5de948518790800000000000000
-      internalID: -7529640027448703460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_59
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 44
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85280cb7020bc8980800000000000000
-      internalID: -8535253540212276648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_60
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 39
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56e98fc14c533a290800000000000000
-      internalID: -7880395806552318363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_61
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 50
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: feb6e71a31e41d000800000000000000
-      internalID: 58914116353289199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_62
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 55
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fb1a2cb4b42f5170800000000000000
-      internalID: 8169288607742958585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_63
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 47
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8254b2bc80cabea30800000000000000
-      internalID: 4245676227495150888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_64
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 53
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45452b725d0c9c410800000000000000
-      internalID: 1497940372803966036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_65
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 53
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36bda5f1ed69156b0800000000000000
-      internalID: -5309296604940149917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_66
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 36
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fc3d024085283280800000000000000
-      internalID: -9063453017288917770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_67
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 17
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daf2d70f9dfc696a0800000000000000
-      internalID: -6442733681957326931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_68
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 17
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9555273911ce62ee0800000000000000
-      internalID: -1286081083335355047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_69
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 17
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff6926bee6ae9c590800000000000000
-      internalID: -7653328329623038209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost2_Death_with_shadow_70
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 17
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 755343233db5b7930800000000000000
-      internalID: 4142005244935812439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e6e58774c88b4344ba3dbe131cd37e7
     internalID: 0
     vertices: []
     indices: 
@@ -1896,7 +1126,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Ghost2_Death_with_shadow_0: -6963199017149113048
       Ghost2_Death_with_shadow_1: -4681183443044037190
@@ -1928,45 +1160,10 @@ TextureImporter:
       Ghost2_Death_with_shadow_33: -455807969900757813
       Ghost2_Death_with_shadow_34: -5608716471889727104
       Ghost2_Death_with_shadow_35: -7849749781747695832
-      Ghost2_Death_with_shadow_36: -8372378392675424777
-      Ghost2_Death_with_shadow_37: -106479189222783123
-      Ghost2_Death_with_shadow_38: -4408101822394810073
-      Ghost2_Death_with_shadow_39: -3313470583838736928
       Ghost2_Death_with_shadow_4: -6173795297196005288
-      Ghost2_Death_with_shadow_40: 1688245982183409236
-      Ghost2_Death_with_shadow_41: 7564446468069784974
-      Ghost2_Death_with_shadow_42: -640233901185623053
-      Ghost2_Death_with_shadow_43: 5591359006637484530
-      Ghost2_Death_with_shadow_44: -2181426400151761179
-      Ghost2_Death_with_shadow_45: 685831465124813710
-      Ghost2_Death_with_shadow_46: 7357619697106418731
-      Ghost2_Death_with_shadow_47: -3682574753027243194
-      Ghost2_Death_with_shadow_48: -5332267512297596102
-      Ghost2_Death_with_shadow_49: -961017842663383615
       Ghost2_Death_with_shadow_5: 6985081183510875970
-      Ghost2_Death_with_shadow_50: -1306634057568326712
-      Ghost2_Death_with_shadow_51: -6813567841345232755
-      Ghost2_Death_with_shadow_52: -7059859043930648935
-      Ghost2_Death_with_shadow_53: -685915173746665960
-      Ghost2_Death_with_shadow_54: -8891746587229386365
-      Ghost2_Death_with_shadow_55: -2580364327307325194
-      Ghost2_Death_with_shadow_56: -6294435824265650407
-      Ghost2_Death_with_shadow_57: -4716201295450831785
-      Ghost2_Death_with_shadow_58: -7529640027448703460
-      Ghost2_Death_with_shadow_59: -8535253540212276648
       Ghost2_Death_with_shadow_6: 1109602997085440398
-      Ghost2_Death_with_shadow_60: -7880395806552318363
-      Ghost2_Death_with_shadow_61: 58914116353289199
-      Ghost2_Death_with_shadow_62: 8169288607742958585
-      Ghost2_Death_with_shadow_63: 4245676227495150888
-      Ghost2_Death_with_shadow_64: 1497940372803966036
-      Ghost2_Death_with_shadow_65: -5309296604940149917
-      Ghost2_Death_with_shadow_66: -9063453017288917770
-      Ghost2_Death_with_shadow_67: -6442733681957326931
-      Ghost2_Death_with_shadow_68: -1286081083335355047
-      Ghost2_Death_with_shadow_69: -7653328329623038209
       Ghost2_Death_with_shadow_7: -8828109020796758635
-      Ghost2_Death_with_shadow_70: 4142005244935812439
       Ghost2_Death_with_shadow_8: 670749652909236198
       Ghost2_Death_with_shadow_9: -8522818036890692865
   mipmapLimitGroupName: 

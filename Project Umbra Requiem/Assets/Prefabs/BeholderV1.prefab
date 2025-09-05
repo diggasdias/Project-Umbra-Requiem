@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6517380597094293919}
   - component: {fileID: 3767595155934230972}
   - component: {fileID: 7445239522216955978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,8 +124,8 @@ GameObject:
   - component: {fileID: 8500529710622831994}
   - component: {fileID: 6548305579320475261}
   - component: {fileID: 3076709440418312934}
-  - component: {fileID: 74310951697313312}
-  m_Layer: 0
+  - component: {fileID: 6834721291518404445}
+  m_Layer: 6
   m_Name: BeholderV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &74310951697313312
+--- !u!114 &6834721291518404445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,9 +193,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2765804895966829695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c3dae4e9b203946b77ac7d992fb89e, type: 3}
+  m_Script: {fileID: 11500000, guid: 4997cf8d374deba46bda04d100391c90, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::BeholderV1Config
   health: 3
 --- !u!1 &6933964212974750420
 GameObject:
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 3957910061648721452}
   - component: {fileID: 2166451294454942149}
   - component: {fileID: 688195123321079706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
