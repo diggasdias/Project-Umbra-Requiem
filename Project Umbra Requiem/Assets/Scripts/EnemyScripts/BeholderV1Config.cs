@@ -6,19 +6,23 @@ public class BeholderV1Config : MonoBehaviour
     private Animator animator;
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = FindAnyObjectByType<Animator>();
     }
     public void TakeDamage(int damage)
     {
         health -= damage;
         Debug.Log("teste funcionou"); 
-        if (health <= 0)
-            Destroy(gameObject);
+        if (health <= 0) 
+        { 
+            animator.SetTrigger("Die");
+            Destroy(gameObject, 0.5f);
+        }
     }
 
-    void OnTriggerEnter2D(CircleCollider2D circleCollider)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (circleCollider.CompareTag("Scythe"))
+        Debug.Log("entrou no trigger");
+        if (collision.CompareTag("Scythe"))
         {
             TakeDamage(1);
             animator.SetTrigger("Hit");
