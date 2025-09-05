@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6730498536600075338}
   - component: {fileID: 4626584527781672832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 1727853318709915949}
   - component: {fileID: 1464439607422503988}
   - component: {fileID: 2331774132168317767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 1903190469946218532}
   - component: {fileID: 5523596132134140634}
   - component: {fileID: 7766004984255815047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GolemV2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,8 +219,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.444, y: 0.476, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1727853318709915949}
   - {fileID: 6730498536600075338}
@@ -236,7 +236,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

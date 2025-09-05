@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8722602731644385398}
   - component: {fileID: 8434576111663344267}
   - component: {fileID: 1757821734500831935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8222853880802009375}
   - component: {fileID: 6147141049610209697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 4882343475323044703}
   - component: {fileID: 3811387492206366310}
   - component: {fileID: 5319097028064727438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GoblinV2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,8 +219,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.93, y: 1.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8722602731644385398}
   - {fileID: 8222853880802009375}
