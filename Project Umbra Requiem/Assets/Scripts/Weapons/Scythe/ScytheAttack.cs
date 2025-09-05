@@ -7,8 +7,10 @@ public class ScytheAttack : MonoBehaviour
     [SerializeField] private float radius = 0.5f; // raio do ataque
     [SerializeField] private LayerMask enemyLayer; // camada dos inimigos
     [SerializeField] private Transform attackPoint; // ponto de origem do ataque
+    [SerializeField] private GameObject scytheAttackPrefab; // prefab da foice
 
     private Vector2 direction;
+    private Player player;
 
     public void SetDirection(Vector2 dir)
     {
@@ -28,6 +30,8 @@ public class ScytheAttack : MonoBehaviour
 
     void Start()
     {
+        player = FindAnyObjectByType<Player>();
+
         // Detecta inimigos ao redor do ponto de ataque ao instanciar
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             attackPoint != null ? attackPoint.position : transform.position,
@@ -45,6 +49,19 @@ public class ScytheAttack : MonoBehaviour
         }
 
         Destroy(gameObject, 0.5f);
+    }
+
+    public void ScytheAttackEvent()
+    {
+        // Instancie o prefab da foice e configure a direção, posição, etc.
+        // Exemplo:
+        Vector2 attackDir = new Vector2(Mathf.Sign(player.LastHorizontal), 0);
+        Vector3 spawnPos = transform.position + (Vector3)(attackDir * 1f); // ajuste a distância
+
+        GameObject attack = Instantiate(scytheAttackPrefab, spawnPos, Quaternion.identity);
+        ScytheAttack scythe = attack.GetComponent<ScytheAttack>();
+        if (scythe != null)
+            scythe.SetDirection(attackDir);
     }
 
     // Visualização do raio no editor

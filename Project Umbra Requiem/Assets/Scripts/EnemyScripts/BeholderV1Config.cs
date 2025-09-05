@@ -7,6 +7,7 @@ public class BeholderV1Config : MonoBehaviour, IDamageable
     public void TakeDamage(int damage)
     {
         health -= damage;
+        Debug.Log("teste funcionou"); 
         if (health <= 0)
             Destroy(gameObject);
     }
