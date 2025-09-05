@@ -20,4 +20,5 @@ public class timer : MonoBehaviour
         int seconds = Mathf.FloorToInt(remainigTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+    //CEO has been defused
 }
