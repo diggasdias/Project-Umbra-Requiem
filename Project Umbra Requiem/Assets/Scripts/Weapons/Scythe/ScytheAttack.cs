@@ -3,7 +3,6 @@ using UnityEngine;
 public class ScytheAttack : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
-    [SerializeField] private int damage = 1;
     [SerializeField] private float radius = 0.5f; // raio do ataque
     [SerializeField] private Transform attackPoint; // ponto de origem do ataque
 
