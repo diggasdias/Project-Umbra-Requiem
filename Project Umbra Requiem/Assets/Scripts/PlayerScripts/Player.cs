@@ -10,11 +10,16 @@ public class Player : MonoBehaviour
     private float initialSpeed = 3;
     private Vector2 direction;
 
-    [Header("Attack Settings")]
-    [SerializeField] private GameObject scytheAttackPrefab;
-    [SerializeField] private float attackCooldown = 1f;
-    [SerializeField] private float attackDistance = 1f; // Distância do ataque
-    private float lastAttackTime;
+    [Header("Scythe Attack Settings")]
+    [SerializeField] private GameObject ScytheAttackPrefab;
+    [SerializeField] private float ScytheAttackCooldown = 1f;
+    [SerializeField] private float ScytheAttackDistance = 1f; // Distância do ataque
+    private float ScytheLastAttackTime;
+    [Header("Sickle Attack Settings")]
+    [SerializeField] private GameObject SickleAttackPrefab;
+    [SerializeField] private float SickleAttackCooldown = 1f;
+    [SerializeField] private float SickleAttackDistance = 1f; // Distância do ataque
+    private float SickleLastAttackTime;
 
     public Vector2 Direction { get => direction; set => direction = value; }
     public float LastHorizontal { get; private set; }
@@ -27,7 +32,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         OnInput();
-        HandleAttack();
+        ScytheAttack();
+        SickleAttack();
     }
 
     void Start()
@@ -50,21 +56,38 @@ public class Player : MonoBehaviour
         rig.MovePosition(rig.position + Direction * speed * Time.fixedDeltaTime);
     }
 
-    void HandleAttack()
+    void ScytheAttack()
     {
-        if (Time.time >= lastAttackTime + attackCooldown)
+        if (Time.time >= ScytheLastAttackTime + ScytheAttackCooldown)
         {
             Vector2 attackDir = new Vector2(Mathf.Sign(LastHorizontal), 0);
 
             // Calcula a posição do ataque um pouco à frente do player
-            Vector3 spawnPos = transform.position + (Vector3)(attackDir * attackDistance);
+            Vector3 spawnPos = transform.position + (Vector3)(attackDir * ScytheAttackDistance);
 
-            GameObject attack = Instantiate(scytheAttackPrefab, spawnPos, Quaternion.identity);
+            GameObject attack = Instantiate(ScytheAttackPrefab, spawnPos, Quaternion.identity);
             ScytheAttack scythe = attack.GetComponent<ScytheAttack>();
             if (scythe != null)
                 scythe.SetDirection(attackDir);
 
-            lastAttackTime = Time.time;
+            ScytheLastAttackTime = Time.time;
+        }
+    }
+    void SickleAttack()
+    {
+        if (Time.time >= SickleLastAttackTime + SickleAttackCooldown)
+        {
+            Vector2 attackDir = new Vector2(Mathf.Sign(LastHorizontal), 0);
+
+            // Calcula a posição do ataque um pouco à frente do player
+            Vector3 spawnPos = transform.position + (Vector3)(attackDir * SickleAttackDistance);
+
+            GameObject attack = Instantiate(SickleAttackPrefab, spawnPos, Quaternion.identity);
+            SickleAttack sickle = attack.GetComponent<SickleAttack>();
+            if (sickle != null)
+                sickle.SetDirection(attackDir);
+
+            SickleLastAttackTime = Time.time;
         }
     }
     #endregion
