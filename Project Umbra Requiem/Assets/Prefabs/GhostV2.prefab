@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2070593312486020731}
   - component: {fileID: 9052784266746912133}
   - component: {fileID: 5940563073764841787}
-  - component: {fileID: 3177956829491583054}
   m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
@@ -161,19 +160,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3177956829491583054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6840511148258222643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc8101632ba99094895536e885b633eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GhostV2Config
-  health: 3
 --- !u!1 &7239018557911571102
 GameObject:
   m_ObjectHideFlags: 0
