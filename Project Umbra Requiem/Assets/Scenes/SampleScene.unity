@@ -260,6 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlueXp
   agent: {fileID: 0}
+  xpValue: 5
 --- !u!1 &144148972
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +408,6 @@ GameObject:
   - component: {fileID: 438274826}
   - component: {fileID: 438274828}
   - component: {fileID: 438274827}
-  - component: {fileID: 438274829}
   m_Layer: 0
   m_Name: pedra
   m_TagString: Untagged
@@ -329035,22 +329035,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &438274829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438274825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: NavMeshComponents::UnityEngine.AI.NavMeshModifier
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1 &447656066
 GameObject:
   m_ObjectHideFlags: 0
@@ -329062,7 +329046,6 @@ GameObject:
   - component: {fileID: 447656067}
   - component: {fileID: 447656069}
   - component: {fileID: 447656068}
-  - component: {fileID: 447656070}
   m_Layer: 0
   m_Name: objetos
   m_TagString: Untagged
@@ -350348,22 +350331,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &447656070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447656066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: NavMeshComponents::UnityEngine.AI.NavMeshModifier
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1 &510906402
 GameObject:
   m_ObjectHideFlags: 0
@@ -350375,7 +350342,6 @@ GameObject:
   - component: {fileID: 510906403}
   - component: {fileID: 510906405}
   - component: {fileID: 510906404}
-  - component: {fileID: 510906406}
   m_Layer: 0
   m_Name: Details
   m_TagString: Untagged
@@ -370243,22 +370209,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &510906406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510906402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: NavMeshComponents::UnityEngine.AI.NavMeshModifier
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -370429,73 +370379,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
---- !u!1 &546926908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 546926910}
-  - component: {fileID: 546926909}
-  m_Layer: 0
-  m_Name: navMesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &546926909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546926908}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148387606d0ccd84fa326ca211f274ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: NavMeshComponents::UnityEngine.AI.NavMeshSurface2d
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_OverrideByGrid: 0
-  m_UseMeshPrefab: {fileID: 0}
-  m_CompressBounds: 0
-  m_OverrideVector: {x: 1, y: 1, z: 1}
-  m_DefaultArea: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_BuildHeightMesh: 0
-  m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 3f147bf597e5ef748969b5736706851a, type: 2}
---- !u!4 &546926910
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546926908}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1575560163}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -370580,63 +370463,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1168737647
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 113.80281
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -57.05173
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232418467879499088, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5267559431441062412, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
-      propertyPath: m_Name
-      value: SpiderMushBoss
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
 --- !u!1 &1270337530
 GameObject:
   m_ObjectHideFlags: 0
@@ -371087,7 +370913,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575560161}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -371096,7 +370922,7 @@ Transform:
   - {fileID: 447656067}
   - {fileID: 2107080892}
   - {fileID: 510906403}
-  m_Father: {fileID: 546926910}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650033677
 GameObject:
@@ -371396,7 +371222,6 @@ GameObject:
   - component: {fileID: 2107080892}
   - component: {fileID: 2107080894}
   - component: {fileID: 2107080893}
-  - component: {fileID: 2107080895}
   - component: {fileID: 2107080896}
   - component: {fileID: 2107080898}
   - component: {fileID: 2107080897}
@@ -375221,22 +375046,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &2107080895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107080891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: NavMeshComponents::UnityEngine.AI.NavMeshModifier
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!19719996 &2107080896
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -375426,7 +375235,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 546926910}
+  - {fileID: 1575560163}
   - {fileID: 7241258707244386692}
   - {fileID: 1271860895}
   - {fileID: 1404954877}
@@ -375434,4 +375243,3 @@ SceneRoots:
   - {fileID: 10957729}
   - {fileID: 1650033680}
   - {fileID: 1923418387}
-  - {fileID: 1168737647}
