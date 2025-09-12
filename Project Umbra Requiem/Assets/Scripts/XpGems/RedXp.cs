@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class BlueXp : MonoBehaviour
+public class RedXp : MonoBehaviour
 {
     private Player player;
-    [SerializeField] private int xpValue = 1; // Valor de XP da gema azul
+    [SerializeField] private int xpValue = 10; // Valor de XP da gema azul
 
     void Start()
     {
