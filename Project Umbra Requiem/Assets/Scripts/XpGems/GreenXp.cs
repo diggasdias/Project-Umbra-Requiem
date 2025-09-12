@@ -3,17 +3,24 @@ using UnityEngine;
 public class GreenXp : MonoBehaviour
 {
     private Player player;
-    [SerializeField] private UnityEngine.AI.NavMeshAgent agent;
-
+    [SerializeField] private int xpValue = 5; // Valor de XP da gema azul
+     
     void Start()
     {
         player = FindAnyObjectByType<Player>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
     }
 
     void Update()
     {
-        agent.SetDestination(player.transform.position);
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            player.AddXP(xpValue);
+            Destroy(gameObject);
+        }
     }
 }

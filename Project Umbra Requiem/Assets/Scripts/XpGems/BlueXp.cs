@@ -3,19 +3,16 @@ using UnityEngine;
 public class BlueXp : MonoBehaviour
 {
     private Player player;
-    [SerializeField] private UnityEngine.AI.NavMeshAgent agent;
-    [SerializeField] private int xpValue = 5; // Valor de XP da gema azul
+    [SerializeField] private int xpValue = 1; // Valor de XP da gema azul
 
     void Start()
     {
         player = FindAnyObjectByType<Player>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
     }
 
     void Update()
     {
-        agent.SetDestination(player.transform.position);
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
