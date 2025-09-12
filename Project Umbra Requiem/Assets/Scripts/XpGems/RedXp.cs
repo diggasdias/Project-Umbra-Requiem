@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class BlueXp : MonoBehaviour
+public class RedXp : MonoBehaviour
 {
     private Player player;
     [SerializeField] private UnityEngine.AI.NavMeshAgent agent;
-    [SerializeField] private int xpValue = 5; // Valor de XP da gema azul
 
     void Start()
     {
@@ -16,14 +15,5 @@ public class BlueXp : MonoBehaviour
     void Update()
     {
         agent.SetDestination(player.transform.position);
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            player.AddXP(xpValue);
-            Destroy(gameObject);
-        }
     }
 }

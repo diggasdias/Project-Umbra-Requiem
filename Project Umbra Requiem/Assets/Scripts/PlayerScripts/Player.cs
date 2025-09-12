@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float SickleAttackCooldown = 1f;
     [SerializeField] private float SickleAttackDistance = 1f; // Distância do ataque
     private float SickleLastAttackTime;
+    [Header("XP Settings")]
+    [SerializeField] public int CurrentXP = 0;
+    public int Level { get; private set; } = 1;
+    public int XPToNextLevel { get; private set; } = 10;
 
     public Vector2 Direction { get => direction; set => direction = value; }
     public float LastHorizontal { get; private set; }
@@ -92,4 +96,25 @@ public class Player : MonoBehaviour
     }
     #endregion
 
+    #region XP & Level System
+
+    public void AddXP(int amount)
+    {
+        CurrentXP += amount;
+        while (CurrentXP >= XPToNextLevel)
+        {
+            CurrentXP -= XPToNextLevel;
+            LevelUp();
+        }
+    }
+
+    private void LevelUp()
+    {
+        Level++;
+        XPToNextLevel = Mathf.RoundToInt(XPToNextLevel * 1.5f); // aumenta a dificuldade para o próximo nível
+        Debug.Log($"Level Up! Novo nível: {Level}");
+        // Aqui você pode adicionar efeitos, aumentar atributos, etc.
+    }
+
+    #endregion
 }
