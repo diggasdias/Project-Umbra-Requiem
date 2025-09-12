@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7836137148842047466}
   - component: {fileID: 4993828508947649476}
   - component: {fileID: 989537474752956991}
+  - component: {fileID: 6076293817051403884}
   m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
@@ -188,6 +189,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6076293817051403884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450386525401410272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a91648bcc2d164ca7d746a99e4b1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpiderMushBossV1Config
+  health: 3
 --- !u!1 &5267559431441062412
 GameObject:
   m_ObjectHideFlags: 0

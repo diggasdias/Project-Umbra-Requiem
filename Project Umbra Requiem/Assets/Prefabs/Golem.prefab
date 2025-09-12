@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 304735391576542697}
   - component: {fileID: 3251656781821400981}
   - component: {fileID: 5489821887232692470}
+  - component: {fileID: 3745354729571205163}
   m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
@@ -229,3 +230,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3745354729571205163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795581774738683186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208f2e290cd57b247a6761fed639a3be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GolemV1Config
+  health: 3

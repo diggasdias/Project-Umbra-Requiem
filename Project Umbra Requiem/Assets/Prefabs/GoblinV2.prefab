@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6147141049610209697}
   - component: {fileID: 9693421450286064}
   - component: {fileID: 4927656873584602555}
+  - component: {fileID: 2149690729213081313}
   m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
@@ -160,6 +161,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2149690729213081313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5180825057345413813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe29a3a4b986c2a4eafc1395ae64b13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GoblinV2Config
+  health: 3
 --- !u!1 &5427751076781611352
 GameObject:
   m_ObjectHideFlags: 0

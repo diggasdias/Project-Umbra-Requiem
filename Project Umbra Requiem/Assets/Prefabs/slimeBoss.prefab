@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 5098830985764686503}
   - component: {fileID: 4845291188136448125}
   - component: {fileID: 3037255547754480912}
+  - component: {fileID: 6949217363644045839}
   m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
@@ -229,3 +230,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6949217363644045839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7795500150661875676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8e635aaa695824fb118dc05b6856ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlimeBossV1Config
+  health: 3
