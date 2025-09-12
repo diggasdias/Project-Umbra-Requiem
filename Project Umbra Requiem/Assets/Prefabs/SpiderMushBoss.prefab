@@ -211,8 +211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5232418467879499088}
-  - component: {fileID: 2751614646077538754}
-  - component: {fileID: 58457646864799639}
+  - component: {fileID: 8279555715057311107}
   m_Layer: 6
   m_Name: SpiderMushBoss
   m_TagString: Untagged
@@ -236,29 +235,7 @@ Transform:
   - {fileID: 45475168233481110}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &2751614646077538754
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5267559431441062412}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 2
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &58457646864799639
+--- !u!114 &8279555715057311107
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,7 +244,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5267559431441062412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73a8ca6da6de684d975cf613478b1d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyControl
-  agent: {fileID: 2751614646077538754}
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  moveSpeed: 2
