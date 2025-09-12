@@ -57,7 +57,6 @@ GameObject:
   - component: {fileID: 3957910061648721452}
   - component: {fileID: 2166451294454942149}
   - component: {fileID: 688195123321079706}
-  - component: {fileID: 4141777773840263975}
   - component: {fileID: 2361851127874147590}
   - component: {fileID: 3761807567539407459}
   m_Layer: 6
@@ -155,19 +154,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4141777773840263975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6933964212974750420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4997cf8d374deba46bda04d100391c90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeholderV1Config
-  health: 3
 --- !u!212 &2361851127874147590
 SpriteRenderer:
   m_ObjectHideFlags: 0
