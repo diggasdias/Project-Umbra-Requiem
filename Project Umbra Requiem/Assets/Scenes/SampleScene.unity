@@ -255,6 +255,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144148972}
   m_CullTransparentMesh: 1
+--- !u!1 &232652235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232652237}
+  - component: {fileID: 232652236}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &232652236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232652235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  characterData: {fileID: 0}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  levelRanges: []
+--- !u!4 &232652237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232652235}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.93563, y: 0.19446, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &438274825
 GameObject:
   m_ObjectHideFlags: 0
@@ -374917,6 +374966,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2174721888730639161, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: characterData
+      value: 
+      objectReference: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
+    - target: {fileID: 2174721888730639161, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
       propertyPath: ScytheAttackPrefab
       value: 
       objectReference: {fileID: 753312073546646430, guid: 2fa8a15280e0c8841bf036ab5646bc8a, type: 3}
@@ -374982,8 +375035,33 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3443457375185694697, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1434823584}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5450162724800586332, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7241258707244386694}
   m_SourcePrefab: {fileID: 100100000, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+--- !u!1 &7241258707244386693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5450162724800586332, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+  m_PrefabInstance: {fileID: 7241258707244386692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7241258707244386694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7241258707244386693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  characterData: {fileID: 0}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  levelRanges: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -374996,3 +375074,4 @@ SceneRoots:
   - {fileID: 1404954877}
   - {fileID: 1270337533}
   - {fileID: 815271243}
+  - {fileID: 232652237}
