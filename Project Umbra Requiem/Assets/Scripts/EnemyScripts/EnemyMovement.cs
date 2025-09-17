@@ -14,5 +14,15 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyData.moveSpeed * Time.deltaTime);
+
+        float posX = player.transform.position.x - player.transform.position.y;
+        if (posX > 0)
+        {
+            transform.eulerAngles = new Vector2(0, 0);
+        }
+        else
+        {
+            transform.eulerAngles = new Vector2(0, 180);
+        }
     }
 }
