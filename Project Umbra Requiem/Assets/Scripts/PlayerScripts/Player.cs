@@ -3,14 +3,13 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    
+    private PlayerStats player;
 
     [Header("Speed Settings")]
     private Vector2 direction;
 
     //Referenciando
     private Rigidbody2D rig;
-    public CharacterScriptableObject characterData;
 
     public Vector2 Direction { get => direction; set => direction = value; }
     public float LastHorizontal { get; private set; }
@@ -41,7 +40,7 @@ public class Player : MonoBehaviour
 
     void OnMove()
     {
-        rig.MovePosition(rig.position + Direction * characterData.MoveSpeed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + Direction * player.currentMoveSpeed * Time.fixedDeltaTime);
     }
 
     
