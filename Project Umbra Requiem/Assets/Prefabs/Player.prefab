@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2174721888730639161}
   - component: {fileID: 856832857485517078}
   - component: {fileID: 6684872813270442005}
-  - component: {fileID: 6166832870411626792}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -172,6 +171,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8cda3ec8739429449f385bacfe4b6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  moveSpeed: 4.86
+  lastHorizontalVector: 0
+  lastVerticalVector: 0
+  moveDir: {x: 0, y: 0}
+  lastMovedVector: {x: 0, y: 0}
 --- !u!61 &856832857485517078
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -248,30 +252,6 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 5
     experienceCapIncrease: 200
---- !u!114 &6166832870411626792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5450162724800586332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  characterData: {fileID: 0}
-  currentHealth: 0
-  currentRecovery: 0
-  currentMoveSpeed: 0
-  currentMight: 0
-  currentProjectileSpeed: 0
-  currentMagnet: 0
-  experience: 0
-  level: 1
-  experienceCap: 0
-  invincibilityDuration: 0
-  levelRanges: []
 --- !u!1 &5615300893097487368
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ada65e980d05843ab22795c0cfac0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollector
+  pullSpeed: 0
 --- !u!58 &1958005671758021462
 CircleCollider2D:
   m_ObjectHideFlags: 0
