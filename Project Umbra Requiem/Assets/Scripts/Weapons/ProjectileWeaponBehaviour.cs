@@ -1,16 +1,21 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ProjectileWeaponBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected Vector3 direction;
+    public float destroyAfterSeconds;
+
+    protected virtual void Start()
     {
-        
+        Destroy(gameObject, destroyAfterSeconds);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DirectionChecker(Vector3 dir)
     {
-        
+        direction = dir;
     }
+
 }
+ 

@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class WeaponController : MonoBehaviour
 {
@@ -11,9 +13,11 @@ public class WeaponController : MonoBehaviour
     float currentCooldown;
     public int pierce;
 
+    protected Player pm;
     protected virtual void Start()
     {
-            currentCooldown = cooldownDuration;
+        pm = GetComponentInParent<Player>();
+        currentCooldown = cooldownDuration;
     }
 
     protected virtual private void Update()

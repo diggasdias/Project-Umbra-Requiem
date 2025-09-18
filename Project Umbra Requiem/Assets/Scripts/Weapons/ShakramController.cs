@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ShakramController : WeaponController
 {
@@ -12,6 +14,7 @@ public class ShakramController : WeaponController
         base.Attack();
         GameObject spawnedShakram = Instantiate(prefab);
         spawnedShakram.transform.position = transform.position;
+        spawnedShakram.GetComponent<ShakramBehaviour>().DirectionChecker(pm.Direction);
     }
 
 }
