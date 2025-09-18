@@ -17,6 +17,8 @@ public class PlayerStats : MonoBehaviour
     public float currentMight;
     [HideInInspector]
     public float currentProjectileSpeed;
+    [HideInInspector]
+    public float currentMagnet;
 
     // Nivel e Xp do player
     [Header("Nivel/Experiencia")]
