@@ -172,7 +172,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8cda3ec8739429449f385bacfe4b6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  characterData: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
+  moveSpeed: 4.86
+  lastHorizontalVector: 0
+  lastVerticalVector: 0
+  moveDir: {x: 0, y: 0}
+  lastMovedVector: {x: 0, y: 0}
 --- !u!61 &856832857485517078
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -232,6 +236,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   characterData: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
+  currentHealth: 0
+  currentRecovery: 0
+  currentMoveSpeed: 0
+  currentMight: 0
+  currentProjectileSpeed: 0
   experience: 0
   level: 1
   experienceCap: 0
@@ -267,7 +276,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  characterData: {fileID: 0}
+  characterData: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
+  currentHealth: 0
+  currentRecovery: 0
+  currentMoveSpeed: 0
+  currentMight: 0
+  currentProjectileSpeed: 0
   experience: 0
   level: 1
   experienceCap: 0

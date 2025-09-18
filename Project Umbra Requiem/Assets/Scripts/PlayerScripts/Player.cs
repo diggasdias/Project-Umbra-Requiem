@@ -3,47 +3,58 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private PlayerStats player;
+    public float moveSpeed;
+    Rigidbody2D rb;
+    [HideInInspector]
+    public float lastHorizontalVector;
+    [HideInInspector]
+    public float lastVerticalVector;
+    [HideInInspector]
+    public Vector2 moveDir;
+    [HideInInspector]
+    public Vector2 lastMovedVector;
 
-    [Header("Speed Settings")]
-    private Vector2 direction;
-
-    //Referenciando
-    private Rigidbody2D rig;
-
-    public Vector2 Direction { get => direction; set => direction = value; }
-    public float LastHorizontal { get; private set; }
-
-    void FixedUpdate()
+    void Start()
     {
-        OnMove();
+        rb = GetComponent<Rigidbody2D>();
+        lastMovedVector = new Vector2(0f, 1f);
     }
 
     void Update()
     {
-        OnInput();
+        InputManagement();
     }
 
-    void Start()
+    void FixedUpdate()
     {
-        rig = GetComponent<Rigidbody2D>();
+        Move();
     }
 
-    #region Movement
-
-    void OnInput()
+    void InputManagement()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (direction.x != 0)
-            LastHorizontal = direction.x;
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveDir = new Vector2(moveX, moveY).normalized;
+
+        if(moveDir.x != 0)
+        {
+            lastHorizontalVector = moveDir.x;
+            lastMovedVector = new Vector2(lastHorizontalVector, 0f);
+        }
+        if(moveDir.y != 0)
+        {
+            lastVerticalVector = moveDir.y;
+            lastMovedVector = new Vector2(0f, lastVerticalVector);
+        }
+        if (moveDir.x != 0 && moveDir.y != 0)
+        {
+            lastMovedVector = new Vector2(lastHorizontalVector, lastVerticalVector);
+        }
     }
 
-    void OnMove()
+    void Move()
     {
-        rig.MovePosition(rig.position + Direction * player.currentMoveSpeed * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
     }
-
-    
-    
-    #endregion
 }
