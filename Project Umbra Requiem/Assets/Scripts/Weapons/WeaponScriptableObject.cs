@@ -16,6 +16,8 @@ public class WeaponScriptableObject : MonoBehaviour
     public float Speed { get => speed; private set => speed = value; }
 
     float cooldownDuration;
-    public float CooldownDuration;
+    public float CooldownDuration { get => cooldownDuration; private set => cooldownDuration = value; }
+
     public int pierce;
+    public int Pierce { get => pierce; private set => pierce = value; }
 }
