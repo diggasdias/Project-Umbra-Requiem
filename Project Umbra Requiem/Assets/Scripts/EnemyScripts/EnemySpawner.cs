@@ -45,7 +45,24 @@ public class EnemySpawner : MonoBehaviour
         waves[currentWaveCount].waveQuota = currentWaveQuota;
 
     }
-    // Update is called once per frame
+    
+    void SpawnEnemies()
+    {
+        //Checa se o número minimo de inimigos na wave ja spawnou
+        if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota)
+        {
+            //Spawna cada tipo de inimigo até a fila estar cheia
+            foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
+            {
+                //Checa se o número minimo de inigos desse tipo já spawnou
+                if (enemyGroup.spawnCount < enemyGroup.enemyCount)
+                {
+
+                }
+            }
+        }
+    }
+
     void Update()
     {
         

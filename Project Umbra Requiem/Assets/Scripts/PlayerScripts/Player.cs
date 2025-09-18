@@ -3,14 +3,15 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rig;
+    
 
     [Header("Speed Settings")]
-    private float speed;
-    private float initialSpeed = 3;
     private Vector2 direction;
 
-  
+    //Referenciando
+    private Rigidbody2D rig;
+    public CharacterScriptableObject characterData;
+
     public Vector2 Direction { get => direction; set => direction = value; }
     public float LastHorizontal { get; private set; }
 
@@ -27,7 +28,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        speed = initialSpeed; 
     }
 
     #region Movement
@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
 
     void OnMove()
     {
-        rig.MovePosition(rig.position + Direction * speed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + Direction * characterData.MoveSpeed * Time.fixedDeltaTime);
     }
 
     
