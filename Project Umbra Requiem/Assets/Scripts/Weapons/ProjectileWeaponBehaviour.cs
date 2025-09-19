@@ -6,6 +6,7 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
 {
     protected Vector3 direction;
     public float destroyAfterSeconds;
+    public WeaponScriptableObject weaponData;
 
     protected virtual void Start()
     {
