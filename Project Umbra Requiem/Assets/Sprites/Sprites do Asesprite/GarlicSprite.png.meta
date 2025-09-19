@@ -1,34 +1,10 @@
 fileFormatVersion: 2
-guid: 8eb3d9a21ca828240b6592e3a394cd0e
+guid: ba53e5e0510709549aae16caecddd430
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 73108437859457313
     second: GarlicSprite_0
-  - first:
-      213: 2844941413111235151
-    second: GarlicSprite_1
-  - first:
-      213: -2363363463978006607
-    second: GarlicSprite_2
-  - first:
-      213: 472933418417621091
-    second: GarlicSprite_3
-  - first:
-      213: -157413532384266992
-    second: GarlicSprite_4
-  - first:
-      213: 8534847011292489833
-    second: GarlicSprite_5
-  - first:
-      213: -1136013729640213563
-    second: GarlicSprite_6
-  - first:
-      213: -5129366402811595898
-    second: GarlicSprite_7
-  - first:
-      213: 8736271138303043367
-    second: GarlicSprite_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -172,10 +148,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f420b4f54234b7720800000000000000
-      internalID: 2844941413111235151
+      spriteID: c35522c5a387a344cace00a6853241f1
+      internalID: -681478222
       vertices: []
       indices: 
       edges: []
@@ -194,10 +170,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b7447e7375a33fd0800000000000000
-      internalID: -2363363463978006607
+      spriteID: a7b62f9d48d11804091d93087a286b6b
+      internalID: -1712055951
       vertices: []
       indices: 
       edges: []
@@ -216,10 +192,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36881373072309600800000000000000
-      internalID: 472933418417621091
+      spriteID: 76408115c35dc784b8b5547fd46d895a
+      internalID: 1661952221
       vertices: []
       indices: 
       edges: []
@@ -238,10 +214,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 015756fe931c0ddf0800000000000000
-      internalID: -157413532384266992
+      spriteID: a52474fd64a2a77478cb3c1718853a0c
+      internalID: -2005259674
       vertices: []
       indices: 
       edges: []
@@ -260,10 +236,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 968a460232ed17670800000000000000
-      internalID: 8534847011292489833
+      spriteID: 808d9f992d1f55e4f94f15ec1b37459a
+      internalID: 1274536760
       vertices: []
       indices: 
       edges: []
@@ -282,10 +258,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c314d028811c30f0800000000000000
-      internalID: -1136013729640213563
+      spriteID: 32603963d0400884394dd8f4cff63a96
+      internalID: -2136406943
       vertices: []
       indices: 
       edges: []
@@ -304,10 +280,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6837795ee64d0d8b0800000000000000
-      internalID: -5129366402811595898
+      spriteID: 4ef7fd97f89ec7b49abfbe2fb681d191
+      internalID: 645235605
       vertices: []
       indices: 
       edges: []
@@ -326,10 +302,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 727ec0440587d3970800000000000000
-      internalID: 8736271138303043367
+      spriteID: 06a7c09d9e66d494d96a3b924f10790d
+      internalID: -590597700
       vertices: []
       indices: 
       edges: []
@@ -338,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9874cf4788af0a34297b5c8b722a24bd
     internalID: 0
     vertices: []
     indices: 
@@ -349,14 +325,14 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       GarlicSprite_0: 73108437859457313
-      GarlicSprite_1: 2844941413111235151
-      GarlicSprite_2: -2363363463978006607
-      GarlicSprite_3: 472933418417621091
-      GarlicSprite_4: -157413532384266992
-      GarlicSprite_5: 8534847011292489833
-      GarlicSprite_6: -1136013729640213563
-      GarlicSprite_7: -5129366402811595898
-      GarlicSprite_8: 8736271138303043367
+      GarlicSprite_1: -681478222
+      GarlicSprite_2: -1712055951
+      GarlicSprite_3: 1661952221
+      GarlicSprite_4: -2005259674
+      GarlicSprite_5: 1274536760
+      GarlicSprite_6: -2136406943
+      GarlicSprite_7: 645235605
+      GarlicSprite_8: -590597700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
