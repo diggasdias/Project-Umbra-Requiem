@@ -255,27 +255,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144148972}
   m_CullTransparentMesh: 1
---- !u!1 &400949962 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6933964212974750420, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
-  m_PrefabInstance: {fileID: 1177749458}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &400949968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400949962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e7c3775706fbab43a69e9d9b3bceafa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-  enemyData: {fileID: 11400000, guid: 8ab05ba7142969141bd3c3252070ea82, type: 2}
-  currentMoveSpeed: 0
-  currentHealth: 0
-  currentDamage: 0
 --- !u!1 &438274825
 GameObject:
   m_ObjectHideFlags: 0
@@ -370397,10 +370376,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6933964212974750420, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 400949968}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
 --- !u!1 &1270337530
 GameObject:

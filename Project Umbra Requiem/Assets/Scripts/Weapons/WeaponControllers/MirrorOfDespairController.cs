@@ -11,7 +11,7 @@ public class MirrorOfDespairController : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        GameObject spawnedMirror = Instantiate(this.gameObject);
+        GameObject spawnedMirror = Instantiate(weaponData.Prefab);
         spawnedMirror.transform.position = transform.position;
         spawnedMirror.transform.parent = transform;
     }

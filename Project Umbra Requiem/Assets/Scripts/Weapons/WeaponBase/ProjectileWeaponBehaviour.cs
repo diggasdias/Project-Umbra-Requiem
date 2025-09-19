@@ -4,9 +4,11 @@ using System.Collections.Generic;
 
 public class ProjectileWeaponBehaviour : MonoBehaviour
 {
+    public WeaponScriptableObject weaponData;
+
     protected Vector3 direction;
     public float destroyAfterSeconds;
-    public WeaponScriptableObject weaponData;
+    
 
     //Current stats
     protected float currentDamage;
@@ -72,16 +74,16 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         }
 
 
-            transform.localScale = scale;
+        transform.localScale = scale;
         transform.rotation = Quaternion.Euler(rotation);
 
     }
 
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.CompareTag("Enemy"))
+        if (col.CompareTag("Enemy"))
         {
-            EnemyStats enemy = FindAnyObjectByType<EnemyStats>();
+            EnemyStats enemy = col.GetComponent<EnemyStats>();
             enemy.TakeDamage(currentDamage);
             ReducePierce();
         }
