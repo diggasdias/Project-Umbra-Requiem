@@ -7,7 +7,7 @@ public class EnemyStats : MonoBehaviour
     //Status atuais
     [HideInInspector]
     public float currentMoveSpeed;
-    [HideInInspector]
+    
     public float currentHealth;
     [HideInInspector]
     public float currentDamage;
@@ -19,7 +19,7 @@ public class EnemyStats : MonoBehaviour
         currentDamage = enemyData.Damage;
     }
 
-    public void takeDamage(float dmg)
+    public void TakeDamage(float dmg)
     {
         currentHealth -= dmg;
 

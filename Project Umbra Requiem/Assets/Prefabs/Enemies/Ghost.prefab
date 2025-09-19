@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2823449097387210520}
   m_Layer: 6
   m_Name: Ghost
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: cf116bc2e7571b64881b2fabb4880016, type: 2}
 --- !u!1 &9121067032639603402
 GameObject:
   m_ObjectHideFlags: 0

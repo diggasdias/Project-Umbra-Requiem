@@ -38,7 +38,6 @@ Transform:
   m_Children:
   - {fileID: 3641850480778286055}
   - {fileID: 824907359179008886}
-  - {fileID: 1809752583635208736}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5920854949680468143
@@ -85,9 +84,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -635111933
-  m_SortingLayer: 3
-  m_SortingOrder: 20
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 6164395428596610570, guid: 3499a66cb3ed48a44afc66bc29d9818c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -297,60 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6787c30d803e8b42b04795a4feb62c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShakramController
-  prefab: {fileID: 3873259377289047697, guid: 85aac46641bd1c64c9c1a4121a279163, type: 3}
-  damage: 0
-  speed: 10
-  cooldownDuration: 2
-  pierce: 0
---- !u!1 &5647646343945730198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1809752583635208736}
-  - component: {fileID: 5869253222462798233}
-  m_Layer: 0
-  m_Name: MirrorOfDespairController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1809752583635208736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5647646343945730198}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3443457375185694697}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5869253222462798233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5647646343945730198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ba6f76e4b93f404cb5199354d5e2124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MirrorOfDespairController
-  prefab: {fileID: 201748374159730939, guid: e50cc26b6a4cf564081e5d3a40482327, type: 3}
-  damage: 0
-  speed: 0
-  cooldownDuration: 3
-  pierce: 0
+  weaponData: {fileID: 11400000, guid: 05e7252602ed89a4cb7a6976e578a59b, type: 2}
 --- !u!1 &9121082217309610956
 GameObject:
   m_ObjectHideFlags: 0
