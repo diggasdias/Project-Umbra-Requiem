@@ -19,7 +19,7 @@ public class EnemyStats : MonoBehaviour
         currentDamage = enemyData.Damage;
     }
 
-    public void takeDamage(float dmg)
+    public void TakeDamage(float dmg)
     {
         currentHealth -= dmg;
 

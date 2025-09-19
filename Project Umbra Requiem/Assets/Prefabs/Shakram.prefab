@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5885680261834625246}
   - component: {fileID: 4909431975025647084}
   - component: {fileID: 7514943801570005607}
+  - component: {fileID: 806698045309061031}
   m_Layer: 0
   m_Name: Shakram
   m_TagString: Untagged
@@ -170,3 +171,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &806698045309061031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873259377289047697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e01aa7ebe8ea145af961f99caf154d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileWeaponBehaviour
+  destroyAfterSeconds: 3
+  weaponData: {fileID: 11400000, guid: 05e7252602ed89a4cb7a6976e578a59b, type: 2}
