@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8806421890310864280}
   - component: {fileID: 8838524902241051522}
+  - component: {fileID: -6802603140075672775}
   m_Layer: 6
   m_Name: Colossal Slime
   m_TagString: Enemy
@@ -45,6 +46,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+--- !u!114 &-6802603140075672775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184137130977322227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7c3775706fbab43a69e9d9b3bceafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyData: {fileID: 11400000, guid: 8ab05ba7142969141bd3c3252070ea82, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
 --- !u!1 &7795500150661875676
 GameObject:
   m_ObjectHideFlags: 0

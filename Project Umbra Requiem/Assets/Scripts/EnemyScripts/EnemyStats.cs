@@ -7,7 +7,7 @@ public class EnemyStats : MonoBehaviour
     //Status atuais
     [HideInInspector]
     public float currentMoveSpeed;
-    [HideInInspector]
+    
     public float currentHealth;
     [HideInInspector]
     public float currentDamage;

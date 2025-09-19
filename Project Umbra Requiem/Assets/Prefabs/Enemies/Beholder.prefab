@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8500529710622831994}
   - component: {fileID: 2808053982571550152}
+  - component: {fileID: 3423594375636085116}
+  - component: {fileID: 7470783693364659217}
   m_Layer: 6
   m_Name: Beholder
   m_TagString: Enemy
@@ -46,6 +48,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   enemyData: {fileID: 11400000, guid: 8ab05ba7142969141bd3c3252070ea82, type: 2}
+--- !u!114 &3423594375636085116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765804895966829695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b10a6c922316d4fa70d575782ce879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  drops:
+  - name: xp
+    itemPrefab: {fileID: 7911463880717684549, guid: 262614b66983d554585fb1eda5542ebd, type: 3}
+    dropRate: 75
+--- !u!114 &7470783693364659217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765804895966829695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7c3775706fbab43a69e9d9b3bceafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyData: {fileID: 11400000, guid: 8ab05ba7142969141bd3c3252070ea82, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
 --- !u!1 &6933964212974750420
 GameObject:
   m_ObjectHideFlags: 0
