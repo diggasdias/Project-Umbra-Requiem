@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7367274400520273793}
   m_Layer: 6
   m_Name: Crimsom Beholder
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: 1724150e4f5f7894c95bd0d77077da11, type: 2}
 --- !u!1 &8597258746211884613
 GameObject:
   m_ObjectHideFlags: 0

@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 8279555715057311107}
   m_Layer: 6
   m_Name: Mega Mush
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,4 +233,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: 5c59fc05db96dab47a32dce4021a8616, type: 2}

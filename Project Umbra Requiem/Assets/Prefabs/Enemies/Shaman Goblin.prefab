@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 5126139461073416738}
   m_Layer: 6
   m_Name: Shaman Goblin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,4 +205,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: 71b56a8341faa1c43bbfadd1b6759462, type: 2}

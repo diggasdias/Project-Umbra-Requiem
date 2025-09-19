@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8671882337599377199}
   - component: {fileID: 7921892753847806777}
   - component: {fileID: -6516862933241182437}
+  - component: {fileID: 5041044020195320659}
   m_Layer: 6
   m_Name: Slime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3586d4d326204f642badef3245d165d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: e82caac50d938f942a475cf701e51ed9, type: 2}
 --- !u!114 &-6516862933241182437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +63,22 @@ MonoBehaviour:
   - name: Blue gem
     itemPrefab: {fileID: 7911463880717684549, guid: 262614b66983d554585fb1eda5542ebd, type: 3}
     dropRate: 75
+--- !u!114 &5041044020195320659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896529453750123788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7c3775706fbab43a69e9d9b3bceafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  enemyData: {fileID: 11400000, guid: e82caac50d938f942a475cf701e51ed9, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
 --- !u!1 &8683818521372809196
 GameObject:
   m_ObjectHideFlags: 0
