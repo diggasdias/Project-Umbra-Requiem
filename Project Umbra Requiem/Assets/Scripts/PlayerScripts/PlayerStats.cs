@@ -52,12 +52,12 @@ public class PlayerStats : MonoBehaviour
         currentProjectileSpeed = characterData.ProjectileSpeed;
     }
 
-    private void Start()
+    void Start()
     {
         experienceCap = levelRanges[0].experienceCapIncrease;
     }
 
-    private void Update()
+    void Update()
     {
        if(invincibilityTimer > 0)
         {

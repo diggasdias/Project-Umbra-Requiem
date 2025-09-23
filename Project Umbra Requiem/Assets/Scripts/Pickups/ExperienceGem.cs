@@ -8,5 +8,6 @@ public class ExperienceGem : Pickup, ICollectable
     {
         PlayerStats player = FindAnyObjectByType<PlayerStats>();
         player.IncreaseExperience(experienceGranted);
+        Destroy(gameObject);
     }
 }
