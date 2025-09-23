@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using System.Collections;
 
 public class PlayerCollector : MonoBehaviour
 {
@@ -18,12 +20,12 @@ public class PlayerCollector : MonoBehaviour
     }
 
     //Checa se um gameobject tem a interface ICollectable
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.gameObject.TryGetComponent(out ICollectable collectable))
+        if (col.gameObject.TryGetComponent(out ICollectable collectable))
         {
-            Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
-            Vector2 forceDirection = (transform.position - collision.transform.position).normalized;
+            Rigidbody2D rb = col.gameObject.GetComponent<Rigidbody2D>();
+            Vector2 forceDirection = (transform.position - col.transform.position).normalized;
             rb.AddForce(forceDirection * pullSpeed);
             //Chama o método collect se tiver
             collectable.Collect();
