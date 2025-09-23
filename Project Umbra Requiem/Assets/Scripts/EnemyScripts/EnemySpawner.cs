@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,7 +29,9 @@ public class EnemySpawner : MonoBehaviour
     public List<Wave> waves; //Lista de todas as waves do jogo
     public int currentWaveCount;
 
-    float spawnTimer;
+    [Header("Spawner Attributes")]
+    float spawnTimer; //Timer para determinar quando spawnar o proximo enemy
+    public float waveInterval; //Intervalo entre as waves
 
     Transform player;
 
@@ -40,12 +43,28 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
+        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
+        {
+            StartCoroutine(BeginNextWave());
+        }
+
         spawnTimer = Time.time;
 
         if (spawnTimer >= waves[currentWaveCount].spawnInterval)
         {
             SpawnEnemies();
             spawnTimer = 0f;
+        }
+    }
+
+    IEnumerator BeginNextWave()
+    {
+        yield return new WaitForSeconds(waveInterval);
+
+        if (currentWaveCount < waves.Count -1)
+        {
+            currentWaveCount++;
+            CalculateWaveQuota();
         }
     }
 
