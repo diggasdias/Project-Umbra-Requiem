@@ -15,6 +15,8 @@ public class EnemyStats : MonoBehaviour
     public float despawnDistance = 20f;
     Transform player;
 
+    EnemySpawner es;
+
     void Awake()
     {
         currentMoveSpeed = enemyData.MoveSpeed;
@@ -24,7 +26,8 @@ public class EnemyStats : MonoBehaviour
 
     void Start()
     {
-        player = FindAnyObjectByType<PlayerStats>().transform;   
+        player = FindAnyObjectByType<PlayerStats>().transform;
+        es = FindAnyObjectByType<EnemySpawner>();
     }
 
     void Update()
@@ -56,15 +59,16 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    void OnDestroy()
     {
-        EnemySpawner es = FindAnyObjectByType<EnemySpawner>();
         es.OnEnemyKilled();
     }
 
     void ReturnEnemy()
     {
-        EnemySpawner es = FindAnyObjectByType<EnemySpawner>();
-        transform.position = player.position + es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
+        if (Vector3.Distance(transform.position, player.position) > despawnDistance)
+        {
+            transform.position = player.transform.position + es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
+        }
     }
 }
