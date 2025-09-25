@@ -3,118 +3,58 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rig;
+    public float moveSpeed;
+    Rigidbody2D rb;
+    [HideInInspector]
+    public float lastHorizontalVector;
+    [HideInInspector]
+    public float lastVerticalVector;
+    [HideInInspector]
+    public Vector2 moveDir;
+    [HideInInspector]
+    public Vector2 lastMovedVector;
 
-    [Header("Speed Settings")]
-    private float speed;
-    private float initialSpeed = 3;
-    private Vector2 direction;
-
-    [Header("Scythe Attack Settings")]
-    [SerializeField] private GameObject ScytheAttackPrefab;
-    [SerializeField] private float ScytheAttackCooldown = 1f;
-    [SerializeField] private float ScytheAttackDistance = 1f; // Distância do ataque
-    private float ScytheLastAttackTime;
-    [Header("Sickle Attack Settings")]
-    [SerializeField] private GameObject SickleAttackPrefab;
-    [SerializeField] private float SickleAttackCooldown = 1f;
-    [SerializeField] private float SickleAttackDistance = 1f; // Distância do ataque
-    private float SickleLastAttackTime;
-    [Header("XP Settings")]
-    [SerializeField] public int CurrentXP = 0;
-    public int Level { get; private set; } = 1;
-    public int XPToNextLevel { get; private set; } = 10;
-
-    public Vector2 Direction { get => direction; set => direction = value; }
-    public float LastHorizontal { get; private set; }
-
-    void FixedUpdate()
+    void Start()
     {
-        OnMove();
+        rb = GetComponent<Rigidbody2D>();
+        lastMovedVector = new Vector2(0f, 1f);
     }
 
     void Update()
     {
-        OnInput();
-        ScytheAttack();
-        SickleAttack();
+        InputManagement();
     }
 
-    void Start()
+    void FixedUpdate()
     {
-        rig = GetComponent<Rigidbody2D>();
-        speed = initialSpeed; 
+        Move();
     }
 
-    #region Movement
-
-    void OnInput()
+    void InputManagement()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (direction.x != 0)
-            LastHorizontal = direction.x;
-    }
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
-    void OnMove()
-    {
-        rig.MovePosition(rig.position + Direction * speed * Time.fixedDeltaTime);
-    }
+        moveDir = new Vector2(moveX, moveY).normalized;
 
-    void ScytheAttack()
-    {
-        if (Time.time >= ScytheLastAttackTime + ScytheAttackCooldown)
+        if(moveDir.x != 0)
         {
-            Vector2 attackDir = new Vector2(Mathf.Sign(LastHorizontal), 0);
-
-            // Calcula a posição do ataque um pouco à frente do player
-            Vector3 spawnPos = transform.position + (Vector3)(attackDir * ScytheAttackDistance);
-
-            GameObject attack = Instantiate(ScytheAttackPrefab, spawnPos, Quaternion.identity);
-            ScytheAttack scythe = attack.GetComponent<ScytheAttack>();
-            if (scythe != null)
-                scythe.SetDirection(attackDir);
-
-            ScytheLastAttackTime = Time.time;
+            lastHorizontalVector = moveDir.x;
+            lastMovedVector = new Vector2(lastHorizontalVector, 0f);
         }
-    }
-    void SickleAttack()
-    {
-        if (Time.time >= SickleLastAttackTime + SickleAttackCooldown)
+        if(moveDir.y != 0)
         {
-            Vector2 attackDir = new Vector2(Mathf.Sign(LastHorizontal), 0);
-
-            // Calcula a posição do ataque um pouco à frente do player
-            Vector3 spawnPos = transform.position + (Vector3)(attackDir * SickleAttackDistance);
-
-            GameObject attack = Instantiate(SickleAttackPrefab, spawnPos, Quaternion.identity);
-            SickleAttack sickle = attack.GetComponent<SickleAttack>();
-            if (sickle != null)
-                sickle.SetDirection(attackDir);
-
-            SickleLastAttackTime = Time.time;
+            lastVerticalVector = moveDir.y;
+            lastMovedVector = new Vector2(0f, lastVerticalVector);
         }
-    }
-    #endregion
-
-    #region XP & Level System
-
-    public void AddXP(int amount)
-    {
-        CurrentXP += amount;
-        while (CurrentXP >= XPToNextLevel)
+        if (moveDir.x != 0 && moveDir.y != 0)
         {
-            CurrentXP -= XPToNextLevel;
-            LevelUp();
+            lastMovedVector = new Vector2(lastHorizontalVector, lastVerticalVector);
         }
     }
 
-    private void LevelUp()
+    void Move()
     {
-        Level++;
-        XPToNextLevel = Mathf.RoundToInt(XPToNextLevel * 1.5f); // aumenta a dificuldade para o próximo nível
-        Debug.Log($"Level Up! Novo nível: {Level}");
-        // Aqui você pode adicionar efeitos, aumentar atributos, etc.
+        rb.linearVelocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
     }
-
-    #endregion
 }
