@@ -1,16 +1,18 @@
 using UnityEngine;
 
-public class PassiveIte : MonoBehaviour
+public class PassiveItem : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    protected PlayerStats player;
+    public PassiveItemScriptableObject passiveItemData;
+
+    protected virtual void ApplyModifier()
+    {
+
+    }
+    
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        player = FindAnyObjectByType<PlayerStats>();
+        ApplyModifier();
     }
 }
