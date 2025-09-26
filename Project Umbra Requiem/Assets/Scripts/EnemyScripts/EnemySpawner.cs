@@ -54,7 +54,7 @@ public class EnemySpawner : MonoBehaviour
             StartCoroutine(BeginNextWave());
         }
 
-        spawnTimer = Time.time;
+        spawnTimer = Time.deltaTime;
 
         if (spawnTimer >= waves[currentWaveCount].spawnInterval)
         {
@@ -94,7 +94,7 @@ public class EnemySpawner : MonoBehaviour
             //Spawna cada tipo de inimigo até a fila estar cheia
             foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
             {
-                //Checa se o número minimo de inigos desse tipo já spawnou
+                //Checa se o número minimo de inimigos desse tipo já spawnou
                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
                     if (enemiesAlive >= maxEnemiesAllowed)
@@ -103,7 +103,8 @@ public class EnemySpawner : MonoBehaviour
                         return;
                     }
 
-                    Instantiate(enemyGroup.enemyPrefab, player.transform.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
+                    Vector3 spawnOffset = relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position;
+                    Instantiate(enemyGroup.enemyPrefab, player.transform.position + spawnOffset, Quaternion.identity);
 
                     
 
