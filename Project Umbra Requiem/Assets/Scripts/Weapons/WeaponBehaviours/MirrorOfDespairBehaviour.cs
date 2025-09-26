@@ -13,12 +13,17 @@ public class MirrorOfDespairBehavior : MeleeBehaviour
        markedEnemies = new List<GameObject>();
     }
 
+    public float GetCurrentDamage()
+    {
+        return currentDamage *= FindAnyObjectByType<PlayerStats>().currentMight;
+    }
+
     protected override void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(currentDamage);
+            enemy.TakeDamage(GetCurrentDamage());
 
             markedEnemies.Add(col.gameObject);
         }
