@@ -350288,7 +350288,7 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 6896529453750123788, guid: 868ac3076b4dd1a41a82731425769b5e, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 3
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
@@ -350297,7 +350297,7 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 2765804895966829695, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 3
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
@@ -350306,12 +350306,12 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 4442791503683674501, guid: feb70e0d7dfb6e94388c66ba4802f827, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 3
     spawnCount: 0
   currentWaveCount: 0
-  waveInterval: 20
+  waveInterval: 30
   enemiesAlive: 0
-  maxEnemiesAllowed: 5
+  maxEnemiesAllowed: 20
   maxEnemiesReached: 0
   relativeSpawnPoints:
   - {fileID: 1048935987}
@@ -370642,51 +370642,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 490485033}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1143609916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1143609917}
-  - component: {fileID: 1143609918}
-  m_Layer: 0
-  m_Name: SpeedCloak
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1143609917
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143609916}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1927276709}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1143609918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143609916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 440b91caaffb655419a87473f44ad6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpeedCloak
-  passiveItemData: {fileID: 11400000, guid: c9383a6af89adae4893e0883f198a9c8, type: 2}
 --- !u!1 &1270337530
 GameObject:
   m_ObjectHideFlags: 0
@@ -370909,7 +370864,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5.625
+  orthographic size: 11.03125
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -375222,10 +375177,6 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 2174721888730639161, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
-      propertyPath: playerData
-      value: 
-      objectReference: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
     - target: {fileID: 3443457375185694697, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.93
@@ -375272,10 +375223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 3443457375185694697, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1143609917}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
 --- !u!1660057539 &9223372036854775807
