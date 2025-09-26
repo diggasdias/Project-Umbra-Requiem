@@ -2,8 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Scythe
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,8 +13,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - Scythe
   - 
   - 
   - 
@@ -41,3 +43,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 588804301
+    locked: 0
+  - name: Midground
+    uniqueID: 4246742269
+    locked: 0
+  - name: Foreground
+    uniqueID: 3659855363
+    locked: 0
+  m_RenderingLayers:
+  - Default

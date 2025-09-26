@@ -3,70 +3,59 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rig;
+    PlayerStats playerData;
+    Rigidbody2D rb;
+    [HideInInspector]
+    public float lastHorizontalVector;
+    [HideInInspector]
+    public float lastVerticalVector;
+    [HideInInspector]
+    public Vector2 moveDir;
+    [HideInInspector]
+    public Vector2 lastMovedVector;
 
-    [Header("Speed Settings")]
-    private float speed;
-    private float initialSpeed = 3;
-    private Vector2 direction;
-
-    [Header("Attack Settings")]
-    [SerializeField] private GameObject scytheAttackPrefab;
-    [SerializeField] private float attackCooldown = 1f;
-    [SerializeField] private float attackDistance = 1f; // Distância do ataque
-    private float lastAttackTime;
-
-    public Vector2 Direction { get => direction; set => direction = value; }
-    public float LastHorizontal { get; private set; }
-
-    void FixedUpdate()
+    void Start()
     {
-        OnMove();
+        rb = GetComponent<Rigidbody2D>();
+        lastMovedVector = new Vector2(0f, 1f);
+        playerData = FindAnyObjectByType<PlayerStats>();
     }
 
     void Update()
     {
-        OnInput();
-        HandleAttack();
+        InputManagement();
     }
 
-    void Start()
+    void FixedUpdate()
     {
-        rig = GetComponent<Rigidbody2D>();
-        speed = initialSpeed; 
+        Move();
     }
 
-    #region Movement
-
-    void OnInput()
+    void InputManagement()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (direction.x != 0)
-            LastHorizontal = direction.x;
-    }
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
-    void OnMove()
-    {
-        rig.MovePosition(rig.position + Direction * speed * Time.fixedDeltaTime);
-    }
+        moveDir = new Vector2(moveX, moveY).normalized;
 
-    void HandleAttack()
-    {
-        if (Time.time >= lastAttackTime + attackCooldown)
+        if(moveDir.x != 0)
         {
-            Vector2 attackDir = new Vector2(Mathf.Sign(LastHorizontal), 0);
-
-            // Calcula a posição do ataque um pouco à frente do player
-            Vector3 spawnPos = transform.position + (Vector3)(attackDir * attackDistance);
-
-            GameObject attack = Instantiate(scytheAttackPrefab, spawnPos, Quaternion.identity);
-            ScytheAttack scythe = attack.GetComponent<ScytheAttack>();
-            if (scythe != null)
-                scythe.SetDirection(attackDir);
-
-            lastAttackTime = Time.time;
+            lastHorizontalVector = moveDir.x;
+            lastMovedVector = new Vector2(lastHorizontalVector, 0f);
+        }
+        if(moveDir.y != 0)
+        {
+            lastVerticalVector = moveDir.y;
+            lastMovedVector = new Vector2(0f, lastVerticalVector);
+        }
+        if (moveDir.x != 0 && moveDir.y != 0)
+        {
+            lastMovedVector = new Vector2(lastHorizontalVector, lastVerticalVector);
         }
     }
-    #endregion
 
+    void Move()
+    {
+        rb.linearVelocity = new Vector2(moveDir.x * playerData.currentMoveSpeed, moveDir.y * playerData.currentMoveSpeed);
+    }
 }
