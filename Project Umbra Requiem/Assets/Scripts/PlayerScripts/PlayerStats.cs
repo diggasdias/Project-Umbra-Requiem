@@ -51,6 +51,8 @@ public class PlayerStats : MonoBehaviour
     {
         inventory = GetComponent<InventoryManager>();
 
+        characterData = CharacterSelector.GetData();
+
         // Status iniciais
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;
