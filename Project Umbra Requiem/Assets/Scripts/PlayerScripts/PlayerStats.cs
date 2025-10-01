@@ -5,7 +5,7 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour
 {
-    public CharacterScriptableObject characterData;
+    CharacterScriptableObject characterData;
 
     //Status atuais
     [HideInInspector]
@@ -20,6 +20,10 @@ public class PlayerStats : MonoBehaviour
     public float currentProjectileSpeed;
     [HideInInspector]
     public float currentMagnet;
+
+    //Spawned Weapon
+    public List<GameObject> spawnedWeapons;
+
 
     // Nivel e Xp do player
     [Header("Nivel/Experiencia")]
@@ -52,6 +56,7 @@ public class PlayerStats : MonoBehaviour
         inventory = GetComponent<InventoryManager>();
 
         characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroSingleton();
 
         // Status iniciais
         currentHealth = characterData.MaxHealth;
@@ -60,6 +65,10 @@ public class PlayerStats : MonoBehaviour
         currentMight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
         currentMagnet = characterData.Magnet;
+
+        //Spawna arma inicial
+        SpawnedWeapon(characterData.StartingWeapon);
+
     }
 
     void Start()
@@ -154,4 +163,12 @@ public class PlayerStats : MonoBehaviour
             currentHealth = characterData.MaxHealth;
         }
     }
+
+    public void SpawnedWeapon(GameObject weapon)
+    {
+        GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform);
+        spawnedWeapons.Add(spawnedWeapon);
+    }
+
 }

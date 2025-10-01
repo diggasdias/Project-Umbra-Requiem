@@ -45,51 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeathRingTrinket
   passiveItemData: {fileID: 11400000, guid: 8725f181cd38d7146be25ebf8a0e3591, type: 2}
---- !u!1 &3837191128740747226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7294395102829542234}
-  - component: {fileID: 7557796226946669014}
-  m_Layer: 0
-  m_Name: Mirror Of Despair Controller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7294395102829542234
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3837191128740747226}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3443457375185694697}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7557796226946669014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3837191128740747226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ba6f76e4b93f404cb5199354d5e2124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MirrorOfDespairController
-  weaponData: {fileID: 11400000, guid: 434940bc2333a2b44952446724622bb7, type: 2}
 --- !u!1 &5450162724800586332
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,9 +81,7 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 3641850480778286055}
   - {fileID: 824907359179008886}
-  - {fileID: 7294395102829542234}
   - {fileID: 4770332022675722639}
   - {fileID: 747877838511962679}
   m_Father: {fileID: 0}
@@ -326,13 +279,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  characterData: {fileID: 11400000, guid: 86336b1c671f0d342bbdc22dab2a30e7, type: 2}
   currentHealth: 0
   currentRecovery: 0
   currentMoveSpeed: 0
   currentMight: 0
   currentProjectileSpeed: 0
   currentMagnet: 0
+  spawnedWeapons: []
   experience: 0
   level: 1
   experienceCap: 0
@@ -344,51 +297,8 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 5
     experienceCapIncrease: 200
---- !u!1 &5615300893097487368
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3641850480778286055}
-  - component: {fileID: 2765029528998642011}
-  m_Layer: 0
-  m_Name: Shakram Controller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3641850480778286055
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5615300893097487368}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3443457375185694697}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2765029528998642011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5615300893097487368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6787c30d803e8b42b04795a4feb62c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShakramController
-  weaponData: {fileID: 11400000, guid: 05e7252602ed89a4cb7a6976e578a59b, type: 2}
+  weaponIndex: 0
+  passiveItemIndex: 0
 --- !u!1 &9121082217309610956
 GameObject:
   m_ObjectHideFlags: 0
