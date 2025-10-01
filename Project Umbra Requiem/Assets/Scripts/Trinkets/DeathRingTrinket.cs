@@ -6,6 +6,6 @@ public class DeathRingTrinket : PassiveItem
 {
     protected override void ApplyModifier()
     {
-        player.CurrentMight *= 1 + passiveItemData.Multiplier;
+        player.currentMight *= 1 + passiveItemData.Multiplier;
     }
 }

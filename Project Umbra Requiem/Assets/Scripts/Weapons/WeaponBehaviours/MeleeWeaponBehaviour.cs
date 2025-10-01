@@ -22,7 +22,7 @@ public class MeleeBehaviour : MonoBehaviour
 
     public float GetCurrentDamage()
     {
-        return currentDamage *= FindAnyObjectByType<PlayerStats>().CurrentMight;
+        return currentDamage *= FindAnyObjectByType<PlayerStats>().currentMight;
     }
 
     protected virtual void Start()
