@@ -31,4 +31,11 @@ public class CharacterSelector : MonoBehaviour
     {
         characterData = character;
     }
+
+    public void DestroSingleton()
+    {
+        instance = null;
+        Destroy(gameObject);
+    }
+
 }
