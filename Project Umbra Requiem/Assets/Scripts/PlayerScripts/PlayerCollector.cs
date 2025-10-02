@@ -16,7 +16,7 @@ public class PlayerCollector : MonoBehaviour
 
     void Update()
     {
-        playerCollector.radius = player.currentMagnet;    
+        playerCollector.radius = player.CurrentMagnet;    
     }
 
     //Checa se um gameobject tem a interface ICollectable
