@@ -194,13 +194,13 @@ public class PlayerStats : MonoBehaviour
 
             if (currentHealth <= 0)
             {
-                kill();
+                Kill();
             }
         }
         
     }
 
-    public void kill()
+    public void Kill()
     {
         Debug.Log("You are dead");
     }
