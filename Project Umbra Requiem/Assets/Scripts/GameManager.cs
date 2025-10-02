@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,14 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
+
+    //Current stat display
+    public Text currentHealthDisplay;
+    public Text currentRecoveryDisplay;
+    public Text currentMoveSpeedDisplay;
+    public Text currentMightDisplay;
+    public Text currentProjectileSpeedDisplay;
+    public Text currentMagnetDisplay;
 
     void Awake()
     {

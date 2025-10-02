@@ -15,6 +15,7 @@ public class PlayerStats : MonoBehaviour
     float currentProjectileSpeed;
     float currentMagnet;
 
+    #region Current Statss Properties
     public float CurrentHealth 
     {
         get { return currentHealth; }
@@ -86,6 +87,7 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+    #endregion
 
 
     //Spawned Weapon
