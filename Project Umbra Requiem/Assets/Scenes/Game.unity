@@ -370946,6 +370946,12 @@ MonoBehaviour:
   currentState: 0
   previousState: 0
   pauseScreen: {fileID: 2126575369}
+  currentHealthDisplay: {fileID: 0}
+  currentRecoveryDisplay: {fileID: 0}
+  currentMoveSpeedDisplay: {fileID: 0}
+  currentMightDisplay: {fileID: 0}
+  currentProjectileSpeedDisplay: {fileID: 0}
+  currentMagnetDisplay: {fileID: 0}
 --- !u!4 &1000226508
 Transform:
   m_ObjectHideFlags: 0
