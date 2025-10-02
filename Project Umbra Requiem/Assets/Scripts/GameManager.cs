@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     public enum GameState 
     {
         Gameplay,
@@ -27,7 +29,15 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        DisableScreens();
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Debug.LogWarning("EXTRA" + this + "DELETED");
+        }
+            DisableScreens();
     }
 
     void Update()

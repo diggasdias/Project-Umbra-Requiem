@@ -24,6 +24,10 @@ public class PlayerStats : MonoBehaviour
             if (currentHealth != value)
             {
                 currentHealth = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentHealthDisplay.text = "Health: " + currentHealth;
+                }
             }
         }
     }
@@ -36,6 +40,10 @@ public class PlayerStats : MonoBehaviour
             if (currentRecovery != value)
             {
                 currentRecovery = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+                }
             }
         }
     }
@@ -48,6 +56,10 @@ public class PlayerStats : MonoBehaviour
             if (currentMoveSpeed != value)
             {
                 currentMoveSpeed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMoveSpeedDisplay.text = "MoveSpeed: " + currentMoveSpeed;
+                }
             }
         }
     }
@@ -60,6 +72,10 @@ public class PlayerStats : MonoBehaviour
             if (currentMight != value)
             {
                 currentMight = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+                }
             }
         }
     }
@@ -72,6 +88,10 @@ public class PlayerStats : MonoBehaviour
             if (currentProjectileSpeed != value)
             {
                 currentProjectileSpeed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentProjectileSpeedDisplay.text = "Prjectile Speed: " + currentProjectileSpeed;
+                }
             }
         }
     }
@@ -84,6 +104,10 @@ public class PlayerStats : MonoBehaviour
             if (currentMagnet != value)
             {
                 currentMagnet = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
+                }
             }
         }
     }
@@ -143,6 +167,13 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         experienceCap = levelRanges[0].experienceCapIncrease;
+
+        GameManager.instance.currentHealthDisplay.text = "Health: " + currentHealth;
+        GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+        GameManager.instance.currentMoveSpeedDisplay.text = "MoveSpeed: " + currentMoveSpeed;
+        GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+        GameManager.instance.currentProjectileSpeedDisplay.text = "Projectile Speed: " + currentProjectileSpeed;
+        GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
     }
 
     void Update()
