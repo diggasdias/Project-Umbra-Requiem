@@ -42,7 +42,7 @@ public class PlayerStats : MonoBehaviour
                 currentRecovery = value;
                 if (GameManager.instance != null)
                 {
-                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + CurrentRecovery;
                 }
             }
         }
@@ -58,7 +58,7 @@ public class PlayerStats : MonoBehaviour
                 currentMoveSpeed = value;
                 if (GameManager.instance != null)
                 {
-                    GameManager.instance.currentMoveSpeedDisplay.text = "MoveSpeed: " + currentMoveSpeed;
+                    GameManager.instance.currentMoveSpeedDisplay.text = "MoveSpeed: " + CurrentMoveSpeed;
                 }
             }
         }
@@ -74,7 +74,7 @@ public class PlayerStats : MonoBehaviour
                 currentMight = value;
                 if (GameManager.instance != null)
                 {
-                    GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+                    GameManager.instance.currentMightDisplay.text = "Might: " + CurrentMight;
                 }
             }
         }
@@ -114,10 +114,6 @@ public class PlayerStats : MonoBehaviour
     #endregion
 
 
-    //Spawned Weapon
-    public List<GameObject> spawnedWeapons;
-
-
     // Nivel e Xp do player
     [Header("Nivel/Experiencia")]
     public int experience = 0;
@@ -144,6 +140,9 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
+    public GameObject secondWeapontest;
+    public GameObject firstPassiveItemTest, secondPassiveItemTest;
+
     void Awake()
     {
         inventory = GetComponent<InventoryManager>();
@@ -160,8 +159,10 @@ public class PlayerStats : MonoBehaviour
         currentMagnet = characterData.Magnet;
 
         //Spawna arma inicial
-        SpawnedWeapon(characterData.StartingWeapon);
-
+        SpawnWeapon(characterData.StartingWeapon);
+        SpawnWeapon(secondWeapontest);
+        SpawnPassiveItem(firstPassiveItemTest);
+        SpawnPassiveItem(secondPassiveItemTest);
     }
 
     void Start()
@@ -264,11 +265,37 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void SpawnedWeapon(GameObject weapon)
+    public void SpawnWeapon(GameObject weapon)
     {
+        //Checando se o inventário tá cheio
+        if (weaponIndex >= inventory.weaponSlots.Count - 1)
+        {
+            Debug.LogError("Inventory slots are full");
+            return;
+        }
+
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
-        spawnedWeapon.transform.SetParent(transform);
-        spawnedWeapons.Add(spawnedWeapon);
+        spawnedWeapon.transform.SetParent(transform); //Seta a arma como um filho do player
+        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>()); //Adiciona a arma para o slot certo no inventário
+
+        weaponIndex++;
     }
 
+
+    public void SpawnPassiveItem(GameObject passiveItem)
+    {
+        //Checando se o inventário tá cheio
+        if (passiveItemIndex >= inventory.passiveItemSlots.Count - 1)
+        {
+            Debug.LogError("Inventory slots are full");
+            return;
+        }
+
+        //Spawna o trinket inicial
+        GameObject spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);
+        spawnedPassiveItem.transform.SetParent(transform); //Seta a arma como um filho do player
+        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>()); //Adiciona a arma para o slot certo no inventário
+
+        passiveItemIndex++;
+    }
 }

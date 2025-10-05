@@ -375915,11 +375915,77 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6684872813270442005, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: secondWeaponTest
+      value: 
+      objectReference: {fileID: 3538210321710020777, guid: 8b0187a520f412047a13ca5e91f57b7d, type: 3}
+    - target: {fileID: 6684872813270442005, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: secondWeapontest
+      value: 
+      objectReference: {fileID: 3538210321710020777, guid: 8b0187a520f412047a13ca5e91f57b7d, type: 3}
+    - target: {fileID: 6684872813270442005, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: firstPassiveItemTest
+      value: 
+      objectReference: {fileID: 7241258707244386696}
+    - target: {fileID: 6684872813270442005, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: secondPassiveItemTest
+      value: 
+      objectReference: {fileID: 7241258707244386695}
+    - target: {fileID: 8143229209326818136, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: pullSpeed
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5450162724800586332, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7241258707244386694}
   m_SourcePrefab: {fileID: 100100000, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+--- !u!1 &7241258707244386693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5450162724800586332, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+  m_PrefabInstance: {fileID: 7241258707244386692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7241258707244386694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7241258707244386693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bb79feddbacba4e80c8aeaf90b36b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
+  weaponSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponLevels: 000000000000000000000000000000000000000000000000
+  passiveItemSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  passiveItemLevels: 000000000000000000000000000000000000000000000000
+--- !u!1 &7241258707244386695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2060873434964088525, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+  m_PrefabInstance: {fileID: 7241258707244386692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7241258707244386696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9192252723447766084, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+  m_PrefabInstance: {fileID: 7241258707244386692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
