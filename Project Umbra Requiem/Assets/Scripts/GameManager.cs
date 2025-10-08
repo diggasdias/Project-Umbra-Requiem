@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
-    public GameObject resultScreen;
+    public GameObject resultsScreen;
 
     //Current stat display
     public Text currentHealthDisplay;
@@ -114,6 +114,7 @@ public class GameManager : MonoBehaviour
     void DisableScreens()
     {
         pauseScreen.SetActive(false);
+        resultsScreen.SetActive(false);
     }
 
     public void GameOver()
@@ -123,6 +124,6 @@ public class GameManager : MonoBehaviour
 
     void DisplayResults()
     {
-
+        resultsScreen.SetActive(true);
     }
 }
