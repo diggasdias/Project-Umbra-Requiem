@@ -5,13 +5,14 @@ public class ExperienceGem : Pickup, ICollectable
     public int experienceGranted;
     PlayerStats player;
 
-    void Start()
-    {
-        player = FindAnyObjectByType<PlayerStats>();
-    }
-
     public void Collect()
     {
-        player.IncreaseExperience(experienceGranted);
+        if (player == null)
+            player = FindAnyObjectByType<PlayerStats>();
+
+        if (player != null)
+            player.IncreaseExperience(experienceGranted);
+        else
+            Debug.LogError("PlayerStats não encontrado ao coletar ExperienceGem!");
     }
 }
