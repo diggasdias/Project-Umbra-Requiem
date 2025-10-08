@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
+    public GameObject resultScreen;
 
     //Current stat display
     public Text currentHealthDisplay;
@@ -26,6 +27,8 @@ public class GameManager : MonoBehaviour
     public Text currentMightDisplay;
     public Text currentProjectileSpeedDisplay;
     public Text currentMagnetDisplay;
+
+    public bool isGameOver = false;
 
     void Awake()
     {
@@ -51,6 +54,12 @@ public class GameManager : MonoBehaviour
                 CheckForPauseAndResume();
                 break;
             case GameState.GameOver:
+                if (!isGameOver)
+                {
+                    isGameOver = true;
+                    Debug.Log("GAME OVER");
+                    DisplayResults();
+                }
                 break;
             default:
                 Debug.Log("Invalid State");
@@ -105,5 +114,15 @@ public class GameManager : MonoBehaviour
     void DisableScreens()
     {
         pauseScreen.SetActive(false);
+    }
+
+    public void GameOver()
+    {
+        ChangeState(GameState.GameOver);
+    }
+
+    void DisplayResults()
+    {
+
     }
 }
