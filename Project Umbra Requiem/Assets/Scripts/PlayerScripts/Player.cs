@@ -33,6 +33,11 @@ public class Player : MonoBehaviour
 
     void InputManagement()
     {
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 

@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour
                 if (!isGameOver)
                 {
                     isGameOver = true;
+                    Time.timeScale = 0f; //para a velocidade do jogo
                     Debug.Log("GAME OVER");
                     DisplayResults();
                 }
