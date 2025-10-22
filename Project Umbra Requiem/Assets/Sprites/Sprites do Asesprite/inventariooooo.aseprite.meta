@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2007c46861aad5b4db3179f7fd6dc671
+guid: 99c212ceef28a15499469aedaeb82b79
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: XP - Copia
+  - name: inventariooooo
     originalName: 
-    pivot: {x: 0.5, y: -0.266}
+    pivot: {x: 0.7826962, y: -3.1457283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1920
-      height: 500
-    spriteID: 712256bbfe0ff5b48bfc1c064b920e6e
+      width: 497
+      height: 199
+    spriteID: b6d851415b75048469bdc036861cdc68
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3427378733
+      value0: 2613459551
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: XP - Copia
+    name: inventariooooo
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: XP - Copia
+    - name: inventariooooo
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 133
-        width: 1920
-        height: 500
-      spriteId: 712256bbfe0ff5b48bfc1c064b920e6e
+        x: 571
+        y: 626
+        width: 497
+        height: 199
+      spriteId: b6d851415b75048469bdc036861cdc68
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +182,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 1920, y: 1080}
-  previousTextureSize: {x: 2048, y: 512}
+  previousTextureSize: {x: 512, y: 256}
