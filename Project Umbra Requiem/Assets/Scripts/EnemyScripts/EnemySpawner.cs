@@ -1,13 +1,11 @@
-using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-
     [System.Serializable]
-    public class Wave 
+    public class Wave
     {
         public string waveName;
         public List<EnemyGroup> enemyGroups;
@@ -17,21 +15,20 @@ public class EnemySpawner : MonoBehaviour
     }
 
     [System.Serializable]
-    public class EnemyGroup 
+    public class EnemyGroup
     {
         public string enemyName;
-        public int enemyCount; //O número de inimigos a spawnar nessa wave
-        public int spawnCount; //O número de inimigos desse tipo q já spawnaram nessa wave
+        public int enemyCount; // Número de inimigos a spawnar nessa wave
+        public int spawnCount; // Número de inimigos desse tipo já spawnados nessa wave
         public GameObject enemyPrefab;
     }
 
-
-    public List<Wave> waves; //Lista de todas as waves do jogo
+    public List<Wave> waves; // Lista de todas as waves do jogo
     public int currentWaveCount;
 
     [Header("Spawner Attributes")]
-    float spawnTimer; //Timer para determinar quando spawnar o proximo enemy
-    public float waveInterval; //Intervalo entre as waves
+    private float spawnTimer; // Timer para determinar quando spawnar o próximo inimigo
+    public float waveInterval; // Intervalo entre as waves
     public int enemiesAlive;
     public int maxEnemiesAllowed;
     public bool maxEnemiesReached;
@@ -39,24 +36,32 @@ public class EnemySpawner : MonoBehaviour
     [Header("SpawnPositions")]
     public List<Transform> relativeSpawnPoints;
 
-    Transform player;
+    private Transform player;
+    private bool isSpawningWave = false;
 
     void Start()
     {
+        currentWaveCount = 0;
         CalculateWaveQuota();
-        player = FindAnyObjectByType<PlayerStats>().transform;
+        var playerStats = FindAnyObjectByType<PlayerStats>();
+        if (playerStats != null)
+            player = playerStats.transform;
+        else
+            Debug.LogError("PlayerStats não encontrado!");
     }
 
     void Update()
     {
-        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
+        // Inicia a próxima wave apenas uma vez
+        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isSpawningWave)
         {
             StartCoroutine(BeginNextWave());
         }
 
-        spawnTimer = Time.time;
+        // Timer de spawn acumulativo
+        spawnTimer += Time.deltaTime;
 
-        if (spawnTimer >= waves[currentWaveCount].spawnInterval)
+        if (currentWaveCount < waves.Count && spawnTimer >= waves[currentWaveCount].spawnInterval)
         {
             SpawnEnemies();
             spawnTimer = 0f;
@@ -65,13 +70,15 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {
+        isSpawningWave = true;
         yield return new WaitForSeconds(waveInterval);
 
-        if (currentWaveCount < waves.Count -1)
+        if (currentWaveCount < waves.Count - 1)
         {
             currentWaveCount++;
             CalculateWaveQuota();
         }
+        isSpawningWave = false;
     }
 
     void CalculateWaveQuota()
@@ -80,21 +87,18 @@ public class EnemySpawner : MonoBehaviour
         foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
         {
             currentWaveQuota += enemyGroup.enemyCount;
+            enemyGroup.spawnCount = 0; // Reset do spawnCount do grupo
         }
-
         waves[currentWaveCount].waveQuota = currentWaveQuota;
-
+        waves[currentWaveCount].spawnCount = 0; // Reset do spawnCount da wave
     }
-    
+
     void SpawnEnemies()
     {
-        //Checa se o número minimo de inimigos na wave ja spawnou
         if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota && !maxEnemiesReached)
         {
-            //Spawna cada tipo de inimigo até a fila estar cheia
             foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
             {
-                //Checa se o número minimo de inigos desse tipo já spawnou
                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
                     if (enemiesAlive >= maxEnemiesAllowed)
@@ -103,9 +107,8 @@ public class EnemySpawner : MonoBehaviour
                         return;
                     }
 
-                    Instantiate(enemyGroup.enemyPrefab, player.transform.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
-
-                    
+                    Vector3 spawnOffset = relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position;
+                    Instantiate(enemyGroup.enemyPrefab, player.transform.position + spawnOffset, Quaternion.identity);
 
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;
@@ -122,6 +125,6 @@ public class EnemySpawner : MonoBehaviour
 
     public void OnEnemyKilled()
     {
-        enemiesAlive--;
+        enemiesAlive = Mathf.Max(0, enemiesAlive - 1);
     }
 }

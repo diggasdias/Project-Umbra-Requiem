@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed;
+    PlayerStats playerData;
     Rigidbody2D rb;
     [HideInInspector]
     public float lastHorizontalVector;
@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(0f, 1f);
+        playerData = FindAnyObjectByType<PlayerStats>();
     }
 
     void Update()
@@ -32,6 +33,11 @@ public class Player : MonoBehaviour
 
     void InputManagement()
     {
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -55,6 +61,6 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        rb.linearVelocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.linearVelocity = new Vector2(moveDir.x * playerData.CurrentMoveSpeed, moveDir.y * playerData.CurrentMoveSpeed);
     }
 }
