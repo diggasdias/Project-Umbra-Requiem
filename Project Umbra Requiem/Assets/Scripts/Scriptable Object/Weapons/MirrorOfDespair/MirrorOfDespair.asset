@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c95008b00351af749abd635cfc82bac0, type: 3}
-  m_Name: Shakram
+  m_Name: MirrorOfDespair
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
-  prefab: {fileID: 3873259377289047697, guid: 85aac46641bd1c64c9c1a4121a279163, type: 3}
-  damage: 5
-  speed: 10
-  cooldownDuration: 2
-  pierce: 10
+  prefab: {fileID: 201748374159730939, guid: e50cc26b6a4cf564081e5d3a40482327, type: 3}
+  damage: 20
+  speed: 0
+  cooldownDuration: 3
+  pierce: 0
+  level: 1
+  nextLevelPrefab: {fileID: 0}

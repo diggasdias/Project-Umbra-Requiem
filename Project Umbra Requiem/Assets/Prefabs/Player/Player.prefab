@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2060873434964088525
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 747877838511962679}
-  - component: {fileID: 5919710416930281845}
-  m_Layer: 0
-  m_Name: DeathRing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &747877838511962679
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060873434964088525}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3443457375185694697}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5919710416930281845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060873434964088525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ab43e90c78cf5442973a7aaafcbbf4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathRingTrinket
-  passiveItemData: {fileID: 11400000, guid: 8725f181cd38d7146be25ebf8a0e3591, type: 2}
 --- !u!1 &5450162724800586332
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1313e539a3427d4d8ced0dae1abcd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  spawnedWeapons: []
   experience: 0
   level: 1
   experienceCap: 0
@@ -293,6 +247,9 @@ MonoBehaviour:
     experienceCapIncrease: 200
   weaponIndex: 0
   passiveItemIndex: 0
+  secondWeapontest: {fileID: 0}
+  firstPassiveItemTest: {fileID: 0}
+  secondPassiveItemTest: {fileID: 0}
 --- !u!1 &9121082217309610956
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,48 +332,127 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.6
---- !u!1 &9192252723447766084
-GameObject:
+--- !u!1001 &294655691996061577
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4770332022675722639}
-  - component: {fileID: 4372293613427191949}
-  m_Layer: 0
-  m_Name: SpeedCloak
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4770332022675722639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9192252723447766084}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3443457375185694697}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4372293613427191949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3443457375185694697}
+    m_Modifications:
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769741696136513860, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+      propertyPath: m_Name
+      value: DeathRing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+--- !u!4 &747877838511962679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1042070000444941758, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+  m_PrefabInstance: {fileID: 294655691996061577}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9192252723447766084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 440b91caaffb655419a87473f44ad6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpeedCloak
-  passiveItemData: {fileID: 11400000, guid: c9383a6af89adae4893e0883f198a9c8, type: 2}
+--- !u!1001 &5224828451351098796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3443457375185694697}
+    m_Modifications:
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968551900895930856, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+      propertyPath: m_Name
+      value: SpeedCloak
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+--- !u!4 &4770332022675722639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 770624026172400675, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+  m_PrefabInstance: {fileID: 5224828451351098796}
+  m_PrefabAsset: {fileID: 0}
