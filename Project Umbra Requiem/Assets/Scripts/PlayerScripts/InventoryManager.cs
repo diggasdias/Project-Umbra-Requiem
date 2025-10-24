@@ -16,12 +16,16 @@ public class InventoryManager : MonoBehaviour
     {
         weaponSlots[SlotIndex] = weapon;
         weaponLevels[SlotIndex] = weapon.weaponData.Level;
+        weaponUISlots[SlotIndex].enabled = true;
+        weaponUISlots[SlotIndex].sprite = weapon.weaponData.Icon;
     }
 
     public void AddPassiveItem(int SlotIndex , PassiveItem passiveItem) //Adiciona um trinket para um slot específico
     {
         passiveItemSlots[SlotIndex] = passiveItem;
         passiveItemLevels[SlotIndex] = passiveItem.passiveItemData.Level;
+        weaponUISlots[SlotIndex].enabled = true;
+        passiveItemUISlots[SlotIndex].sprite = passiveItem.passiveItemData.Icon;
     }
 
     public void LevelUpWeapon(int slotIndex)
