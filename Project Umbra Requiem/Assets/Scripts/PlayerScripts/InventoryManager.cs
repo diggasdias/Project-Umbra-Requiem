@@ -2,13 +2,15 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using Unity.VisualScripting.Antlr3.Runtime;
+using UnityEngine.UI;
 public class InventoryManager : MonoBehaviour
 {
     public List <WeaponController> weaponSlots = new List <WeaponController> (6);
     public int[] weaponLevels = new int [6];
+    public List<Image> weaponUISlots = new List<Image>(6);
     public List <PassiveItem> passiveItemSlots = new List <PassiveItem> (6);
     public int[] passiveItemLevels = new int [6];
-
+    public List<Image> passiveItemUISlots = new List<Image>(6);
 
     public void AddWeapon(int SlotIndex , WeaponController weapon) //Adiciona uma arma para um slot específico
     {
