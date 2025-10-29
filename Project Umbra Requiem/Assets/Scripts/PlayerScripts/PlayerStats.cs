@@ -217,6 +217,8 @@ public class PlayerStats : MonoBehaviour
             }
             experienceCap += experienceCapIncrease;
         }
+
+        GameManager.instance.StartLevelUp();
     }
 
     public void TakeDamage(float dmg)
