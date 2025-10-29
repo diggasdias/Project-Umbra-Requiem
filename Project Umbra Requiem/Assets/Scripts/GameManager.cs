@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     {
         Gameplay,
         Paused,
-        GameOver
+        GameOver,
+        LevelUp
     }
 
     public GameState currentState;
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
+    public GameObject levelUpScreen;
 
     [Header("Current stats display")]
     public Text currentHealthDisplay;
@@ -37,6 +39,8 @@ public class GameManager : MonoBehaviour
     public List<Image> chosenPassiveItemsUI = new List<Image>(5);
 
     public bool isGameOver = false;
+
+    public bool choosingUpgrade;
 
     void Awake()
     {
@@ -68,6 +72,15 @@ public class GameManager : MonoBehaviour
                     Time.timeScale = 0f; //para a velocidade do jogo
                     Debug.Log("GAME OVER");
                     DisplayResults();
+                }
+                break;
+            case GameState.LevelUp:                
+                if (!choosingUpgrade)
+                {
+                    choosingUpgrade = true;
+                    Time.timeScale = 0f;
+                    Debug.Log("upgrades shown");
+                    levelUpScreen.SetActive(true);
                 }
                 break;
             default:
@@ -124,6 +137,7 @@ public class GameManager : MonoBehaviour
     {
         pauseScreen.SetActive(false);
         resultsScreen.SetActive(false);
+        levelUpScreen.SetActive(false);
     }
 
     public void GameOver()
