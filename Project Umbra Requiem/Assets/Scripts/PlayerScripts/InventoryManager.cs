@@ -131,6 +131,10 @@ public class InventoryManager : MonoBehaviour
                     }
                 }
             }
+            else if (upgradeType == 2)
+            {
+
+            }
         }
     }
 }
