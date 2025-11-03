@@ -12,6 +12,40 @@ public class InventoryManager : MonoBehaviour
     public int[] passiveItemLevels = new int [6];
     public List<Image> passiveItemUISlots = new List<Image>(6);
 
+    [System.Serializable]
+    public class WeaponUpgrade
+    {
+        public GameObject initialWeapon;
+        public WeaponScriptableObject weaponData;
+    }
+
+    [System.Serializable]
+    public class PassiveItemUpgrade
+    {
+        public GameObject initialPassiveItem;
+        public PassiveItemScriptableObject passiveItemData;
+    }
+
+    [System.Serializable]
+    public class UpgradeUI
+    {
+        public Text upgradeNameDisplay;
+        public Text upgradeDescriptionDisplay;
+        public Image upgradeIcon;
+        public Button upgradeButton;
+    }
+
+    public List<WeaponUpgrade> weaponUpgradeOptions = new List<WeaponUpgrade>(); //List of upgrade options for weapons
+    public List<PassiveItemUpgrade> passiveItemUpgradeOptions = new List<PassiveItemUpgrade>(); //List of upgrade options for trinkets
+    public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>(); //list of UI for upgrade options present in the scene
+
+    PlayerStats player;
+
+    void Start()
+    {
+        player = GetComponent<PlayerStats>();
+    }
+
     public void AddWeapon(int SlotIndex , WeaponController weapon) //Adiciona uma arma para um slot específico
     {
         weaponSlots[SlotIndex] = weapon;
@@ -61,6 +95,42 @@ public class InventoryManager : MonoBehaviour
             AddPassiveItem(slotIndex, upgradePassiveItem.GetComponent<PassiveItem>()); 
             Destroy(passiveItem.gameObject);
             passiveItemLevels[slotIndex] = upgradePassiveItem.GetComponent<PassiveItem>().passiveItemData.Level; //Certifica que este é o nivel correto do item
+        }
+    }
+
+    void ApplyUpgradeoptions()
+    {
+        foreach(var upgradeOption in upgradeUIOptions)
+        {
+            int upgradeType = Random.Range(1, 3);
+            if(upgradeType == 1)
+            {
+                WeaponUpgrade chosenWeaponUpgrade = weaponUpgradeOptions[Random.Range(0, weaponUpgradeOptions.Count)];
+                if (chosenWeaponUpgrade != null)
+                {
+                    bool newWeapon = false;
+                    for(int i = 0; i < weaponSlots.Count; i++)
+                    {
+                        if (weaponSlots[i] != null && weaponSlots[i].weaponData == chosenWeaponUpgrade.weaponData)
+                        {
+                            newWeapon = false;
+                            if (!newWeapon)
+                            {
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i));
+                            }
+                            break;
+                        }
+                        else
+                        {
+                            newWeapon = true;
+                        }
+                    }
+                    if (newWeapon)
+                    {
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon));
+                    }
+                }
+            }
         }
     }
 }
