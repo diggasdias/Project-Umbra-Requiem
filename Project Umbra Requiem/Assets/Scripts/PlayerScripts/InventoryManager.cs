@@ -117,6 +117,8 @@ public class InventoryManager : MonoBehaviour
                             if (!newWeapon)
                             {
                                 upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i));
+                                upgradeOption.upgradeDescriptionDisplay.text = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Description;
+                                upgradeOption.upgradeNameDisplay.text = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Name;
                             }
                             break;
                         }
@@ -129,6 +131,7 @@ public class InventoryManager : MonoBehaviour
                     {
                         upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon));
                     }
+                    upgradeOption.upgradeIcon.sprite = chosenWeaponUpgrade.weaponData.Icon;
                 }
             }
             else if (upgradeType == 2)
