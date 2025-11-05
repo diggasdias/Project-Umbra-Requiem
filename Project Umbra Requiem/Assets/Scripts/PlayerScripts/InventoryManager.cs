@@ -133,7 +133,32 @@ public class InventoryManager : MonoBehaviour
             }
             else if (upgradeType == 2)
             {
+                PassiveItemUpgrade chosenPassiveItemUpgrade = passiveItemUpgradeOptions[Random.Range(0, passiveItemUpgradeOptions.Count)];
+                if (chosenPassiveItemUpgrade != null)
+                {
+                    bool newPassiveItem = false;
+                    for (int i = 0; i < passiveItemSlots.Count; i++)
+                    {
+                        if (passiveItemSlots[i] != null && passiveItemSlots[i].passiveItemData == chosenPassiveItemUpgrade.passiveItemData)
+                        {
+                            newPassiveItem = false;
 
+                            if (!newPassiveItem)
+                            {
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i));
+                            }
+                            break;
+                        }
+                        else
+                        {
+                            newPassiveItem = true;
+                        } 
+                    }
+                    if (newPassiveItem)
+                    {
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnPassiveItem(chosenPassiveItemUpgrade.initialPassiveItem));
+                    }
+                }
             }
         }
     }
