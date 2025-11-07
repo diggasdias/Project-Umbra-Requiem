@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
 
     public bool choosingUpgrade;
 
+    public GameObject playerObject;
+
     void Awake()
     {
         if (instance == null)
@@ -199,6 +201,7 @@ public class GameManager : MonoBehaviour
     public void StartLevelUp()
     {
         ChangeState(GameState.LevelUp);
+        playerObject.SendMessage("RemoveAndAppleUpgrades");
     }
 
     public void EndLevelUp()

@@ -52,6 +52,11 @@ public class InventoryManager : MonoBehaviour
         weaponLevels[SlotIndex] = weapon.weaponData.Level;
         weaponUISlots[SlotIndex].enabled = true;
         weaponUISlots[SlotIndex].sprite = weapon.weaponData.Icon;
+
+        if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
+        {
+            GameManager.instance.EndLevelUp();
+        }
     }
 
     public void AddPassiveItem(int SlotIndex , PassiveItem passiveItem) //Adiciona um trinket para um slot específico
@@ -60,6 +65,11 @@ public class InventoryManager : MonoBehaviour
         passiveItemLevels[SlotIndex] = passiveItem.passiveItemData.Level;
         weaponUISlots[SlotIndex].enabled = true;
         passiveItemUISlots[SlotIndex].sprite = passiveItem.passiveItemData.Icon;
+
+        if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
+        {
+            GameManager.instance.EndLevelUp();
+        }
     }
 
     public void LevelUpWeapon(int slotIndex)
@@ -77,6 +87,11 @@ public class InventoryManager : MonoBehaviour
             AddWeapon(slotIndex, upgradeWeapon.GetComponent<WeaponController>());
             Destroy(weapon.gameObject);
             weaponLevels[slotIndex] = upgradeWeapon.GetComponent<WeaponController>().weaponData.Level; //Certifica que este é o nivel correto do item
+
+            if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
+            {
+                GameManager.instance.EndLevelUp();
+            }
         }
     }
 
@@ -95,6 +110,11 @@ public class InventoryManager : MonoBehaviour
             AddPassiveItem(slotIndex, upgradePassiveItem.GetComponent<PassiveItem>()); 
             Destroy(passiveItem.gameObject);
             passiveItemLevels[slotIndex] = upgradePassiveItem.GetComponent<PassiveItem>().passiveItemData.Level; //Certifica que este é o nivel correto do item
+
+            if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
+            {
+                GameManager.instance.EndLevelUp();
+            }
         }
     }
 
@@ -180,5 +200,11 @@ public class InventoryManager : MonoBehaviour
         {
             upgradeOption.upgradeButton.onClick.RemoveAllListeners();
         }
+    }
+
+    public void RemoveAndApplyUpgrades()
+    {
+        RemoveUpgradeOptions();
+        ApplyUpgradeoptions();
     }
 }
