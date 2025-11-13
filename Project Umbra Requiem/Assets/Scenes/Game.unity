@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &53439017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5450162724800586332, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+  m_PrefabInstance: {fileID: 7241258707244386692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &95859455
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,8 +642,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 241.24097, y: -181.80002}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 334.9, y: -158.8}
+  m_SizeDelta: {x: 200, y: 98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328854704
 MonoBehaviour:
@@ -653,15 +658,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
   m_Padding:
-    m_Left: 10
+    m_Left: 0
     m_Right: 0
     m_Top: 10
     m_Bottom: 0
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 32, y: 32}
-  m_Spacing: {x: 5, y: 5}
+  m_CellSize: {x: 30, y: 30}
+  m_Spacing: {x: 6, y: 5}
   m_Constraint: 2
   m_ConstraintCount: 2
 --- !u!1 &333801160
@@ -373214,6 +373219,7 @@ MonoBehaviour:
   chosenPassiveItemsUI: []
   isGameOver: 0
   choosingUpgrade: 0
+  playerObject: {fileID: 53439017}
 --- !u!4 &1000226508
 Transform:
   m_ObjectHideFlags: 0
@@ -374458,7 +374464,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 328.6, y: -180.4}
-  m_SizeDelta: {x: 200.0497, y: 98.3443}
+  m_SizeDelta: {x: 200, y: 98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406649701
 MonoBehaviour:
@@ -380266,7 +380272,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1377016494441138271, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
   m_PrefabInstance: {fileID: 7241258707244386692}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 53439017}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3bb79feddbacba4e80c8aeaf90b36b2, type: 3}

@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2174721888730639161}
   - component: {fileID: 856832857485517078}
   - component: {fileID: 6684872813270442005}
-  - component: {fileID: 5212156351675456208}
   - component: {fileID: 1377016494441138271}
   m_Layer: 0
   m_Name: Player
@@ -252,36 +251,6 @@ MonoBehaviour:
   secondWeapontest: {fileID: 3538210321710020777, guid: 8b0187a520f412047a13ca5e91f57b7d, type: 3}
   firstPassiveItemTest: {fileID: 9192252723447766084}
   secondPassiveItemTest: {fileID: 2060873434964088525}
---- !u!114 &5212156351675456208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5450162724800586332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3bb79feddbacba4e80c8aeaf90b36b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  weaponSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  weaponLevels: 000000000000000000000000000000000000000000000000
-  weaponUISlots: []
-  passiveItemSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  passiveItemLevels: 000000000000000000000000000000000000000000000000
-  passiveItemUISlots: []
 --- !u!114 &1377016494441138271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,6 +291,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  weaponUpgradeOptions: []
+  passiveItemUpgradeOptions: []
+  upgradeUIOptions: []
 --- !u!1 &9121082217309610956
 GameObject:
   m_ObjectHideFlags: 0

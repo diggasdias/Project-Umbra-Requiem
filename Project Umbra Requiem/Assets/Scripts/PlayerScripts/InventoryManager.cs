@@ -63,7 +63,7 @@ public class InventoryManager : MonoBehaviour
     {
         passiveItemSlots[SlotIndex] = passiveItem;
         passiveItemLevels[SlotIndex] = passiveItem.passiveItemData.Level;
-        weaponUISlots[SlotIndex].enabled = true;
+        passiveItemUISlots[SlotIndex].enabled = true;
         passiveItemUISlots[SlotIndex].sprite = passiveItem.passiveItemData.Icon;
 
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
