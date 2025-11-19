@@ -160,8 +160,8 @@ public class PlayerStats : MonoBehaviour
 
         //Spawna arma inicial
         SpawnWeapon(characterData.StartingWeapon);
-        SpawnWeapon(secondWeapontest);
-        SpawnPassiveItem(firstPassiveItemTest);
+        //SpawnWeapon(secondWeapontest);
+        //SpawnPassiveItem(firstPassiveItemTest);
         SpawnPassiveItem(secondPassiveItemTest);
     }
 

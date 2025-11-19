@@ -291,9 +291,53 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  weaponUpgradeOptions: []
-  passiveItemUpgradeOptions: []
-  upgradeUIOptions: []
+  weaponUpgradeOptions:
+  - initialWeapon: {fileID: 3873259377289047697, guid: 85aac46641bd1c64c9c1a4121a279163, type: 3}
+    weaponData: {fileID: 11400000, guid: 05e7252602ed89a4cb7a6976e578a59b, type: 2}
+  - initialWeapon: {fileID: 3538210321710020777, guid: 8b0187a520f412047a13ca5e91f57b7d, type: 3}
+    weaponData: {fileID: 11400000, guid: 434940bc2333a2b44952446724622bb7, type: 2}
+  - initialWeapon: {fileID: 0}
+    weaponData: {fileID: 0}
+  - initialWeapon: {fileID: 0}
+    weaponData: {fileID: 0}
+  - initialWeapon: {fileID: 0}
+    weaponData: {fileID: 0}
+  - initialWeapon: {fileID: 0}
+    weaponData: {fileID: 0}
+  - initialWeapon: {fileID: 0}
+    weaponData: {fileID: 0}
+  passiveItemUpgradeOptions:
+  - initialPassiveItem: {fileID: 1769741696136513860, guid: 9fb4944ae57cfe2428dd89dc781694db, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 8725f181cd38d7146be25ebf8a0e3591, type: 2}
+  - initialPassiveItem: {fileID: 3968551900895930856, guid: e4e7b6976f60fbc419ce292092d96694, type: 3}
+    passiveItemData: {fileID: 11400000, guid: c9383a6af89adae4893e0883f198a9c8, type: 2}
+  - initialPassiveItem: {fileID: 0}
+    passiveItemData: {fileID: 0}
+  - initialPassiveItem: {fileID: 0}
+    passiveItemData: {fileID: 0}
+  - initialPassiveItem: {fileID: 0}
+    passiveItemData: {fileID: 0}
+  - initialPassiveItem: {fileID: 0}
+    passiveItemData: {fileID: 0}
+  - initialPassiveItem: {fileID: 0}
+    passiveItemData: {fileID: 0}
+  upgradeUIOptions:
+  - upgradeNameDisplay: {fileID: 0}
+    upgradeDescriptionDisplay: {fileID: 0}
+    upgradeIcon: {fileID: 0}
+    upgradeButton: {fileID: 0}
+  - upgradeNameDisplay: {fileID: 0}
+    upgradeDescriptionDisplay: {fileID: 0}
+    upgradeIcon: {fileID: 0}
+    upgradeButton: {fileID: 0}
+  - upgradeNameDisplay: {fileID: 0}
+    upgradeDescriptionDisplay: {fileID: 0}
+    upgradeIcon: {fileID: 0}
+    upgradeButton: {fileID: 0}
+  - upgradeNameDisplay: {fileID: 0}
+    upgradeDescriptionDisplay: {fileID: 0}
+    upgradeIcon: {fileID: 0}
+    upgradeButton: {fileID: 0}
 --- !u!1 &9121082217309610956
 GameObject:
   m_ObjectHideFlags: 0
