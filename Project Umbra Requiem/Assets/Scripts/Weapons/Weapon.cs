@@ -40,4 +40,63 @@ public abstract class Weapon : MonoBehaviour
             return damage + Random.Range(0, damageVariance);
         }
     }
+
+    public int currentLevel = 1, maxLevel = 1;
+    protected PlayerStats owner;
+    protected Stats currentStats;
+    public WeaponData data;
+    protected float currentCooldown;
+    protected Player movement;
+
+    public virtual void Initialise(WeaponData data)
+    {
+        maxLevel = data.maxLevel;
+        owner = FindAnyObjectByType<PlayerStats>();
+
+        this.data = data;
+        currentStats = data.baseStats;
+        movement = GetComponentInParent<Player>();
+        currentCooldown = currentStats.cooldown;
+    }
+
+    protected virtual void Awake()
+    {
+        if (data) currentStats = data.baseStats;
+    }
+
+    protected virtual void start()
+    {
+        if (data)
+        {
+            Initialise(data);
+        }
+    }
+
+    protected virtual void Update()
+    {
+        currentCooldown -= Time.deltaTime;
+        if (currentCooldown <= 0f)
+        {
+            Attack(currentStats.number);
+        }
+    }
+
+    public virtual bool CanLevelUp()
+    {
+        return currentLevel <= maxLevel;
+    }
+
+    public virtual bool DoLevelUp()
+    {
+        if (!CanLevelUp())
+        {
+            Debug.LogWarning(string.Format("Cannot level up {0} to level {1}, max level of {2} already reached.", name, currentLevel, data.maxLevel));
+            return false;
+        }
+
+        currentStats += data.GetLevelData(++currentLevel);
+        return true;
+    }
+    
+    //line 134
 }
