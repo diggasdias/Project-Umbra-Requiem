@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     public Image chosenCharacterImage;
     public Text chosenCharacterName;
     public Text levelReachedDisplay;
+    public Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(5);
     public List<Image> chosenPassiveItemsUI = new List<Image>(5);
 
@@ -43,6 +44,11 @@ public class GameManager : MonoBehaviour
     public bool choosingUpgrade;
 
     public GameObject playerObject;
+
+    [Header("Stopawtch")]
+    public float timeLimit;
+    float stopWatchTime;
+    public Text stopWatchDisplay;
 
     void Awake()
     {
@@ -63,6 +69,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Gameplay:
                 CheckForPauseAndResume();
+                UpdateStopWatch();
                 break;
             case GameState.Paused:
                 CheckForPauseAndResume();
@@ -150,6 +157,8 @@ public class GameManager : MonoBehaviour
     void DisplayResults()
     {
         resultsScreen.SetActive(true);
+
+        timeSurvivedDisplay.text = stopWatchDisplay.text;
     }
 
     public void AssignChosenCharacterUI(CharacterScriptableObject chosenCharacterData)
@@ -210,5 +219,25 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         levelUpScreen.SetActive(false);
         ChangeState(GameState.Gameplay);
+    }
+
+    void UpdateStopWatch()
+    {
+        stopWatchTime = Time.time;
+
+        UpdateStopWatchDisplay();
+
+        if (stopWatchTime >= timeLimit)
+        {
+            playerObject.SendMessage("Kill");
+        }
+    }
+
+    void UpdateStopWatchDisplay()
+    {
+        int minutes = Mathf.FloorToInt(stopWatchTime / 60);
+        int seconds = Mathf.FloorToInt(stopWatchTime % 60);
+
+        stopWatchDisplay.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
