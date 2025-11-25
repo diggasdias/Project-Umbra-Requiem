@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 806698045309061031}
   - component: {fileID: 4283829227543270233}
   m_Layer: 0
-  m_Name: Shakram level 2
+  m_Name: Shakram level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d5204f771439c945bc5460e3d7e514b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShakramBehaviour
-  weaponData: {fileID: 11400000, guid: c21c523a37151584aad48b4ef955d69b, type: 2}
+  weaponData: {fileID: 11400000, guid: 1cfc6d1a41776e94dbcfae6aa23b3be5, type: 2}
   destroyAfterSeconds: 3
 --- !u!50 &7514943801570005607
 Rigidbody2D:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e01aa7ebe8ea145af961f99caf154d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileWeaponBehaviour
-  weaponData: {fileID: 11400000, guid: c21c523a37151584aad48b4ef955d69b, type: 2}
+  weaponData: {fileID: 11400000, guid: 1cfc6d1a41776e94dbcfae6aa23b3be5, type: 2}
   destroyAfterSeconds: 3
 --- !u!60 &4283829227543270233
 PolygonCollider2D:

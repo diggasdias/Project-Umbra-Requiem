@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
                 {
                     choosingUpgrade = true;
                     Time.timeScale = 0f;
-                    Debug.Log("upgrades shown");
+                    //Debug.Log("upgrades shown");
                     levelUpScreen.SetActive(true);
                 }
                 break;

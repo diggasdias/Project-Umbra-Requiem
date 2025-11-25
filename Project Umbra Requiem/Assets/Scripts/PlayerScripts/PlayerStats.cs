@@ -140,8 +140,8 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
-    public GameObject secondWeapontest;
-    public GameObject firstPassiveItemTest, secondPassiveItemTest;
+    //public GameObject secondWeapontest;
+    //public GameObject firstPassiveItemTest, secondPassiveItemTest;
 
     void Awake()
     {
@@ -162,8 +162,8 @@ public class PlayerStats : MonoBehaviour
         SpawnWeapon(characterData.StartingWeapon);
         //SpawnWeapon(secondWeapontest);
         //SpawnPassiveItem(firstPassiveItemTest);
-        SpawnPassiveItem(secondPassiveItemTest);
-    }
+        //SpawnPassiveItem(secondPassiveItemTest);
+    }       
 
     void Start()
     {
@@ -283,13 +283,35 @@ public class PlayerStats : MonoBehaviour
             return;
         }
 
+        if (weapon == null)
+        {
+            Debug.LogError("SpawnWeapon: prefab null");
+            return;
+        }
+
+        // Verifica se o prefab é um prefab de arma (contém WeaponController em raiz ou nos filhos)
+        var prefabWeaponCtrl = weapon.GetComponent<WeaponController>() ?? weapon.GetComponentInChildren<WeaponController>();
+        if (prefabWeaponCtrl == null)
+        {
+            Debug.LogError($"SpawnWeapon: o prefab '{weapon.name}' não contém WeaponController. Parece ser um projétil em vez de um prefab de arma.");
+            return;
+        }
+
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform); //Seta a arma como um filho do player
-        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>()); //Adiciona a arma para o slot certo no inventário
+
+        var spawnedWeaponCtrl = spawnedWeapon.GetComponent<WeaponController>() ?? spawnedWeapon.GetComponentInChildren<WeaponController>();
+        if (spawnedWeaponCtrl == null)
+        {
+            Debug.LogError($"SpawnWeapon: instância de '{weapon.name}' não contém WeaponController após instanciar.");
+            Destroy(spawnedWeapon);
+            return;
+        }
+
+        inventory.AddWeapon(weaponIndex, spawnedWeaponCtrl); //Adiciona a arma para o slot certo no inventário
 
         weaponIndex++;
     }
-
 
     public void SpawnPassiveItem(GameObject passiveItem)
     {
@@ -300,10 +322,32 @@ public class PlayerStats : MonoBehaviour
             return;
         }
 
+        if (passiveItem == null)
+        {
+            Debug.LogError("SpawnPassiveItem: prefab null");
+            return;
+        }
+
+        var prefabPassive = passiveItem.GetComponent<PassiveItem>() ?? passiveItem.GetComponentInChildren<PassiveItem>();
+        if (prefabPassive == null)
+        {
+            Debug.LogError($"SpawnPassiveItem: o prefab '{passiveItem.name}' não contém PassiveItem. Verifique o prefab.");
+            return;
+        }
+
         //Spawna o trinket inicial
         GameObject spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);
         spawnedPassiveItem.transform.SetParent(transform); //Seta a arma como um filho do player
-        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>()); //Adiciona a arma para o slot certo no inventário
+
+        var spawnedPassiveCtrl = spawnedPassiveItem.GetComponent<PassiveItem>() ?? spawnedPassiveItem.GetComponentInChildren<PassiveItem>();
+        if (spawnedPassiveCtrl == null)
+        {
+            Debug.LogError($"SpawnPassiveItem: instância de '{passiveItem.name}' não contém PassiveItem após instanciar.");
+            Destroy(spawnedPassiveItem);
+            return;
+        }
+
+        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveCtrl); //Adiciona a arma para o slot certo no inventário
 
         passiveItemIndex++;
     }
