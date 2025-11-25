@@ -98,5 +98,25 @@ public abstract class Weapon : MonoBehaviour
         return true;
     }
     
-    //line 134
+    protected virtual bool CanAttack()
+    {
+        return currentCooldown <= 0;
+    }
+
+    protected virtual bool Attack(int attackCount = 1)
+    {
+        if (CanAttack())
+        {
+            currentCooldown += currentStats.cooldown;
+            return true;
+        }
+        return false;
+    }
+
+    public virtual float GetDamage()
+    {
+        return currentStats.GetDamage() * owner.CurrentMight;
+    }
+
+    public virtual Stats GetStats() {  return currentStats; }
 }
