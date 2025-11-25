@@ -2,6 +2,8 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using UnityEngine.UI;
+
 
 public class PlayerStats : MonoBehaviour
 {
@@ -113,12 +115,12 @@ public class PlayerStats : MonoBehaviour
     }
     #endregion
 
-
     // Nivel e Xp do player
     [Header("Nivel/Experiencia")]
     public int experience = 0;
     public int level = 1;
     public int experienceCap;
+    public Image healthBar;
 
     //Classe para definir a faixa de nivel e o tanto de xp necessário para subir
     [System.Serializable]
@@ -140,8 +142,7 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
-    //public GameObject secondWeapontest;
-    //public GameObject firstPassiveItemTest, secondPassiveItemTest;
+    
 
     void Awake()
     {
@@ -177,6 +178,8 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
+
+        UpdateHealthBar();
     }
 
     void Update()
@@ -235,7 +238,15 @@ public class PlayerStats : MonoBehaviour
                 Kill();
             }
         }
-        
+        UpdateHealthBar();
+    }
+
+    void UpdateHealthBar()
+    {
+        if (healthBar != null)
+        {
+            healthBar.fillAmount = currentHealth / characterData.MaxHealth;
+        }
     }
 
     public void Kill()
