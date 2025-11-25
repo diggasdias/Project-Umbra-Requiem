@@ -79,8 +79,10 @@ public class Projectile : WeaponEffect
             piercing--;
             if (stats.hitEffect)
             {
-                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identitiy), 5f)
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
             }
         }
+
+        if (piercing <= 0) Destroy(gameObject);
     }
 }
