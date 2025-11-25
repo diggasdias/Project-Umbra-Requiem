@@ -35,7 +35,7 @@ public class EnemyStats : MonoBehaviour
         ReturnEnemy();   
     }
 
-    public void TakeDamage(float dmg)
+    public void TakeDamage(float dmg, Vector3 source)
     {
         currentHealth -= dmg;
 
