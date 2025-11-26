@@ -35,17 +35,17 @@ public class EnemyStats : MonoBehaviour
         ReturnEnemy();   
     }
 
-    public void TakeDamage(float dmg, Vector3 source)
+    public void TakeDamage(float dmg)
     {
         currentHealth -= dmg;
 
         if (currentHealth <= 0)
         {
-            kill();
+            Kill();
         }
     }
 
-    public void kill()
+    public void Kill()
     {
         Destroy(gameObject);
     }
