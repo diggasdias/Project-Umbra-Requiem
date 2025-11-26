@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class Weapon : MonoBehaviour
+public abstract class Weapon : Item
 {
     [System.Serializable]
     public struct Stats 
@@ -43,8 +43,6 @@ public abstract class Weapon : MonoBehaviour
         }
     }
 
-    public int currentLevel = 1, maxLevel = 1;
-    protected PlayerStats owner;
     protected Stats currentStats;
     public WeaponData data;
     protected float currentCooldown;
@@ -83,13 +81,9 @@ public abstract class Weapon : MonoBehaviour
         }
     }
 
-    public virtual bool CanLevelUp()
+    public override bool DoLevelUp()
     {
-        return currentLevel <= maxLevel;
-    }
-
-    public virtual bool DoLevelUp()
-    {
+        base.DoLevelUp();
         if (!CanLevelUp())
         {
             Debug.LogWarning(string.Format("Cannot level up {0} to level {1}, max level of {2} already reached.", name, currentLevel, data.maxLevel));
