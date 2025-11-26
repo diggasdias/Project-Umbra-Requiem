@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
+[System.Obsolete]
 public class MirrorOfDespairBehavior : MeleeBehaviour
 {
     List<GameObject> markedEnemies;
@@ -17,7 +18,6 @@ public class MirrorOfDespairBehavior : MeleeBehaviour
         if (col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(GetCurrentDamage());
 
             markedEnemies.Add(col.gameObject);
         }

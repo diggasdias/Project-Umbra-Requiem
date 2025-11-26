@@ -2,11 +2,13 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
+    [System.Serializable]
     public struct Stats 
     {
         public string name, description;
 
         [Header("Visual")]
+        public Projectile projectilePrefab;
         public ParticleSystem hitEffect;
         public Rect spawnVariance;
 
@@ -98,7 +100,7 @@ public abstract class Weapon : MonoBehaviour
         return true;
     }
     
-    protected virtual bool CanAttack()
+    public virtual bool CanAttack()
     {
         return currentCooldown <= 0;
     }

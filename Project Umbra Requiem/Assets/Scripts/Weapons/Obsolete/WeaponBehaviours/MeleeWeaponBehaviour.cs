@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Obsolete]
 public class MeleeBehaviour : MonoBehaviour
 {
     public WeaponScriptableObject weaponData;
@@ -35,7 +36,7 @@ public class MeleeBehaviour : MonoBehaviour
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(GetCurrentDamage());
+            
         }
     }
 
