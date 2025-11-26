@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public GameState currentState;
     public GameState previousState;
 
+
     [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;

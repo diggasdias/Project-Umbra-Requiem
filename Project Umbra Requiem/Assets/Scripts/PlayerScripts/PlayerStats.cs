@@ -1,7 +1,5 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
-using System.Collections;
 using UnityEngine.UI;
 
 
@@ -120,7 +118,7 @@ public class PlayerStats : MonoBehaviour
     public int experience = 0;
     public int level = 1;
     public int experienceCap;
-    public Image healthBar;
+    
 
     //Classe para definir a faixa de nivel e o tanto de xp necessário para subir
     [System.Serializable]
@@ -142,8 +140,7 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
-    
-
+    public Image healthBar;
     void Awake()
     {
         inventory = GetComponent<InventoryManager>();

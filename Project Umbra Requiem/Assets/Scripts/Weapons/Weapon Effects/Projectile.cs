@@ -11,6 +11,7 @@ public class Projectile : WeaponEffect
     protected Rigidbody2D rb;
     protected int piercing;
 
+    [System.Obsolete]
     protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +35,7 @@ public class Projectile : WeaponEffect
         if (hasAutoAim) AcquireAutoAimFacing();
     }
 
+    [System.Obsolete]
     public virtual void AcquireAutoAimFacing()
     {
         float aimAngle;
@@ -73,7 +75,7 @@ public class Projectile : WeaponEffect
         {
             Vector3 source = damageSource == DamageSource.owner && owner ? owner.transform.position : transform.position;
 
-            es.TakeDamage(GetDamage(), source);
+            //es.TakeDamage(GetDamage(), source);
 
             Weapon.Stats stats = weapon.GetStats();
             piercing--;
