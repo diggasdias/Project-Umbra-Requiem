@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a28b113435541e1429f471349742bcc7, type: 3}
-  m_Name: SpeedCloak level 3
+  m_Name: DeathRing level 4
   m_EditorClassIdentifier: Assembly-CSharp::PassiveItemScriptableObject
-  multiplier: 7
+  multiplier: 7.5
   level: 3
-  nextLevelPrefab: {fileID: 3968551900895930856, guid: 53588ebb06cadbc48a9cb4e16589e605, type: 3}
-  name: Speed Cloak Lvl 3
-  description: Increases Movement Speed by 7
-  icon: {fileID: -5907257125096388620, guid: b5ba5b3242b2d9d4e95e1866ed8895e1, type: 3}
+  nextLevelPrefab: {fileID: 1769741696136513860, guid: 02f48fac88a947a4a8b91dfc839ff678, type: 3}
+  name: Death Ring Lvl 3
+  description: Increases Damage by 2
+  icon: {fileID: -9190295717878937963, guid: 6fcfae9912de98c428fc13e470cc6ad3, type: 3}

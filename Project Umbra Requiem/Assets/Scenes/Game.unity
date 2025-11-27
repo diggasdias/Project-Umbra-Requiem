@@ -351762,6 +351762,68 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 2
     spawnCount: 0
+  - waveName: Boss Wave 1
+    enemyGroups:
+    - enemyName: Mega Mush
+      enemyCount: 1
+      spawnCount: 0
+      enemyPrefab: {fileID: 5267559431441062412, guid: 7919af99cf811524eb0321c9a3f4c363, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Wave 1f2
+    enemyGroups:
+    - enemyName: Beholder
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 2765804895966829695, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 2f2
+    enemyGroups:
+    - enemyName: Beholder
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 2765804895966829695, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
+    - enemyName: Goblin
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 4442791503683674501, guid: feb70e0d7dfb6e94388c66ba4802f827, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Wave 3f2
+    enemyGroups:
+    - enemyName: Spark Slime
+      enemyCount: 70
+      spawnCount: 0
+      enemyPrefab: {fileID: 714792692328492056, guid: e43448aece0334e49a995b32bae56763, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 4f2
+    enemyGroups:
+    - enemyName: Magic Mush
+      enemyCount: 35
+      spawnCount: 0
+      enemyPrefab: {fileID: 7371939924437220826, guid: 0ee5533934eb9344bb4cd4d025898610, type: 3}
+    - enemyName: Goblin warrior
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 5427751076781611352, guid: 9e7e9d1ee6a36c249babe9a7d4aa8bc2, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Boss Wave 2
+    enemyGroups:
+    - enemyName: Mine Keeper
+      enemyCount: 1
+      spawnCount: 0
+      enemyPrefab: {fileID: 8932135382879961092, guid: 749d057ed4d78e84dbe5e8993bf20ac4, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
   currentWaveCount: 0
   waveInterval: 20
   enemiesAlive: 0
@@ -375343,7 +375405,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5.625
+  orthographic size: 8.34375
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -376636,7 +376698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -19.494385}
+  m_AnchoredPosition: {x: 0, y: -67}
   m_SizeDelta: {x: 144.26978, y: 38.9888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580173167
@@ -382241,6 +382303,118 @@ PrefabInstance:
       propertyPath: levelText
       value: 
       objectReference: {fileID: 310468949}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[0].endLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[1].endLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[2].endLevel
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[3].endLevel
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[4].endLevel
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[5].endLevel
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[6].endLevel
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[7].endLevel
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[8].endLevel
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[0].startLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[1].startLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[2].startLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[3].startLevel
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[4].startLevel
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[5].startLevel
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[6].startLevel
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[7].startLevel
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[8].startLevel
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[0].experienceCapIncrease
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[1].experienceCapIncrease
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[2].experienceCapIncrease
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[3].experienceCapIncrease
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[4].experienceCapIncrease
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[5].experienceCapIncrease
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[6].experienceCapIncrease
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[7].experienceCapIncrease
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559597207710362872, guid: be4110179b172e14da73520ac4d8f2a9, type: 3}
+      propertyPath: levelRanges.Array.data[8].experienceCapIncrease
+      value: 5000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

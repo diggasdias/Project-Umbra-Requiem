@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4854043021611888177}
   - component: {fileID: 3325217323075005058}
   - component: {fileID: 1096914676722091770}
+  - component: {fileID: -1236015270926570720}
   m_Layer: 6
   m_Name: Spark Slime
   m_TagString: Enemy
@@ -65,6 +66,7 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+  despawnDistance: 20
 --- !u!61 &4854043021611888177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -191,3 +193,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1236015270926570720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714792692328492056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b10a6c922316d4fa70d575782ce879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  drops:
+  - name: xp gem
+    itemPrefab: {fileID: 7911463880717684549, guid: 262614b66983d554585fb1eda5542ebd, type: 3}
+    dropRate: 90

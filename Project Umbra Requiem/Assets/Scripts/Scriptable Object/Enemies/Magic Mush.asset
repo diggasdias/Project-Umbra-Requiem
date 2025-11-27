@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc43f5db1ffda84a84d764143a6a8aa, type: 3}
   m_Name: Magic Mush
   m_EditorClassIdentifier: Assembly-CSharp::EnemyScriptableObject
+  moveSpeed: 2
+  maxHealth: 60
+  damage: 15

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6959487435855426483}
   - component: {fileID: 5952681790940697190}
   - component: {fileID: 8204773342046134971}
+  - component: {fileID: -7776722937107885230}
   m_Layer: 6
   m_Name: Crimsom Beholder
   m_TagString: Enemy
@@ -66,6 +67,7 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+  despawnDistance: 20
 --- !u!61 &4144510680121967585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,3 +221,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-7776722937107885230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2629056717189010098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b10a6c922316d4fa70d575782ce879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  drops:
+  - name: xp gem
+    itemPrefab: {fileID: 7911463880717684549, guid: 262614b66983d554585fb1eda5542ebd, type: 3}
+    dropRate: 90

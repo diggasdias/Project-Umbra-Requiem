@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7907354220937224687}
   - component: {fileID: 5700158549155785111}
   - component: {fileID: 7348428778062919441}
+  - component: {fileID: 1144297467887845818}
   m_Layer: 6
   m_Name: Magic Mush
   m_TagString: Enemy
@@ -65,6 +66,7 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+  despawnDistance: 20
 --- !u!61 &7907354220937224687
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -191,3 +193,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1144297467887845818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371939924437220826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b10a6c922316d4fa70d575782ce879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  drops:
+  - name: Red Gem
+    itemPrefab: {fileID: 7911463880717684549, guid: 6bb25fb20be48154ca1100fd89cab62f, type: 3}
+    dropRate: 90
