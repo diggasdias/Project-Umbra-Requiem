@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: MirrorOfDespair Level 3
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
   prefab: {fileID: 201748374159730939, guid: 742dbc56f605f584bab1b589a3ddef27, type: 3}
-  damage: 8
+  damage: 30
   speed: 0
-  cooldownDuration: 2.7
+  cooldownDuration: 2
   pierce: 0
   level: 3
   nextLevelPrefab: {fileID: 0}

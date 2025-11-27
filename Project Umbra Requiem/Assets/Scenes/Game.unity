@@ -351729,26 +351729,43 @@ MonoBehaviour:
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
-    - enemyName: beholder
-      enemyCount: 10
+    - enemyName: Beholder
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 2765804895966829695, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
+    - enemyName: Slime
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 6896529453750123788, guid: 868ac3076b4dd1a41a82731425769b5e, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
-    - enemyName: Goblin
-      enemyCount: 5
+    - enemyName: Slime
+      enemyCount: 70
       spawnCount: 0
-      enemyPrefab: {fileID: 4442791503683674501, guid: feb70e0d7dfb6e94388c66ba4802f827, type: 3}
+      enemyPrefab: {fileID: 6896529453750123788, guid: 868ac3076b4dd1a41a82731425769b5e, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
+  - waveName: Wave 4
+    enemyGroups:
+    - enemyName: Goblin
+      enemyCount: 35
+      spawnCount: 0
+      enemyPrefab: {fileID: 4442791503683674501, guid: feb70e0d7dfb6e94388c66ba4802f827, type: 3}
+    - enemyName: Spark Slime
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 714792692328492056, guid: e43448aece0334e49a995b32bae56763, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
   currentWaveCount: 0
-  waveInterval: 10
+  waveInterval: 30
   enemiesAlive: 0
-  maxEnemiesAllowed: 3
+  maxEnemiesAllowed: 200
   maxEnemiesReached: 0
   relativeSpawnPoints:
   - {fileID: 1048935987}
@@ -374316,7 +374333,7 @@ MonoBehaviour:
   isGameOver: 0
   choosingUpgrade: 0
   playerObject: {fileID: 53439017}
-  timeLimit: 75
+  timeLimit: 300
   stopWatchDisplay: {fileID: 1580173167}
 --- !u!4 &1000226508
 Transform:

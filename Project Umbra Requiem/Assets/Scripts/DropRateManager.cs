@@ -10,7 +10,7 @@ public class DropRateManager : MonoBehaviour
     {
         public string name;
         public GameObject itemPrefab;
-        public float dropRate;
+        public float dropRate = 90;
     }
 
     public List<Drops> drops;
