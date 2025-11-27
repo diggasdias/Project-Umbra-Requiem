@@ -8,15 +8,15 @@ public class Item : MonoBehaviour
 
     protected PlayerStats owner;
 
-    public virtual void Initialise(ItemData data)
-    {
-        maxLevel = data.maxLevel;
-        owner = FindAnyObjectByType<PlayerStats>();
-    }
+    //public virtual void Initialise(ItemData data)
+    //{
+    //    maxLevel = data.maxLevel;
+    //    owner = FindAnyObjectByType<PlayerStats>();
+    //}
 
     public virtual bool CanLevelUp()
     {
-        return currentLevel <= maxLevel;
+        return currentLevel <= maxLevel; 
     }
 
     public virtual bool DoLevelUp()
