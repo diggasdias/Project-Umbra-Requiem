@@ -48,6 +48,7 @@ public class Projectile : WeaponEffect
             Vector2 difference = selectedTarget.transform.position - transform.position;
             aimAngle = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         }
+<<<<<<< HEAD
         else
         {
             aimAngle = Random.Range(0f, 360f);
@@ -84,5 +85,7 @@ public class Projectile : WeaponEffect
                 Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identitiy), 5f)
             }
         }
+=======
+>>>>>>> parent of a3e8062d (revamped)
     }
 }
