@@ -351824,6 +351824,59 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 2
     spawnCount: 0
+  - waveName: Wave 1f3
+    enemyGroups:
+    - enemyName: Magic Mush
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 7371939924437220826, guid: 0ee5533934eb9344bb4cd4d025898610, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 2f2
+    enemyGroups:
+    - enemyName: Magic Mush
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 7371939924437220826, guid: 0ee5533934eb9344bb4cd4d025898610, type: 3}
+    - enemyName: Goblin Warrior
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 5427751076781611352, guid: 9e7e9d1ee6a36c249babe9a7d4aa8bc2, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Wave 3f2
+    enemyGroups:
+    - enemyName: Imp Slime
+      enemyCount: 70
+      spawnCount: 0
+      enemyPrefab: {fileID: 6745334690849634459, guid: 371cf3d9f51f6aa499fa99e7d58c7e73, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 4f2
+    enemyGroups:
+    - enemyName: Magic Mush
+      enemyCount: 35
+      spawnCount: 0
+      enemyPrefab: {fileID: 7371939924437220826, guid: 0ee5533934eb9344bb4cd4d025898610, type: 3}
+    - enemyName: Goblin warrior
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 5427751076781611352, guid: 9e7e9d1ee6a36c249babe9a7d4aa8bc2, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
+  - waveName: Final Boss Wave
+    enemyGroups:
+    - enemyName: El Diablo
+      enemyCount: 1
+      spawnCount: 0
+      enemyPrefab: {fileID: 7308641786710729385, guid: c801510567fc6a34fbb8e907110c0a71, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
   currentWaveCount: 0
   waveInterval: 20
   enemiesAlive: 0
