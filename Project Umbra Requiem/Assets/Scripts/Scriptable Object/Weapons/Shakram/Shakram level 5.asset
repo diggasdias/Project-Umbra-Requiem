@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95008b00351af749abd635cfc82bac0, type: 3}
   m_Name: Shakram level 5
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
-  prefab: {fileID: 3873259377289047697, guid: 3f0a9ece423670646840485201e2cba6, type: 3}
+  prefab: {fileID: 3873259377289047697, guid: c2a4945602ae8ba4497bf526fbf71a01, type: 3}
   damage: 30
   speed: 10
   cooldownDuration: 0.5
   pierce: 5
-  level: 3
+  level: 5
   nextLevelPrefab: {fileID: 0}
-  name: Shakram Lvl 3
-  description: Increases Damage and Pierce by 5
+  name: Shakram Lvl 5
+  description: Increases Damage by 100% and CD decreases by 50%
   icon: {fileID: 7375083403387252326, guid: 1478c5ffb5f8f1a4387fba6404194405, type: 3}

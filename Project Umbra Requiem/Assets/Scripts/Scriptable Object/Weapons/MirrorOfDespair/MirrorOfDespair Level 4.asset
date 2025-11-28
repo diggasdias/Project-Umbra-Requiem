@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: MirrorOfDespair Level 4
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
   prefab: {fileID: 201748374159730939, guid: 208fc55cc7051fa4a8b5cbb968dae6e9, type: 3}
-  damage: 30
+  damage: 35
   speed: 0
   cooldownDuration: 2
   pierce: 0
-  level: 3
+  level: 4
   nextLevelPrefab: {fileID: 3538210321710020777, guid: 9eb40ac43a2dcb64dbdb7d50fc0dcb18, type: 3}
-  name: Mirror Of Despair Lvl 3
-  description: Increases Damage by 3 and Descreases CD by 0.3
+  name: Mirror Of Despair Lvl 4
+  description: Increases Radius by 0.1
   icon: {fileID: 4387942756068140449, guid: 6165558afaab12549b7a84ffe0bb06bd, type: 3}

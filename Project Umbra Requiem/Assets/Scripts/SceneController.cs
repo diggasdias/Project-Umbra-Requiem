@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public GameManager SWT;
+
     public void SceneChange(string name)
     {
         SceneManager.LoadScene(name);

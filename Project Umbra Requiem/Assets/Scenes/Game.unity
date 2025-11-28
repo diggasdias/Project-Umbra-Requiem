@@ -351868,6 +351868,19 @@ MonoBehaviour:
     waveQuota: 0
     spawnInterval: 2
     spawnCount: 0
+  - waveName: Wave 5f2
+    enemyGroups:
+    - enemyName: Magic Mush
+      enemyCount: 35
+      spawnCount: 0
+      enemyPrefab: {fileID: 7371939924437220826, guid: 0ee5533934eb9344bb4cd4d025898610, type: 3}
+    - enemyName: Beholder
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 2765804895966829695, guid: 494c80d4aa03e6b4c90c69f9e7f075d2, type: 3}
+    waveQuota: 0
+    spawnInterval: 2
+    spawnCount: 0
   - waveName: Final Boss Wave
     enemyGroups:
     - enemyName: El Diablo
@@ -374448,7 +374461,7 @@ MonoBehaviour:
   isGameOver: 0
   choosingUpgrade: 0
   playerObject: {fileID: 53439017}
-  timeLimit: 300
+  timeLimit: 360
   stopWatchDisplay: {fileID: 1580173167}
 --- !u!4 &1000226508
 Transform:
@@ -374477,6 +374490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11daa46e4b0e4f4eaf164ce72712d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneController
+  SWT: {fileID: 0}
 --- !u!1 &1048935986
 GameObject:
   m_ObjectHideFlags: 0
@@ -375458,7 +375472,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 8.34375
+  orthographic size: 5.625
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -377876,7 +377890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1979244936
 RectTransform:
   m_ObjectHideFlags: 0
